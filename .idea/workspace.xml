@@ -21,7 +21,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -33,10 +32,7 @@
   <component name="ProjectId" id="1RhpAxhcZE61qHlzLx5cnzwqxcZ" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,6 +52,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainPage" />
       <option name="METHOD_NAME" value="gifts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPage.howWeWork" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="METHOD_NAME" value="howWeWork" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,18 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.tourToUkraine" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
-      <option name="METHOD_NAME" value="tourToUkraine" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,10 +108,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MainPage.signInButton" />
+        <item itemvalue="TestNG.MainPage.howWeWork" />
         <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.MainPage.gifts" />
         <item itemvalue="TestNG.MainPage.photos" />
-        <item itemvalue="TestNG.MainPage.tourToUkraine" />
       </list>
     </recent_temporary>
   </component>
@@ -131,18 +127,5 @@
       <updated>1570129042685</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
