@@ -9,6 +9,13 @@ public class Locators {
     public static final By EMAIL_INPUT_FIELD = By.xpath("//input[@name='email']");
     public static final By PASSWORD_INPUT_FIELD = By.xpath("//input[@name='password']");
     public static final By BUTTON_REGISTRATION = By.xpath("//button[@type='submit']");
+    public static final By JOIN_NOW_BUTTON = By.cssSelector("#show-registration-block");
+    public static final By EMAIL = By.cssSelector("#email");
+    public static final By PASSWORD = By.cssSelector("#password");
+    public static final By BUTTON_NEXT = By.xpath("//button[@data-action='next-page'][text()='Next']");
+    public static final By USER_NAME_INPUT_FIELD = By.cssSelector("#nickname");
+    public static final By PHONE_INPUT_FIELD = By.cssSelector("input[name='data[phone]']");
+
 
     //Media page
     public static final By LINK_MEDIA = By.xpath("//a[text()='PHOTOS']");
