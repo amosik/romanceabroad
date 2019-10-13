@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8fe7450-f501-41a3-8e32-f4a97557cc3a" name="Default Changelist" comment="" />
+    <list default="true" id="e8fe7450-f501-41a3-8e32-f4a97557cc3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BlogTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GiftsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MediaTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TourTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ViewTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPage.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +44,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1RhpAxhcZE61qHlzLx5cnzwqxcZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
@@ -46,11 +64,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MainPage.signInButton">
-    <configuration name="MainPage.gifts" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RegistrationTests">
+    <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TourTests.gifts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TourTests" />
       <option name="METHOD_NAME" value="gifts" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -59,10 +88,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.howWeWork" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TourTests.howWeWork" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="MAIN_CLASS_NAME" value="TourTests" />
       <option name="METHOD_NAME" value="howWeWork" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -71,22 +100,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.photos" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TourTests.signInButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
-      <option name="METHOD_NAME" value="photos" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPage.signInButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="MAIN_CLASS_NAME" value="TourTests" />
       <option name="METHOD_NAME" value="signInButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -107,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MainPage.signInButton" />
-        <item itemvalue="TestNG.MainPage.howWeWork" />
+        <item itemvalue="TestNG.RegistrationTests" />
+        <item itemvalue="TestNG.TourTests.signInButton" />
+        <item itemvalue="TestNG.TourTests.howWeWork" />
         <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.MainPage.gifts" />
-        <item itemvalue="TestNG.MainPage.photos" />
+        <item itemvalue="TestNG.TourTests.gifts" />
       </list>
     </recent_temporary>
   </component>
@@ -127,5 +144,18 @@
       <updated>1570129042685</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
