@@ -3,6 +3,7 @@ import org.openqa.selenium.By;
 public class Locators {
     //Search page
     public static final By LINK_SEARCH = By.cssSelector("a[href='https://romanceabroad.com/users/search']");
+    public static final By DROP_DOWN_SORT = By.xpath("//div[@class='form-inline']//select");
 
     //Registration page
     public static final By LINK_SIGN_IN = By.cssSelector("a[href='https://romanceabroad.com/users/login_form']");
@@ -28,5 +29,9 @@ public class Locators {
 
     //Gifts page
     public static final By LINK_GIFT = By.cssSelector("a[href='https://romanceabroad.com/store/category-sweets']");
+
+    //Main page youtube
+    public static final By YOUTUBE_LINK = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
+    public static final By YOUTUBE_BUTTON = By.cssSelector(".ytp-large-play-button.ytp-button");
 
 }

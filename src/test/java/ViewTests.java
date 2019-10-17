@@ -1,14 +1,13 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ViewTests extends BaseUI{
-    String currentUrlView;
+public class ViewTests extends BaseUI {
 
     @Test
     public void view() {
         driver.findElement(Locators.LINK_VIEW).click();
-        currentUrlView = driver.getCurrentUrl();
-        System.out.println(currentUrlView);
-        Assert.assertEquals(currentUrlView, Data.expectedUrlView);
+        Data.currentUrlView = driver.getCurrentUrl();
+        System.out.println(Data.currentUrlView);
+        Assert.assertEquals(Data.currentUrlView, Data.expectedUrlView);
     }
 }
