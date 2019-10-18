@@ -27,7 +27,7 @@ import org.testng.annotations.BeforeMethod;
 
     @AfterMethod
     public void afterActions() {
-        driver.quit();
+       // driver.quit();
     }
 }
 

@@ -20,6 +20,7 @@ public class Locators {
 
     //Media page
     public static final By LINK_MEDIA = By.xpath("//a[text()='PHOTOS']");
+    public static final By DROP_DOWN_MEDIA = By.xpath("//span[@id='gallery_media_sorter']//select[@class='form-control']");
 
     //Blog page
     public static final By LINK_BLOG = By.cssSelector("a[href='https://romanceabroad.com/content/view/blog']");
