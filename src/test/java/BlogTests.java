@@ -6,4 +6,5 @@ public class BlogTests extends BaseUI{
     public void blog() {
         mainPage.clickBlogLink();
     }
+
 }

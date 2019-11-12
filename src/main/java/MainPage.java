@@ -33,6 +33,7 @@ public class MainPage extends BaseActions{
         Data.currentUrlGift = driver.getCurrentUrl();
         System.out.println(Data.currentUrlGift);
         Assert.assertEquals(Data.currentUrlGift, Data.expectedUrGift);
+
     }
 
     public void clickTourToUkraineLink(){
@@ -76,9 +77,7 @@ public class MainPage extends BaseActions{
         driver.findElement(Locators.BIRTHDATE_YEAR).click();
         driver.findElement(Locators.BIRTHDATE_YEAR_SELECT).click();
         driver.findElement(Locators.PHONE_INPUT_FIELD).sendKeys(Data.phone_number);
-        WebElement checkBoxConfirmation = driver.findElement(Locators.CONFIRMATION_CHECKBOX);
-        checkBoxConfirmation.click();
-    }
+        }
 
     public void clickYouTubeVideo(){
         WebElement youtube = driver.findElement(Locators.YOUTUBE_LINK);
