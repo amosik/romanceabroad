@@ -10,7 +10,7 @@ public class ViewTests extends BaseUI {
     @Test
     public void titleAssertion() {
         String title = "Ukrainian women for marriage";
-        if (title.equals("Ukrainian women for marriage")) {
+        if (title.equals(title)) {
             System.out.println("We can find our title");
         }
     }
