@@ -14,7 +14,7 @@ public class TourTests extends BaseUI {
         String check1 = "ATTENTION! Tour does not include:";
         String check2 = "Flight tickets";
 
-        if (check1.equals("ATTENTION! Tour does not include:")&& check2.equals("Flight tickets")) {
+        if (check1.equals(check1)&& check2.equals(check2)) {
             System.out.println("We can find our checks");
         }else {
             Assert.fail("We can't find our checks");
