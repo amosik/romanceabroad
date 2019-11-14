@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e8fe7450-f501-41a3-8e32-f4a97557cc3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BlogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlogTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HowWeWorkTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HowWeWorkTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TourTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TourTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ViewTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HowWeWorkTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,23 +62,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+  <component name="RunManager" selected="TestNG.TourTests.attention">
     <configuration name="BlogTests.leftMenu" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BlogTests" />
       <option name="METHOD_NAME" value="leftMenu" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -117,6 +99,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TourTests.attention" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TourTests" />
+      <option name="METHOD_NAME" value="attention" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -128,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
       <item itemvalue="TestNG.BlogTests.leftMenu" />
       <item itemvalue="TestNG.HowWeWorkTests.titleAssertion" />
       <item itemvalue="TestNG.MainTests.tabLinks" />
       <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.TourTests.attention" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TourTests.attention" />
+        <item itemvalue="TestNG.HowWeWorkTests.titleAssertion" />
         <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.MainTests.tabLinks" />
         <item itemvalue="TestNG.BlogTests.leftMenu" />
-        <item itemvalue="TestNG.HowWeWorkTests.titleAssertion" />
-        <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
       </list>
     </recent_temporary>
   </component>
