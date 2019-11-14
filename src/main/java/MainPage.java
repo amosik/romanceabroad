@@ -4,8 +4,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import java.util.concurrent.TimeUnit;
-
 public class MainPage extends BaseActions{
     public MainPage(WebDriver driver, WebDriverWait wait){
         super(driver, wait);
@@ -50,7 +48,6 @@ public class MainPage extends BaseActions{
     }
 
     public void completeRegistration(){
-        driver.manage().timeouts().implicitlyWait(Data.timeDelay, TimeUnit.SECONDS);
         wait.until(ExpectedConditions.elementToBeClickable(Locators.EMAIL_INPUT_FIELD));
         driver.findElement(Locators.EMAIL_INPUT_FIELD).sendKeys(Data.email);
         driver.findElement(Locators.PASSWORD_INPUT_FIELD).sendKeys(Data.password);

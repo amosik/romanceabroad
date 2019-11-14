@@ -1,7 +1,6 @@
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.List;
 
 public class MainTests extends BaseUI {
@@ -39,6 +38,55 @@ public class MainTests extends BaseUI {
             String info = links.get(i).getText();
             System.out.println(info);
             links.get(i).click();
+
+            if (info.contains("HOW WE WORK")) {
+                Data.actualTitle = driver.findElement(Locators.TITLE).getText();
+                Data.actualUrlHowWeWork = driver.getCurrentUrl();
+                Assert.assertEquals(Data.expectedTitleHowWeWork, Data.actualTitle);
+                Assert.assertEquals(Data.expectedUrlHowWeWork, Data.actualUrlHowWeWork);
+                driver.findElement(Locators.PAGE_CONTENT_LEFT_MENU).isDisplayed();
+            }
+
+            if (info.contains("PRETTY WOMEN")) {
+                Data.actualTitle = driver.findElement(Locators.TITLE).getText();
+                Data.actualUrlPrettyWomen = driver.getCurrentUrl();
+                Assert.assertEquals(Data.expectedTitlePrettyWomen, Data.actualTitle);
+                Assert.assertEquals(Data.expectedUrlPrettyWomen, Data.actualUrlPrettyWomen);
+                driver.findElement(Locators.PHOTOS_OF_WOMEN).isDisplayed();
+            }
+
+            if (info.contains("PHOTOS")) {
+             Data.actualTitle = driver.findElement(Locators.TITLE).getText();
+             Data.actualUrlPhotos = driver.getCurrentUrl();
+                Assert.assertEquals(Data.expectedTitlePhotos, Data.actualTitle);
+                Assert.assertEquals(Data.expectedUrlPhotos, Data.actualUrlPhotos);
+                driver.findElement(Locators.PHOTO_VIDEO_ALBUMS).isDisplayed();
+            }
+
+            if (info.contains("GIFT")) {
+             Data.actualTitle = driver.findElement(Locators.GIFT_TITLE).getText();
+             Data.actualUrlGifts = driver.getCurrentUrl();
+                Assert.assertEquals(Data.expectedTitleGifts, Data.actualTitle);
+                Assert.assertEquals(Data.expectedUrlGifts, Data.actualUrlGifts);
+                driver.findElement(Locators.BESTSELLERS).isDisplayed();
+                driver.findElement(Locators.BESTSELLERS_QUICK_VIEW).isDisplayed();
+            }
+
+            if (info.contains("TOUR TO UKRAINE")) {
+             Data.actualTitle = driver.findElement(Locators.TITLE).getText();
+             Data.actualUrlTourToUkraine = driver.getCurrentUrl();
+                Assert.assertEquals(Data.expectedTitleTourToUkraine, Data.actualTitle);
+                Assert.assertEquals(Data.expectedUrlTourToUkraine, Data.actualUrlTourToUkraine);
+            }
+
+            if (info.contains("BLOG")) {
+             Data.actualTitle = driver.findElement(Locators.TITLE).getText();
+             Data.actualUrlBlog = driver.getCurrentUrl();
+                Assert.assertEquals(Data.expectedTitleBlog, Data.actualTitle);
+                Assert.assertEquals(Data.expectedUrBlog, Data.actualUrlBlog);
+                driver.findElement(Locators.LEFT_MENU).isDisplayed();
+            }
+
             driver.get(Data.mainUrl);
             links = driver.findElements(Locators.TAB_LINKS);
         }

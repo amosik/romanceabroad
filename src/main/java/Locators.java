@@ -4,6 +4,7 @@ public class Locators {
     //Search page
     public static final By LINK_SEARCH = By.cssSelector("a[href='https://romanceabroad.com/users/search']");
     public static final By DROP_DOWN_SORT = By.xpath("//div[@class='form-inline']//select");
+    public static final By PHOTOS_OF_WOMEN = By.xpath("//a[@class='g-pic-border g-rounded']");
 
     //Registration page
     public static final By LINK_SIGN_IN = By.cssSelector("a[href='https://romanceabroad.com/users/login_form']");
@@ -30,16 +31,23 @@ public class Locators {
     public static final By DROP_DOWN_MEDIA = By.xpath("//span[@id='gallery_media_sorter']//select[@class='form-control']");
     public static final By TAB_LINKS = By.xpath("//ul[@class='navbar-nav']//li");
     public static final By TAB_HOME = By.xpath("//a[text()='HOME']");
+    public static final By TITLE = By.xpath("//h1");
+    public static final By PHOTO_VIDEO_ALBUMS = By.xpath("//li[@class='b-tabs__item ']");
 
 
     //Blog page
     public static final By LINK_BLOG = By.cssSelector("a[href='https://romanceabroad.com/content/view/blog']");
+    public static final By LEFT_MENU = By.xpath("//div[@class='clearfix']");
 
-    //View page
+    //How we work
     public static final By LINK_VIEW = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
+    public static final By PAGE_CONTENT_LEFT_MENU = By.xpath("//div[@class='info-menu-inner']");
 
     //Gifts page
     public static final By LINK_GIFT = By.cssSelector("a[href='https://romanceabroad.com/store/category-sweets']");
+    public static final By GIFT_TITLE = By.cssSelector(".title");
+    public static final By BESTSELLERS = By.xpath("//div[@class='text-overflow']");
+    public static final By BESTSELLERS_QUICK_VIEW = By.xpath("//div[@class='title-block pt5']");
 
     //Main page youtube
     public static final By YOUTUBE_LINK = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");

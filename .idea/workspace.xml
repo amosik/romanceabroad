@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8fe7450-f501-41a3-8e32-f4a97557cc3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IEDriverServer32.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IEDriverServer32OLD.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IEDriverServer64.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BlogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlogTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GiftsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GiftsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TourTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TourTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ViewTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ViewTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ViewTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HowWeWorkTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +70,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="BlogTests.leftMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BlogTests" />
+      <option name="METHOD_NAME" value="leftMenu" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -88,34 +93,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ViewPage.pageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HowWeWorkTests.titleAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ViewPage" />
-      <option name="METHOD_NAME" value="pageTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ViewPage.pagetTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ViewPage" />
-      <option name="METHOD_NAME" value="pagetTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ViewTests.titleAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ViewTests" />
+      <option name="MAIN_CLASS_NAME" value="HowWeWorkTests" />
       <option name="METHOD_NAME" value="titleAssertion" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -124,11 +105,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ViewTests.view" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTests.tabLinks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ViewTests" />
-      <option name="METHOD_NAME" value="view" />
+      <option name="MAIN_CLASS_NAME" value="MainTests" />
+      <option name="METHOD_NAME" value="tabLinks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,20 +117,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.ViewPage.pagetTitle" />
-      <item itemvalue="TestNG.ViewTests.view" />
-      <item itemvalue="TestNG.ViewPage.pageTitle" />
-      <item itemvalue="TestNG.ViewTests.titleAssertion" />
       <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
+      <item itemvalue="TestNG.BlogTests.leftMenu" />
+      <item itemvalue="TestNG.HowWeWorkTests.titleAssertion" />
+      <item itemvalue="TestNG.MainTests.tabLinks" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.MainTests.tabLinks" />
+        <item itemvalue="TestNG.BlogTests.leftMenu" />
+        <item itemvalue="TestNG.HowWeWorkTests.titleAssertion" />
         <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
-        <item itemvalue="TestNG.ViewTests.titleAssertion" />
-        <item itemvalue="TestNG.ViewTests.view" />
-        <item itemvalue="TestNG.ViewPage.pageTitle" />
-        <item itemvalue="TestNG.ViewPage.pagetTitle" />
       </list>
     </recent_temporary>
   </component>

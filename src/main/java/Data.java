@@ -2,6 +2,7 @@ public class Data {
     //Main Url
     public static final String mainUrl = "https://romanceabroad.com/";
     public static String currentUrlSearch;
+    public static String actualTitle;
 
     //Registration page
     public static final String email = "test@gmail.com";
@@ -13,17 +14,42 @@ public class Data {
 
     //Search page
     public static final String expectedUrlSearch = "https://romanceabroad.com/users/search";
+    public static final String expectedUrlPrettyWomen = "https://romanceabroad.com/users/search";
+    public static String actualUrlPrettyWomen;
+    public static final String expectedTitlePrettyWomen = "Single Ukrainian women online";
 
-    //View page
+    //How we work page
     public static final String expectedUrlView = "https://romanceabroad.com/content/view/how-it-works";
     public static String currentUrlView;
+    public static String actualUrlHowWeWork;
+    public static final String expectedUrlHowWeWork = "https://romanceabroad.com/content/view/how-it-works";
+    public static final String expectedTitleHowWeWork = "Ukrainian women for marriage";
+    public static final String title = "Ukrainian women for marriage";
 
 
     //Gifts page
     public static final String expectedUrGift = "https://romanceabroad.com/store/category-sweets";
     public static String currentUrlGift;
+    public static String actualUrlGifts;
+    public static final String expectedTitleGifts = "Gifts";
+    public static final String expectedUrlGifts = "https://romanceabroad.com/store/category-sweets";
 
 
     //Tour to Ukraine page
     public static final int indexLinkTour = 5;
+    public static final String expectedUrlTourToUkraine = "https://romanceabroad.com/store/sweets/20-tour_to_ukraine";
+    public static String actualUrlTourToUkraine;
+    public static final String expectedTitleTourToUkraine = "TOURS TO UKRAINE";
+    public static final String check1 = "ATTENTION! Tour does not include:";
+    public static final String check2 = "Flight tickets";
+
+    //Media page
+    public  static final String expectedUrlPhotos = "https://romanceabroad.com/media/index";
+    public  static String actualUrlPhotos;
+    public  static final String expectedTitlePhotos = "Ukrainian women photos";
+
+    //Blog page
+    public static final String expectedUrBlog = "https://romanceabroad.com/content/view/blog";
+    public static String actualUrlBlog;
+    public static final String expectedTitleBlog = "Blog";
 }

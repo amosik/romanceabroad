@@ -8,7 +8,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
-
 import java.lang.reflect.Method;
 
 public class BaseUI {
@@ -22,7 +21,8 @@ public class BaseUI {
 
     @BeforeMethod
     @Parameters("browser")
-    public void setup(@Optional("chrome") String browser, Method method){
+    public void setup
+            (@Optional("chrome") String browser, Method method){
 
         // Check if parameter passed from TestNG is 'firefox'
         if (browser.equalsIgnoreCase("firefox")) {
@@ -39,7 +39,7 @@ public class BaseUI {
             driver.get("chrome://settings/clearBrowserData");
 
         } else if (browser.equalsIgnoreCase("IE")) {
-            System.setProperty("webdriver.ie.driver", "IEDriverServer32.exe");
+            System.setProperty("webdriver.ie.driver", "IEDriverServer64.exe");
             driver = new InternetExplorerDriver();
             driver.manage().deleteAllCookies();
 
@@ -59,6 +59,7 @@ public class BaseUI {
 
     @AfterMethod
     public void afterActions() {
+
         driver.quit();
     }
 }

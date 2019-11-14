@@ -1,6 +1,6 @@
 import org.testng.annotations.Test;
 
-public class ViewTests extends BaseUI {
+public class HowWeWorkTests extends BaseUI {
 
     @Test
     public void view() {
@@ -9,8 +9,7 @@ public class ViewTests extends BaseUI {
 
     @Test
     public void titleAssertion() {
-        String title = "Ukrainian women for marriage";
-        if (title.equals("Ukrainian women for marriage")) {
+        if (Data.title.equals(Data.title)) {
             System.out.println("We can find our title");
         }
     }
