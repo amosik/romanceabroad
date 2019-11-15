@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
+
 import java.lang.reflect.Method;
 
 public class BaseUI {
@@ -39,8 +40,13 @@ public class BaseUI {
             driver.get("chrome://settings/clearBrowserData");
 
         } else if (browser.equalsIgnoreCase("IE")) {
-            System.setProperty("webdriver.ie.driver", "IEDriverServer64.exe");
-            driver = new InternetExplorerDriver();
+            System.setProperty("webdriver.ie.driver", "IEDriverServer32.exe");
+            driver = new InternetExplorerDriver() {
+               /* @Override
+                public WebElement findElement(By by) {
+                    return new SendOnCLickWebElement(super.findElement(by));
+                }*/
+            };
             driver.manage().deleteAllCookies();
 
         } else {

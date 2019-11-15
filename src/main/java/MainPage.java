@@ -45,13 +45,17 @@ public class MainPage extends BaseActions{
 
     public void clickSignInLink(){
         driver.findElement(Locators.LINK_SIGN_IN).click();
+
+
     }
 
     public void completeRegistration(){
         wait.until(ExpectedConditions.elementToBeClickable(Locators.EMAIL_INPUT_FIELD));
         driver.findElement(Locators.EMAIL_INPUT_FIELD).sendKeys(Data.email);
         driver.findElement(Locators.PASSWORD_INPUT_FIELD).sendKeys(Data.password);
-        driver.findElement(Locators.BUTTON_REGISTRATION).click();
+        //driver.findElement(Locators.BUTTON_REGISTRATION).click();
+
+
     }
 
     public void clickJoinForFreeNowButton(){
@@ -62,7 +66,7 @@ public class MainPage extends BaseActions{
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.EMAIL)));
         driver.findElement(Locators.EMAIL).sendKeys(Data.email);
         driver.findElement(Locators.PASSWORD).sendKeys(Data.password);
-        driver.findElement(Locators.BUTTON_NEXT).click();
+        //driver.findElement(Locators.BUTTON_NEXT).click();
     }
 
     public void completeSecondRegistrationPart(){

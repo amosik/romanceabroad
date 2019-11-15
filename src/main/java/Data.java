@@ -10,6 +10,8 @@ public class Data {
     public static final String user_name = "Alexa";
     public static final String phone_number = "14156576565";
     public static final int timeDelay = 3;
+    public static String actualUrlLoginForm;
+    public static final String expectedUrlLoginForm = "https://romanceabroad.com/users/login_form";
 
 
     //Search page
