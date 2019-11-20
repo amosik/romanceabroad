@@ -5,6 +5,7 @@ public class Locators {
     public static final By LINK_SEARCH = By.cssSelector("a[href='https://romanceabroad.com/users/search']");
     public static final By DROP_DOWN_SORT = By.xpath("//div[@class='form-inline']//select");
     public static final By PHOTOS_OF_WOMEN = By.xpath("//a[@class='g-pic-border g-rounded']");
+    public static final By DROP_DOWN_BY_NAME = By.xpath("//div[@class='form-inline']//option[@value='name']");
 
     //Registration page
     public static final By LINK_SIGN_IN = By.cssSelector("a[href='https://romanceabroad.com/users/login_form']");
@@ -27,12 +28,13 @@ public class Locators {
 
 
     //Media page
-    public static final By LINK_MEDIA = By.xpath("//a[text()='PHOTOS']");
+    public static final By LINK_PHOTOS = By.xpath("//a[text()='PHOTOS']");
     public static final By DROP_DOWN_MEDIA = By.xpath("//span[@id='gallery_media_sorter']//select[@class='form-control']");
     public static final By TAB_LINKS = By.xpath("//ul[@class='navbar-nav']//li");
     public static final By TAB_HOME = By.xpath("//a[text()='HOME']");
     public static final By TITLE = By.xpath("//h1");
     public static final By PHOTO_VIDEO_ALBUMS = By.xpath("//li[@class='b-tabs__item ']");
+    public static final By DROP_DOWN_MEDIA_BY_VIEWS_COUNT = By.xpath("//select[@class='form-control']//option[@value='views']");
 
 
     //Blog page
@@ -42,6 +44,9 @@ public class Locators {
     //How we work
     public static final By LINK_VIEW = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
     public static final By PAGE_CONTENT_LEFT_MENU = By.xpath("//div[@class='info-menu-inner']");
+    public static final By MENU_SIGN = By.xpath("//a[@class='uam-top link-open-menu btn-slide']");
+    public static final By LEFT_MENU_CONTENT = By.xpath("//div[@id='slidemenu']");
+    public static final By LEFT_MENU_ITEMS = By.xpath("//li[@class='menu-group ']");
 
     //Gifts page
     public static final By LINK_GIFT = By.cssSelector("a[href='https://romanceabroad.com/store/category-sweets']");

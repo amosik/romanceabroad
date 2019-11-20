@@ -17,6 +17,7 @@ public class BaseUI {
     MainPage mainPage;
     SearchPage searchPage;
     MediaPage mediaPage;
+    HowWeWorkPage howWeWorkPage;
     SoftAssert softAssert = new SoftAssert();
 
 
@@ -40,13 +41,8 @@ public class BaseUI {
             driver.get("chrome://settings/clearBrowserData");
 
         } else if (browser.equalsIgnoreCase("IE")) {
-            System.setProperty("webdriver.ie.driver", "IEDriverServer32.exe");
-            driver = new InternetExplorerDriver() {
-               /* @Override
-                public WebElement findElement(By by) {
-                    return new SendOnCLickWebElement(super.findElement(by));
-                }*/
-            };
+            System.setProperty("webdriver.ie.driver", "IEDriverServer.exe");
+            driver = new InternetExplorerDriver();
             driver.manage().deleteAllCookies();
 
         } else {

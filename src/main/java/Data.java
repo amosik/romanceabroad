@@ -11,7 +11,15 @@ public class Data {
     public static final String phone_number = "14156576565";
     public static final int timeDelay = 3;
     public static String actualUrlLoginForm;
+    public static String actualUrlSignUp;
+    public static String actualUrlLogin;
+    public static String expectedTitleSignUp = "User registration";
+    public static String expectedTitleLogin = "Sign in";
+
     public static final String expectedUrlLoginForm = "https://romanceabroad.com/users/login_form";
+    public static final String expectedUrlSignUp = "https://romanceabroad.com/users/registration/";
+
+
 
 
     //Search page
@@ -54,4 +62,11 @@ public class Data {
     public static final String expectedUrBlog = "https://romanceabroad.com/content/view/blog";
     public static String actualUrlBlog;
     public static final String expectedTitleBlog = "Blog";
+
+    //News page
+    public static String actualUrlNews;
+    public static final String expectedTitleNews = "News";
+    public static final String expectedUrlNews = "https://romanceabroad.com/news/";
+
+
 }

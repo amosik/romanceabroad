@@ -1,6 +1,7 @@
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.util.List;
 
 public class MainTests extends BaseUI {
@@ -10,15 +11,6 @@ public class MainTests extends BaseUI {
         mainPage.clickYouTubeVideo();
     }
 
-    @Test
-    public void discount() {
-        int number = 60;
-        if (number==60){
-            System.out.println("I cant find valid number");
-        }else {
-            System.out.println("I can't find valid number");
-        }
-    }
 
     @Test
     public void home() {

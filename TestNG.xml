@@ -6,7 +6,7 @@
             <class name ="RegistrationTests"/>
         </classes>
     </test>
-    <test name="FirefoxTestCases">
+    <!--<test name="FirefoxTestCases">
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name ="RegistrationTests"/>
@@ -17,5 +17,5 @@
         <classes>
             <class name ="RegistrationTests"/>
         </classes>
-    </test>
+    </test>-->
 </suite>

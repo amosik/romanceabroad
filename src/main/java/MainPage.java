@@ -2,35 +2,27 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 public class MainPage extends BaseActions{
     public MainPage(WebDriver driver, WebDriverWait wait){
         super(driver, wait);
     }
+
     public void clickHowWeWorkLink(){
         driver.findElement(Locators.LINK_VIEW).click();
-        Data.currentUrlView = driver.getCurrentUrl();
-        System.out.println(Data.currentUrlView);
-        Assert.assertEquals(Data.currentUrlView, Data.expectedUrlView);
+
     }
     public void clickPrettyWomenLink(){
         driver.findElement(Locators.LINK_SEARCH).click();
-        Data.currentUrlSearch = driver.getCurrentUrl();
-        System.out.println(Data.currentUrlSearch);
-        Assert.assertEquals(Data.currentUrlSearch, Data.expectedUrlSearch);
     }
 
     public void clickPhotosLink(){
-        WebElement linkMedia = driver.findElement(Locators.LINK_MEDIA);
+        WebElement linkMedia = driver.findElement(Locators.LINK_PHOTOS);
         linkMedia.click();
     }
 
     public void clickGiftsLink(){
         driver.findElement(Locators.LINK_GIFT).click();
-        Data.currentUrlGift = driver.getCurrentUrl();
-        System.out.println(Data.currentUrlGift);
-        Assert.assertEquals(Data.currentUrlGift, Data.expectedUrGift);
 
     }
 
@@ -55,12 +47,8 @@ public class MainPage extends BaseActions{
         driver.findElement(Locators.PASSWORD_INPUT_FIELD).sendKeys(Data.password);
         //driver.findElement(Locators.BUTTON_REGISTRATION).click();
 
-
     }
 
-    public void clickJoinForFreeNowButton(){
-        driver.findElement(Locators.JOIN_NOW_BUTTON).click();
-    }
 
     public void completeFirstRegistrationPart(){
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.EMAIL)));
