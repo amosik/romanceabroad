@@ -75,7 +75,7 @@ public class BaseActions {
             ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
             Select select = new Select(driver.findElement(locator));
             select.selectByIndex((int) (Math.random() * (select.getOptions().size() - 1)) + 1);
-            System.out.println(dropDownName = ": " + select.getFirstSelectedOption().getText());
+            System.out.println(dropDownName + ": " + select.getFirstSelectedOption().getText());
         } catch (NoSuchElementException e) {
         }
     }

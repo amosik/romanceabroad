@@ -36,6 +36,7 @@ public class MainPage extends BaseActions{
         driver.findElement(Locators.LINK_SIGN_IN).click();
 
 
+
     }
 
     public void completeRegistration(){

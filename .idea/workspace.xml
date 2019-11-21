@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e8fe7450-f501-41a3-8e32-f4a97557cc3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HowWeWorkTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HowWeWorkTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MediaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MediaTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TourTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TourTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,17 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HowWeWorkTests.topNavigationMenu">
-    <configuration name="C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SearchTests.selectRandomDropDownListByAge">
     <configuration name="HowWeWorkTests.topNavigationMenu" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -119,6 +99,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTests.selectRandomDropDownListByAge" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTests" />
+      <option name="METHOD_NAME" value="selectRandomDropDownListByAge" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TourTests.tourToUkraine" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -134,17 +126,17 @@
     <list>
       <item itemvalue="TestNG.MainTests.testLinksOnHowWeWorkPage" />
       <item itemvalue="TestNG.RegistrationTests.signInLink" />
-      <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
       <item itemvalue="TestNG.TourTests.tourToUkraine" />
       <item itemvalue="TestNG.HowWeWorkTests.topNavigationMenu" />
+      <item itemvalue="TestNG.SearchTests.selectRandomDropDownListByAge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTests.selectRandomDropDownListByAge" />
+        <item itemvalue="TestNG.MainTests.testLinksOnHowWeWorkPage" />
         <item itemvalue="TestNG.HowWeWorkTests.topNavigationMenu" />
         <item itemvalue="TestNG.RegistrationTests.signInLink" />
         <item itemvalue="TestNG.TourTests.tourToUkraine" />
-        <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
-        <item itemvalue="TestNG.MainTests.testLinksOnHowWeWorkPage" />
       </list>
     </recent_temporary>
   </component>
