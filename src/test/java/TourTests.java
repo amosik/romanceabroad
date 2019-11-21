@@ -6,6 +6,7 @@ public class TourTests extends BaseUI {
     public void tourToUkraine() {
 
         mainPage.clickTourToUkraineLink();
+
     }
 
 }

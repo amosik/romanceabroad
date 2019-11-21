@@ -5,7 +5,7 @@ public class MediaTests extends BaseUI{
 
     @Test
     public void media() {
-        mainPage.clickPhotosLink();
+        driver.findElement(Locators.LINK_PHOTOS).click();
         Data.actualUrlPhotos = driver.getCurrentUrl();
         Assert.assertEquals(Data.expectedUrlPhotos, Data.actualUrlPhotos);
         mediaPage.clickDropDownListSortBy();

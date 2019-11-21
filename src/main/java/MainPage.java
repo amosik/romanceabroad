@@ -12,9 +12,6 @@ public class MainPage extends BaseActions{
         driver.findElement(Locators.LINK_VIEW).click();
 
     }
-    public void clickPrettyWomenLink(){
-        driver.findElement(Locators.LINK_SEARCH).click();
-    }
 
     public void clickPhotosLink(){
         WebElement linkMedia = driver.findElement(Locators.LINK_PHOTOS);
@@ -45,7 +42,7 @@ public class MainPage extends BaseActions{
         wait.until(ExpectedConditions.elementToBeClickable(Locators.EMAIL_INPUT_FIELD));
         driver.findElement(Locators.EMAIL_INPUT_FIELD).sendKeys(Data.email);
         driver.findElement(Locators.PASSWORD_INPUT_FIELD).sendKeys(Data.password);
-        //driver.findElement(Locators.BUTTON_REGISTRATION).click();
+        driver.findElement(Locators.SIGN_IN_BUTTON_MODAL_WINDOW).click();
 
     }
 

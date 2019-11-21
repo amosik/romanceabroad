@@ -6,10 +6,15 @@ public class RegistrationTests extends BaseUI {
 
     @Test
     public void signInLink() {
-        //mainPage.clickSignInLink();
+        String email = "test@gmail.com";
+        String password = "1234test";
         mainPage.ajaxClick(Locators.LINK_SIGN_IN);
         mainPage.completeRegistration();
-        mainPage.ajaxClick(Locators.BUTTON_REGISTRATION);
+        WebElement emailField = driver.findElement(Locators.EMAIL_INPUT_FIELD);
+        mainPage.ajaxSendKeys(emailField, email);
+        WebElement passwordField = driver.findElement(Locators.PASSWORD_INPUT_FIELD);
+        mainPage.ajaxSendKeys(passwordField, password);
+        mainPage.ajaxClick(Locators.SIGN_IN_BUTTON_LOGIN_FORM_PAGE);
         Data.actualUrlLoginForm = driver.getCurrentUrl();
         Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrlLoginForm);
     }
@@ -24,6 +29,5 @@ public class RegistrationTests extends BaseUI {
         checkBoxConfirmation.click();
     }
 }
-
 
 

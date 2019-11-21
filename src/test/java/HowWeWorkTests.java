@@ -15,7 +15,7 @@ public class HowWeWorkTests extends BaseUI {
 
 
     @Test
-    public void topNavigationMenu() {
+    public void topLeftNavigationMenu() {
         driver.findElement(Locators.LINK_VIEW).click();
         driver.findElement(Locators.MENU_SIGN).click();
         Assert.assertTrue(driver.findElement(Locators.LEFT_MENU_CONTENT).isDisplayed());
@@ -60,6 +60,7 @@ public class HowWeWorkTests extends BaseUI {
             links = driver.findElements(Locators.LEFT_MENU_ITEMS);
 
         }
-
     }
+
+
 }

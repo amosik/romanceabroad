@@ -9,7 +9,7 @@ public class SearchPage extends BaseActions{
     }
 
     public void clickDropDownListSortBy() {
-        WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_SORT);
+        WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_SORT_BY);
         getDropDownListByText(dropDownListSortBy, "Name");
 
     }

@@ -48,6 +48,7 @@ public class Data {
     //Tour to Ukraine page
     public static final int indexLinkTour = 5;
     public static final String expectedUrlTourToUkraine = "https://romanceabroad.com/store/sweets/20-tour_to_ukraine";
+    public static final String expectedPayPalUrl = "https://www.paypal.com/webapps/hermes?token=0KK986493F958720A&useraction=commit&mfid=1574358271349_796d1223da7cb#/checkout/guest";
     public static String actualUrlTourToUkraine;
     public static final String expectedTitleTourToUkraine = "TOURS TO UKRAINE";
     public static final String check1 = "ATTENTION! Tour does not include:";
