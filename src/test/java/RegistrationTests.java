@@ -15,11 +15,12 @@ public class RegistrationTests extends BaseUI {
         WebElement passwordField = driver.findElement(Locators.PASSWORD_INPUT_FIELD);
         mainPage.ajaxSendKeys(passwordField, password);
         mainPage.ajaxClick(Locators.SIGN_IN_BUTTON_LOGIN_FORM_PAGE);
-        Data.actualUrlLoginForm = driver.getCurrentUrl();
-        Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrlLoginForm);
+        Data.actualUrl = driver.getCurrentUrl();
+        Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrl);
     }
+
     @Test
-    public void signInButton () {
+    public void signInButton() {
         mainPage.ajaxClick(Locators.JOIN_NOW_BUTTON);
         mainPage.completeFirstRegistrationPart();
         mainPage.ajaxClick(Locators.BUTTON_NEXT);

@@ -3,32 +3,32 @@ import org.openqa.selenium.By;
 public class Locators {
     //Search page
     public static final By LINK_SEARCH = By.cssSelector("a[href='https://romanceabroad.com/users/search']");
-    public static final By DROP_DOWN_SORT_BY = By.xpath("//div[@class='form-inline']//select");
-    public static final By PHOTOS_OF_WOMEN = By.xpath("//a[@class='g-pic-border g-rounded']");
-    public static final By DROP_DOWN_BY_NAME = By.xpath("//div[@class='form-inline']//option[@value='name']");
     public static final By DROP_DOWN_MAX_AGE = By.cssSelector("select#age_max");
     public static final By DROP_DOWN_MIN_AGE = By.cssSelector("select#age_min");
     public static final By BUTTON_SEARCH = By.cssSelector("input#main_search_button_user_advanced");
+    public static final By DROP_DOWN_SORT_BY = By.xpath("//div[@class='form-inline']//select");
+    public static final By PHOTOS_OF_WOMEN = By.xpath("//a[@class='g-pic-border g-rounded']");
+    public static final By DROP_DOWN_BY_NAME = By.xpath("//div[@class='form-inline']//option[@value='name']");
 
     //Registration page
     public static final By LINK_SIGN_IN = By.cssSelector("a[href='https://romanceabroad.com/users/login_form']");
+    public static final By EMAIL = By.cssSelector("#email");
+    public static final By PASSWORD = By.cssSelector("#password");
+    public static final By USER_NAME_INPUT_FIELD = By.cssSelector("#nickname");
+    public static final By PHONE_INPUT_FIELD = By.cssSelector("input[name='data[phone]']");
+    public static final By BIRTHDATE_DAY = By.cssSelector("#daySelect");
+    public static final By BIRTHDATE_MONTH = By.cssSelector("#monthSelect");
+    public static final By BIRTHDATE_YEAR = By.cssSelector("#yearSelect");
+    public static final By CONFIRMATION_CHECKBOX = By.cssSelector("#confirmation");
     public static final By EMAIL_INPUT_FIELD = By.xpath("//input[@name='email']");
     public static final By PASSWORD_INPUT_FIELD = By.xpath("//input[@name='password']");
     public static final By SIGN_IN_BUTTON_MODAL_WINDOW = By.xpath("//div[@class='col-xs-12']//button[@type='submit']");
     public static final By SIGN_IN_BUTTON_LOGIN_FORM_PAGE = By.xpath("//div[@class='col-sm-12']//button[@type='submit']");
     public static final By JOIN_NOW_BUTTON = By.xpath("//button[@id='show-registration-block']");
-    public static final By EMAIL = By.cssSelector("#email");
-    public static final By PASSWORD = By.cssSelector("#password");
     public static final By BUTTON_NEXT = By.xpath("//button[@data-action='next-page'][text()='Next']");
-    public static final By USER_NAME_INPUT_FIELD = By.cssSelector("#nickname");
-    public static final By PHONE_INPUT_FIELD = By.cssSelector("input[name='data[phone]']");
-    public static final By BIRTHDATE_DAY = By.cssSelector("#daySelect");
     public static final By BIRTHDATE_DAY_SELECT = By.xpath("//ul//li[@data-handler='selectDay']//a[text()='5']");
-    public static final By BIRTHDATE_MONTH = By.cssSelector("#monthSelect");
     public static final By BIRTHDATE_MONTH_SELECT = By.xpath("//ul//li[@data-handler='selectMonth']//a[text()='Mar']");
-    public static final By BIRTHDATE_YEAR = By.cssSelector("#yearSelect");
     public static final By BIRTHDATE_YEAR_SELECT = By.xpath("//ul//li[@data-handler='selectYear']//a[text()='1992']");
-    public static final By CONFIRMATION_CHECKBOX = By.cssSelector("#confirmation");
 
 
     //Media page
@@ -44,6 +44,9 @@ public class Locators {
     //Blog page
     public static final By LINK_BLOG = By.cssSelector("a[href='https://romanceabroad.com/content/view/blog']");
     public static final By LEFT_MENU = By.xpath("//div[@class='clearfix']");
+    public static final By INFO_CONTENT_BLOG = By.xpath("//div[@class='info-content-block wysiwyg']//ul//li//a");
+    public static final By BACK_BUTTON_BLOG_PAGE = By.xpath("//div//ul//li[@class='back']");
+    public static final By INFO_MENU_LEFT_SIDE = By.xpath("//div//div[@class='info-menu-inner']//a");
 
     //How we work
     public static final By LINK_VIEW = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
@@ -59,8 +62,8 @@ public class Locators {
     public static final By BESTSELLERS_QUICK_VIEW = By.xpath("//div[@class='title-block pt5']");
 
     //Main page youtube
-    public static final By YOUTUBE_LINK = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
     public static final By YOUTUBE_BUTTON = By.cssSelector(".ytp-large-play-button.ytp-button");
+    public static final By YOUTUBE_LINK = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
 
     //Tour to Ukraine page
     public static final By PAY_WITH_PAYPAL_BUTTON = By.xpath("//a[@class='btn btn-primary btn-block'][@href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CNUP836ZN9G36']");
@@ -95,11 +98,4 @@ public class Locators {
     public static final By SPA_QUICK_VIEW_BUTTON = By.xpath("//div//div[@id='product_quick_view_2']//input[@class='btn btn-primary']");
     public static final By SPA_BUTTON = By.xpath("//div//a[@href='https://romanceabroad.com/store/sweets/2-massage_spa']//div[@class='text-overflow']");
     public static final By SEARCH_BUTTON = By.xpath("//div[@class='input-group input-group no-padding-left']//span//button[@id='search_friend']");
-
-
-
-
-
-
-
 }

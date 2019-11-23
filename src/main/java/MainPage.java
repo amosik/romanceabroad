@@ -5,17 +5,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MainPage extends BaseActions{
     public MainPage(WebDriver driver, WebDriverWait wait){
+
         super(driver, wait);
     }
 
     public void clickHowWeWorkLink(){
         driver.findElement(Locators.LINK_VIEW).click();
-
     }
 
-    public void clickPhotosLink(){
-        WebElement linkMedia = driver.findElement(Locators.LINK_PHOTOS);
-        linkMedia.click();
+    public void openPhotosPage(){
+        driver.findElement(Locators.LINK_PHOTOS).click();
     }
 
     public void clickGiftsLink(){
@@ -28,15 +27,11 @@ public class MainPage extends BaseActions{
     }
 
     public void clickBlogLink(){
-        WebElement linkBlog = driver.findElement(Locators.LINK_BLOG);
-        linkBlog.click();
+       driver.findElement(Locators.LINK_BLOG).click();
     }
 
     public void clickSignInLink(){
         driver.findElement(Locators.LINK_SIGN_IN).click();
-
-
-
     }
 
     public void completeRegistration(){
@@ -71,5 +66,10 @@ public class MainPage extends BaseActions{
         driver.switchTo().frame(youtube);
         driver.findElement(Locators.YOUTUBE_BUTTON).click();
     }
+
+    public void openPrettyWomenPage() {
+        driver.findElement(Locators.LINK_SEARCH).click();
+    }
+
 
 }

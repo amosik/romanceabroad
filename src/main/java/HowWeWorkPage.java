@@ -12,5 +12,9 @@ public class HowWeWorkPage extends BaseActions {
         return text;
     }
 
+    public void openMenuSignOnHowWeWorkPage() {
+        driver.findElement(Locators.LINK_VIEW).click();
+        driver.findElement(Locators.MENU_SIGN).click();
+    }
 
 }

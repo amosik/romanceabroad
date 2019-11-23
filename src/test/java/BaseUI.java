@@ -8,7 +8,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
-
 import java.lang.reflect.Method;
 
 public class BaseUI {
@@ -21,7 +20,7 @@ public class BaseUI {
     SoftAssert softAssert = new SoftAssert();
 
 
-    @BeforeMethod
+    @BeforeMethod(groups = {"ie", "firefox", "chrome"}, alwaysRun = true)
     @Parameters("browser")
     public void setup
             (@Optional("chrome") String browser, Method method){

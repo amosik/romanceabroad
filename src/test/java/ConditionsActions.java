@@ -1,11 +1,10 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class IfConditions {
+public class ConditionsActions {
 
     @Test
     public void searchNames() {
@@ -54,7 +53,6 @@ public class IfConditions {
             } else {
                 System.out.println("Can't find it");
             }
-
         }
     }
 
@@ -72,9 +70,9 @@ public class IfConditions {
     @Test
     public void discount() {
         int number = 60;
-        if (number==60){
+        if (number == 60) {
             System.out.println("I cant find valid number");
-        }else {
+        } else {
             System.out.println("I can't find valid number");
         }
     }

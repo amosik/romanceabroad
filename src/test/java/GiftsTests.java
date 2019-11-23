@@ -5,8 +5,8 @@ public class GiftsTests extends BaseUI{
     @Test
     public void gifts() {
         mainPage.clickGiftsLink();
-        Data.currentUrlGift = driver.getCurrentUrl();
-        softAssert.assertEquals(Data.currentUrlGift, Data.expectedUrGift, "Url is wrong");
+        Data.actualUrl = driver.getCurrentUrl();
+        softAssert.assertEquals(Data.actualUrl, Data.expectedUrlGifts, "Url is wrong");
 
     }
 }

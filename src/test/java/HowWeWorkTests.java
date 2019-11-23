@@ -1,7 +1,6 @@
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.List;
 
 public class HowWeWorkTests extends BaseUI {
@@ -9,15 +8,14 @@ public class HowWeWorkTests extends BaseUI {
     @Test
     public void view() {
         mainPage.clickHowWeWorkLink();
-        Data.currentUrlView = driver.getCurrentUrl();
-        Assert.assertEquals(Data.currentUrlView, Data.expectedUrlView);
+        Data.actualUrl = driver.getCurrentUrl();
+        Assert.assertEquals(Data.actualUrl, Data.expectedUrlView);
     }
 
 
     @Test
     public void topLeftNavigationMenu() {
-        driver.findElement(Locators.LINK_VIEW).click();
-        driver.findElement(Locators.MENU_SIGN).click();
+        howWeWorkPage.openMenuSignOnHowWeWorkPage();
         Assert.assertTrue(driver.findElement(Locators.LEFT_MENU_CONTENT).isDisplayed());
         List<WebElement> links = driver.findElements(Locators.LEFT_MENU_ITEMS);
         System.out.println(links.size());
@@ -28,35 +26,34 @@ public class HowWeWorkTests extends BaseUI {
 
             if (info.contains("Sign up")) {
                 Data.actualTitle = howWeWorkPage.getTitle();
-                Data.actualUrlSignUp = driver.getCurrentUrl();
+                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleSignUp, Data.actualTitle);
-                Assert.assertEquals(Data.expectedUrlSignUp, Data.actualUrlSignUp);
+                Assert.assertEquals(Data.expectedUrlSignUp, Data.actualUrl);
             }
 
             if (info.contains("Login")) {
                 Data.actualTitle = howWeWorkPage.getTitle();
-                Data.actualUrlLogin = driver.getCurrentUrl();
+                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleLogin, Data.actualTitle);
-                Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrlLogin);
+                Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrl);
             }
 
             if (info.contains("News")) {
                 Data.actualTitle = howWeWorkPage.getTitle();
-                Data.actualUrlNews = driver.getCurrentUrl();
+                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleNews, Data.actualTitle);
-                Assert.assertEquals(Data.expectedUrlNews, Data.actualUrlLogin);
+                Assert.assertEquals(Data.expectedUrlNews, Data.actualUrl);
             }
 
             if (info.contains("Polls")) {
                 Data.actualTitle = howWeWorkPage.getTitle();
-                Data.actualUrlLogin = driver.getCurrentUrl();
+                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleLogin, Data.actualTitle);
-                Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrlLogin);
+                Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrl);
             }
 
             driver.get(Data.mainUrl);
-            driver.findElement(Locators.LINK_VIEW).click();
-            driver.findElement(Locators.MENU_SIGN).click();
+            howWeWorkPage.openMenuSignOnHowWeWorkPage();
             links = driver.findElements(Locators.LEFT_MENU_ITEMS);
 
         }
