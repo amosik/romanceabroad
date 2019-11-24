@@ -95,6 +95,11 @@ public class Data {
     public static final String expectedTitleNews = "News";
     public static final String expectedUrlNews = "https://romanceabroad.com/news/";
 
+    //Contact us page
+    public static final String reason = "Technical support";
+    public static final String subject = "Email verification";
+    public static final String message = "I did not receive a confirmation email";
+
     //Common
     public static String actualTitle;
     public static String actualUrl;

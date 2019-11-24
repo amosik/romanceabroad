@@ -12,7 +12,6 @@ public class HowWeWorkTests extends BaseUI {
         Assert.assertEquals(Data.actualUrl, Data.expectedUrlView);
     }
 
-
     @Test
     public void topLeftNavigationMenu() {
         mainPage.clickHowWeWorkLink();

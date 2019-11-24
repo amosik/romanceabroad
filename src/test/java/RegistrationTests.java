@@ -6,14 +6,12 @@ public class RegistrationTests extends BaseUI {
 
     @Test
     public void signInLink() {
-        String email = "test@gmail.com";
-        String password = "1234test";
         mainPage.ajaxClick(Locators.LINK_SIGN_IN);
         mainPage.completeRegistration(Data.email, Data.password);
         WebElement emailField = driver.findElement(Locators.EMAIL_INPUT_FIELD);
-        mainPage.ajaxSendKeys(emailField, email);
+        mainPage.ajaxSendKeys(emailField, Data.email);
         WebElement passwordField = driver.findElement(Locators.PASSWORD_INPUT_FIELD);
-        mainPage.ajaxSendKeys(passwordField, password);
+        mainPage.ajaxSendKeys(passwordField, Data.password);
         mainPage.ajaxClick(Locators.SIGN_IN_BUTTON_LOGIN_FORM_PAGE);
         Data.actualUrl = driver.getCurrentUrl();
         Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrl);

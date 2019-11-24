@@ -81,6 +81,7 @@ public class MainTests extends BaseUI {
             links = driver.findElements(Locators.TAB_LINKS);
         }
     }
+
     @Test
     public void testLinksOnHowWeWorkPage() {
         mainPage.checkLinksOnWebPage("//a", "href");

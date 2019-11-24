@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8fe7450-f501-41a3-8e32-f4a97557cc3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ContactUsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ContactUsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HowWeWorkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HowWeWorkPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HowWeWorkTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HowWeWorkTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BlogTests">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="BlogTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,11 +81,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HowWeWorkTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactUsTests.contactAdministrator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HowWeWorkTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="ContactUsTests" />
+      <option name="METHOD_NAME" value="contactAdministrator" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactUsTests.hi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContactUsTests" />
+      <option name="METHOD_NAME" value="hi" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,18 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.joinForFreeNowButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="METHOD_NAME" value="joinForFreeNowButton" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -127,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.RegistrationTests.joinForFreeNowButton" />
       <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="TestNG.HowWeWorkTests.topLeftNavigationMenu" />
-      <item itemvalue="TestNG.HowWeWorkTests.test" />
       <item itemvalue="TestNG.BlogTests" />
+      <item itemvalue="TestNG.ContactUsTests.hi" />
+      <item itemvalue="TestNG.ContactUsTests.contactAdministrator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BlogTests" />
         <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.ContactUsTests.contactAdministrator" />
+        <item itemvalue="TestNG.ContactUsTests.hi" />
+        <item itemvalue="TestNG.BlogTests" />
         <item itemvalue="TestNG.HowWeWorkTests.topLeftNavigationMenu" />
-        <item itemvalue="TestNG.HowWeWorkTests.test" />
-        <item itemvalue="TestNG.RegistrationTests.joinForFreeNowButton" />
       </list>
     </recent_temporary>
   </component>

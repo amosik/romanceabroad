@@ -29,7 +29,7 @@ public class Locators {
     public static final By BIRTHDATE_DAY_SELECT = By.xpath("//ul//li[@data-handler='selectDay']");
     public static final By BIRTHDATE_MONTH_SELECT = By.xpath("//ul//li[@data-handler='selectMonth']");
     public static final By BIRTHDATE_YEAR_SELECT = By.xpath("//ul//li[@data-handler='selectYear']");
-    public static final By LIST_VALUE_LOCATION = By.xpath("//div[@class='dropdown dropdown_location']//ul//li");
+    public static final By LIST_VALUE_LOCATION = By.xpath("//div[@class='dropdown dropdown_location']//li");
     public static final By AUTOFILLING_FORM_LOCATION = By.xpath("//div[@class='input-group countries-input__input-group']//input[@class='form-control']");
 
 
@@ -45,9 +45,9 @@ public class Locators {
     //Blog page
     public static final By LINK_BLOG = By.cssSelector("a[href='https://romanceabroad.com/content/view/blog']");
     public static final By LEFT_MENU = By.xpath("//div[@class='clearfix']");
-    public static final By INFO_CONTENT_BLOG = By.xpath("//div[@class='info-content-block wysiwyg']//ul//li//a");
-    public static final By BACK_BUTTON_BLOG_PAGE = By.xpath("//div//ul//li[@class='back']");
-    public static final By INFO_MENU_LEFT_SIDE = By.xpath("//div//div[@class='info-menu-inner']//a");
+    public static final By INFO_CONTENT_BLOG = By.xpath("//div[@class='info-content-block wysiwyg']//a");
+    public static final By BACK_BUTTON_BLOG_PAGE = By.xpath("//ul//li[@class='back']");
+    public static final By INFO_MENU_LEFT_SIDE = By.xpath("//div[@class='info-menu-inner']//a");
 
     //How we work
     public static final By LINK_VIEW = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
@@ -69,8 +69,17 @@ public class Locators {
     //Tour to Ukraine page
     public static final By PAY_WITH_PAYPAL_BUTTON = By.xpath("//a[@class='btn btn-primary btn-block'][@href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CNUP836ZN9G36']");
 
+    //Contact us page
+    public static final By YOUR_NAME = By.cssSelector("input[name='user_name']");
+    public static final By YOUR_EMAIL = By.cssSelector("input[name='user_email']");
+    public static final By SUBJECT = By.cssSelector("input[name='subject']");
+    public static final By MESSAGE = By.cssSelector("textarea[name='message']");
+    public static final By REASON_DROP_DOWN_LIST_CONTACT_US_PAGE = By.xpath("//select[@name='id_reason']");
+    public static final By LIST_OF_REASONS = By.xpath("//select[@name='id_reason']//option");
+
     //Common
     public static final By TITLE = By.xpath("//h1");
+    public static final By FOOTER_HELP = By.xpath("//a[@href='https://romanceabroad.com/tickets/']//div[@class='footer-menu-list-group-item-text']");
 
     //10 xpath with 2 attributes
     //MAIN PAGE
