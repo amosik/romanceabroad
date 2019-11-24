@@ -121,5 +121,17 @@ public class BaseActions {
 
         }
 
+    public void clickValueOfList(By locator, String text) {
+        List<WebElement> elements = driver.findElements(locator);
+        for (int i = 0; i < elements.size(); i++) {
+            WebElement listElement = elements.get(i);
+            String selectDate = listElement.getText();
+            if (selectDate.contains(text)) {
+                listElement.click();
+            }
+
+        }
+    }
+
 }
 

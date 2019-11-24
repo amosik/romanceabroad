@@ -3,23 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e8fe7450-f501-41a3-8e32-f4a97557cc3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HowWeWorkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HowWeWorkPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MediaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MediaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BlogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlogTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GiftsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GiftsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HowWeWorkTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HowWeWorkTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IfConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConditionsActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MediaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MediaTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,12 +68,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml">
-    <configuration name="BlogTests.backButton" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BlogTests">
+    <configuration name="BlogTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BlogTests" />
-      <option name="METHOD_NAME" value="backButton" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HowWeWorkTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HowWeWorkTests" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,11 +92,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlogTests.backButtonTestCase102" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HowWeWorkTests.topLeftNavigationMenu" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BlogTests" />
-      <option name="METHOD_NAME" value="backButtonTestCase102" />
+      <option name="MAIN_CLASS_NAME" value="HowWeWorkTests" />
+      <option name="METHOD_NAME" value="topLeftNavigationMenu" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,11 +104,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlogTests.infoMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.joinForFreeNowButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BlogTests" />
-      <option name="METHOD_NAME" value="infoMenu" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
+      <option name="METHOD_NAME" value="joinForFreeNowButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,22 +116,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlogTests.infoMenuTestCase103" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BlogTests" />
-      <option name="METHOD_NAME" value="infoMenuTestCase103" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -137,19 +127,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.BlogTests.backButton" />
-      <item itemvalue="TestNG.BlogTests.infoMenu" />
-      <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
-      <item itemvalue="TestNG.BlogTests.backButtonTestCase102" />
-      <item itemvalue="TestNG.BlogTests.infoMenuTestCase103" />
+      <item itemvalue="TestNG.RegistrationTests.joinForFreeNowButton" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.HowWeWorkTests.topLeftNavigationMenu" />
+      <item itemvalue="TestNG.HowWeWorkTests.test" />
+      <item itemvalue="TestNG.BlogTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
-        <item itemvalue="TestNG.BlogTests.infoMenuTestCase103" />
-        <item itemvalue="TestNG.BlogTests.backButtonTestCase102" />
-        <item itemvalue="TestNG.BlogTests.infoMenu" />
-        <item itemvalue="TestNG.BlogTests.backButton" />
+        <item itemvalue="TestNG.BlogTests" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.HowWeWorkTests.topLeftNavigationMenu" />
+        <item itemvalue="TestNG.HowWeWorkTests.test" />
+        <item itemvalue="TestNG.RegistrationTests.joinForFreeNowButton" />
       </list>
     </recent_temporary>
   </component>

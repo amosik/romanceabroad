@@ -2,10 +2,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HowWeWorkPage extends BaseActions {
-    public HowWeWorkPage (WebDriver driver, WebDriverWait wait){
+    public HowWeWorkPage(WebDriver driver, WebDriverWait wait) {
+
         super(driver, wait);
     }
-
 
     public String getTitle() {
         String text = driver.findElement(Locators.TITLE).getText();
@@ -13,8 +13,8 @@ public class HowWeWorkPage extends BaseActions {
     }
 
     public void openMenuSignOnHowWeWorkPage() {
-        driver.findElement(Locators.LINK_VIEW).click();
-        driver.findElement(Locators.MENU_SIGN).click();
+        driver.findElement(Locators.MENU_SIGN_TOP_TAB).click();
     }
+
 
 }

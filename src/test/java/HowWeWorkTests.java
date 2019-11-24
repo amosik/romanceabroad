@@ -15,6 +15,7 @@ public class HowWeWorkTests extends BaseUI {
 
     @Test
     public void topLeftNavigationMenu() {
+        mainPage.clickHowWeWorkLink();
         howWeWorkPage.openMenuSignOnHowWeWorkPage();
         Assert.assertTrue(driver.findElement(Locators.LEFT_MENU_CONTENT).isDisplayed());
         List<WebElement> links = driver.findElements(Locators.LEFT_MENU_ITEMS);
@@ -53,6 +54,7 @@ public class HowWeWorkTests extends BaseUI {
             }
 
             driver.get(Data.mainUrl);
+            mainPage.clickHowWeWorkLink();
             howWeWorkPage.openMenuSignOnHowWeWorkPage();
             links = driver.findElements(Locators.LEFT_MENU_ITEMS);
 

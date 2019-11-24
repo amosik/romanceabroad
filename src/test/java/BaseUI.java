@@ -54,6 +54,7 @@ public class BaseUI {
         mainPage = new MainPage(driver, wait);
         searchPage = new SearchPage(driver, wait);
         mediaPage = new MediaPage(driver, wait);
+        howWeWorkPage = new HowWeWorkPage(driver, wait);
         driver.manage().window().maximize();
         driver.get(Data.mainUrl);
     }

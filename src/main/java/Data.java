@@ -11,6 +11,11 @@ public class Data {
     public static final String user_name = "Alexa";
     public static final String phone_number = "14156576565";
     public static final String expectedTitleLogin = "Sign in";
+    public static final String day = "15";
+    public static final String month = "July";
+    public static final String year = "1992";
+    public static final String city = "Sydney";
+    public static final String location = "North Sydney, State of New South Wales, Australia";
     public static final String expectedUrlLoginForm = "https://romanceabroad.com/users/login_form";
     public static final String expectedUrlSignUp = "https://romanceabroad.com/users/registration/";
 

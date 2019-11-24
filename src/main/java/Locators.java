@@ -24,11 +24,13 @@ public class Locators {
     public static final By PASSWORD_INPUT_FIELD = By.xpath("//input[@name='password']");
     public static final By SIGN_IN_BUTTON_MODAL_WINDOW = By.xpath("//div[@class='col-xs-12']//button[@type='submit']");
     public static final By SIGN_IN_BUTTON_LOGIN_FORM_PAGE = By.xpath("//div[@class='col-sm-12']//button[@type='submit']");
-    public static final By JOIN_NOW_BUTTON = By.xpath("//button[@id='show-registration-block']");
+    public static final By JOIN_FOR_FREE_NOW_BUTTON = By.xpath("//button[@id='show-registration-block']");
     public static final By BUTTON_NEXT = By.xpath("//button[@data-action='next-page'][text()='Next']");
-    public static final By BIRTHDATE_DAY_SELECT = By.xpath("//ul//li[@data-handler='selectDay']//a[text()='5']");
-    public static final By BIRTHDATE_MONTH_SELECT = By.xpath("//ul//li[@data-handler='selectMonth']//a[text()='Mar']");
-    public static final By BIRTHDATE_YEAR_SELECT = By.xpath("//ul//li[@data-handler='selectYear']//a[text()='1992']");
+    public static final By BIRTHDATE_DAY_SELECT = By.xpath("//ul//li[@data-handler='selectDay']");
+    public static final By BIRTHDATE_MONTH_SELECT = By.xpath("//ul//li[@data-handler='selectMonth']");
+    public static final By BIRTHDATE_YEAR_SELECT = By.xpath("//ul//li[@data-handler='selectYear']");
+    public static final By LIST_VALUE_LOCATION = By.xpath("//div[@class='dropdown dropdown_location']//ul//li");
+    public static final By AUTOFILLING_FORM_LOCATION = By.xpath("//div[@class='input-group countries-input__input-group']//input[@class='form-control']");
 
 
     //Media page
@@ -36,7 +38,6 @@ public class Locators {
     public static final By DROP_DOWN_MEDIA = By.xpath("//span[@id='gallery_media_sorter']//select[@class='form-control']");
     public static final By TAB_LINKS = By.xpath("//ul[@class='navbar-nav']//li");
     public static final By TAB_HOME = By.xpath("//a[text()='HOME']");
-    public static final By TITLE = By.xpath("//h1");
     public static final By PHOTO_VIDEO_ALBUMS = By.xpath("//li[@class='b-tabs__item ']");
     public static final By DROP_DOWN_MEDIA_BY_VIEWS_COUNT = By.xpath("//select[@class='form-control']//option[@value='views']");
 
@@ -68,6 +69,8 @@ public class Locators {
     //Tour to Ukraine page
     public static final By PAY_WITH_PAYPAL_BUTTON = By.xpath("//a[@class='btn btn-primary btn-block'][@href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CNUP836ZN9G36']");
 
+    //Common
+    public static final By TITLE = By.xpath("//h1");
 
     //10 xpath with 2 attributes
     //MAIN PAGE
