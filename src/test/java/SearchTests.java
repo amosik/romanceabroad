@@ -10,7 +10,6 @@ public class SearchTests extends BaseUI {
         Data.actualUrl = driver.getCurrentUrl();
         Assert.assertEquals(Data.actualUrl, Data.expectedUrlSearch);
         searchPage.clickDropDownListSortBy();
-        Assert.assertTrue(driver.findElement(Locators.DROP_DOWN_BY_NAME).isDisplayed());
 
     }
 

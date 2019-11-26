@@ -9,7 +9,6 @@ public class MediaTests extends BaseUI{
         Data.actualUrl = driver.getCurrentUrl();
         Assert.assertEquals(Data.expectedUrlPhotos, Data.actualUrl);
         mediaPage.clickDropDownListSortBy();
-        Assert.assertTrue(driver.findElement(Locators.DROP_DOWN_MEDIA_BY_VIEWS_COUNT).isDisplayed());
 
     }
 }

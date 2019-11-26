@@ -16,36 +16,35 @@ public class HowWeWorkTests extends BaseUI {
     public void topLeftNavigationMenu() {
         mainPage.clickHowWeWorkLink();
         howWeWorkPage.openMenuSignOnHowWeWorkPage();
-        Assert.assertTrue(driver.findElement(Locators.LEFT_MENU_CONTENT).isDisplayed());
-        List<WebElement> links = driver.findElements(Locators.LEFT_MENU_ITEMS);
+        List<WebElement> links = howWeWorkPage.topLeftNavigationMenu();
         System.out.println(links.size());
         for (int i = 1; i < links.size() ; i++) {
-            String info = links.get(i).getText();
-            System.out.println(info);
+            Data.info = links.get(i).getText();
+            System.out.println(Data.info);
             links.get(i).click();
 
-            if (info.contains("Sign up")) {
+            if (Data.info.contains("Sign up")) {
                 Data.actualTitle = howWeWorkPage.getTitle();
                 Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleSignUp, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlSignUp, Data.actualUrl);
             }
 
-            if (info.contains("Login")) {
+            if (Data.info.contains("Login")) {
                 Data.actualTitle = howWeWorkPage.getTitle();
                 Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleLogin, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrl);
             }
 
-            if (info.contains("News")) {
+            if (Data.info.contains("News")) {
                 Data.actualTitle = howWeWorkPage.getTitle();
                 Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleNews, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlNews, Data.actualUrl);
             }
 
-            if (info.contains("Polls")) {
+            if (Data.info.contains("Polls")) {
                 Data.actualTitle = howWeWorkPage.getTitle();
                 Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleLogin, Data.actualTitle);
@@ -55,7 +54,7 @@ public class HowWeWorkTests extends BaseUI {
             driver.get(Data.mainUrl);
             mainPage.clickHowWeWorkLink();
             howWeWorkPage.openMenuSignOnHowWeWorkPage();
-            links = driver.findElements(Locators.LEFT_MENU_ITEMS);
+            links = howWeWorkPage.topLeftNavigationMenu();
 
         }
     }

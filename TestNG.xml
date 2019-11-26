@@ -3,32 +3,19 @@
     <!--<test name="IETestCases">
         <parameter name="browser" value="ie"/>
         <classes>
-            <class name ="BlogTests"/>
+            <class name ="RegistrationTests"/>
         </classes>
-    </test>
+    </test>-->
     <test name="FirefoxTestCases">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name ="BlogTests"/>
+            <class name ="RegistrationTests"/>
         </classes>
-    </test>-->
+    </test>
     <test name="ChromeTestCases">
         <parameter name="browser" value="chrome"/>
-        <groups>
-            <run>
-                <exclude name="ie" />
-                <include name="firefox" />
-                <include name="chrome" />
-            </run>
-        </groups>
         <classes>
-            <class name ="BlogTests">
-            <methods>
-                <include name=".*Button.*" />
-                <include name=".*Menu.*" />
-                <exclude name=".*Info.*" />
-            </methods>
-            </class>
+            <class name ="RegistrationTests"/>
         </classes>
     </test>
 </suite>

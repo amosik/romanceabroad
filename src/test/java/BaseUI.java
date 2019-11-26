@@ -18,10 +18,11 @@ public class BaseUI {
     MediaPage mediaPage;
     HowWeWorkPage howWeWorkPage;
     ContactUsPage contactUsPage;
+    BlogPage blogPage;
     SoftAssert softAssert = new SoftAssert();
 
 
-    @BeforeMethod(groups = {"ie", "firefox", "chrome"}, alwaysRun = true)
+    @BeforeMethod
     @Parameters("browser")
     public void setup
             (@Optional("chrome") String browser, Method method){
@@ -57,6 +58,7 @@ public class BaseUI {
         mediaPage = new MediaPage(driver, wait);
         howWeWorkPage = new HowWeWorkPage(driver, wait);
         contactUsPage = new ContactUsPage(driver, wait);
+        blogPage = new BlogPage(driver, wait);
         driver.manage().window().maximize();
         driver.get(Data.mainUrl);
     }

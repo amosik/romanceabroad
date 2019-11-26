@@ -36,19 +36,19 @@ public class ConditionsActions {
 
     @Test
     public void leftMenu() {
-        String phrase = "Advertising";
-        List<String> crunchifyList1 = new ArrayList<>(Arrays.asList(phrase, "Terms of use", "Privacy Policy",
+        Data.phrase = "Advertising";
+        List<String> crunchifyList1 = new ArrayList<>(Arrays.asList(Data.phrase, "Terms of use", "Privacy Policy",
                 "Ukrainian women for marriage", "Shipping terms", "Travel to Ukraine", "Blog"));
         System.out.println(crunchifyList1);
         for (int i = 0; i < crunchifyList1.size(); i++) {
-            String element = crunchifyList1.get(i);
+            Data.element = crunchifyList1.get(i);
             System.out.println(i + " iteration");
 
-            if (element.contains("Terms")) {
-                System.out.println(phrase);
-            } else if (element.equals("Sign in")) {
+            if (Data.element.contains("Terms")) {
+                System.out.println(Data.phrase);
+            } else if (Data.element.equals("Sign in")) {
                 System.out.println("Sign in");
-            } else if (element.contains("t")) {
+            } else if (Data.element.contains("t")) {
                 System.out.println(" 't' is inside of the list");
             } else {
                 System.out.println("Can't find it");
@@ -56,10 +56,11 @@ public class ConditionsActions {
         }
     }
 
+
     @Test
     public void titleAssertion() {
 
-        if (Data.title.equals(Data.title)) {
+        if (Data.expectedTitle.equals(Data.expectedTitle)) {
             String title = "Ukrainian women for marriage";
             if (title.equals(title)) {
                 System.out.println("We can find our title");

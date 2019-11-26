@@ -26,7 +26,7 @@ public class Data {
 
     //How we work page
     public static final String expectedTitleHowWeWork = "Ukrainian women for marriage";
-    public static final String title = "Ukrainian women for marriage";
+    public static final String expectedTitle = "Ukrainian women for marriage";
     public static final String expectedUrlView = "https://romanceabroad.com/content/view/how-it-works";
     public static final String expectedUrlHowWeWork = "https://romanceabroad.com/content/view/how-it-works";
 
@@ -100,8 +100,15 @@ public class Data {
     public static final String subject = "Email verification";
     public static final String message = "I did not receive a confirmation email";
 
+    //Condition action
+    public static String title;
+    public static String phrase;
+    public static String element;
+
     //Common
     public static String actualTitle;
     public static String actualUrl;
+    public static String info;
+
 
 }
