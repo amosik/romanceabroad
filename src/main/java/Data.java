@@ -6,10 +6,15 @@ public class Data {
     //Registration page
     public static final int timeDelay = 3;
     public static final String expectedTitleSignUp = "User registration";
-    public static final String email = "test@gmail.com";
+    public static final String email1 = "test@gmail.com";
+    public static final String email2 = "test42@gmail.com";
+    public static final String email3 = "test42@mail.ru";
+    public static final String email4 = "test42tut.by";
     public static final String password = "1234test";
     public static final String user_name = "Alexa";
+    public static final String generate_user_name = MainPage.generateNewNumbers(Data.user_name, Data.lengthSecondPartOfName);
     public static final String phone_number = "14156576565";
+    public static final int lengthSecondPartOfName = 5;
     public static final String expectedTitleLogin = "Sign in";
     public static final String day = "15";
     public static final String month = "July";

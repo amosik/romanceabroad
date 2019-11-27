@@ -22,6 +22,7 @@ public class Locators {
     public static final By CONFIRMATION_CHECKBOX = By.cssSelector("#confirmation");
     public static final By EMAIL_INPUT_FIELD = By.xpath("//input[@name='email']");
     public static final By PASSWORD_INPUT_FIELD = By.xpath("//input[@name='password']");
+    public static final By TOOLTIP_ERROR_MESSAGE = By.xpath("//div[@class='tooltip']");
     public static final By SIGN_IN_BUTTON_MODAL_WINDOW = By.xpath("//div[@class='col-xs-12']//button[@type='submit']");
     public static final By SIGN_IN_BUTTON_LOGIN_FORM_PAGE = By.xpath("//div[@class='col-sm-12']//button[@type='submit']");
     public static final By JOIN_FOR_FREE_NOW_BUTTON = By.xpath("//button[@id='show-registration-block']");

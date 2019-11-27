@@ -71,10 +71,10 @@ public class MainPage extends BaseActions {
         driver.findElement(Locators.PHONE_INPUT_FIELD).sendKeys(phone_number);
         driver.findElement(Locators.AUTOFILLING_FORM_LOCATION).clear();
         driver.findElement(Locators.AUTOFILLING_FORM_LOCATION).sendKeys(city);
-        //wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.LIST_VALUE_LOCATION)));
         javaWaitSec(2);
         clickValueOfList(Locators.LIST_VALUE_LOCATION, location);
-        //driver.findElement(Locators.CONFIRMATION_CHECKBOX).click();
+        javaWaitSec(2);
+        driver.findElement(Locators.CONFIRMATION_CHECKBOX).click();
     }
 
     public WebElement emailInputField() {

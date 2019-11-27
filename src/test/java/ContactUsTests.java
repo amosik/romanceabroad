@@ -6,6 +6,6 @@ public class ContactUsTests extends BaseUI{
     public void contactAdministrator() {
         mainPage.clickHowWeWorkLink();
         howWeWorkPage.clickContactUsFooterHelp();
-        contactUsPage.fillContactAdministrationForm(Data.reason, Data.user_name, Data.email, Data.subject, Data.message);
+        contactUsPage.fillContactAdministrationForm(Data.reason, Data.user_name, Data.email1, Data.subject, Data.message);
     }
 }
