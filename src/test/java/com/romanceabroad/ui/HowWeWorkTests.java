@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -24,28 +26,28 @@ public class HowWeWorkTests extends BaseUI {
             links.get(i).click();
 
             if (Data.info.contains("Sign up")) {
-                Data.actualTitle = howWeWorkPage.getTitle();
+                Data.actualTitle = mainPage.getTitleH1();
                 Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleSignUp, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlSignUp, Data.actualUrl);
             }
 
             if (Data.info.contains("Login")) {
-                Data.actualTitle = howWeWorkPage.getTitle();
+                Data.actualTitle = mainPage.getTitleH1();
                 Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleLogin, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrl);
             }
 
             if (Data.info.contains("News")) {
-                Data.actualTitle = howWeWorkPage.getTitle();
+                Data.actualTitle = mainPage.getTitleH1();
                 Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleNews, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlNews, Data.actualUrl);
             }
 
             if (Data.info.contains("Polls")) {
-                Data.actualTitle = howWeWorkPage.getTitle();
+                Data.actualTitle = mainPage.getTitleH1();
                 Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleLogin, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrl);

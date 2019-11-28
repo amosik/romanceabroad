@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -84,4 +86,8 @@ public class MainTests extends BaseUI {
         mainPage.checkLinksOnWebPage("//img", "src");
     }
 
+    @Test
+    public void print() {
+        searchPage.javaWaitSec(3);
+    }
 }

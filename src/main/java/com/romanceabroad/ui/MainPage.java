@@ -1,8 +1,9 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -10,6 +11,15 @@ public class MainPage extends BaseActions {
     public MainPage(WebDriver driver, WebDriverWait wait) {
 
         super(driver, wait);
+    }
+
+    public void javaWaitSec(int sec) {
+        System.out.println("Child");
+        try {
+            Thread.sleep(sec * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public void clickHowWeWorkLink() {
@@ -52,7 +62,7 @@ public class MainPage extends BaseActions {
 
     public void completeFirstRegistrationPart(String email, String password) {
         javaWaitSec(3);
-        //wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.EMAIL)));
+        //wait.until(ExpectedConditions.visibilityOf(driver.findElement(com.romanceabroad.ui.Locators.EMAIL)));
         driver.findElement(Locators.EMAIL).sendKeys(email);
         driver.findElement(Locators.PASSWORD).sendKeys(password);
         driver.findElement(Locators.BUTTON_NEXT).click();
@@ -112,5 +122,9 @@ public class MainPage extends BaseActions {
         return links;
     }
 
+    public String getTitleH1() {
+        String text = driver.findElement(Locators.TITLE).getText();
+        return text;
+    }
 
 }

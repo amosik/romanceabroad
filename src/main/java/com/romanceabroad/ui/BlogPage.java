@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -21,6 +23,7 @@ public class BlogPage extends BaseActions {
     }
 
     public void clickBackButton() {
+
         driver.findElement(Locators.BACK_BUTTON_BLOG_PAGE).click();
     }
 

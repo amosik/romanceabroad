@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.By;
 
 public class Locators {
@@ -9,6 +11,7 @@ public class Locators {
     public static final By DROP_DOWN_SORT_BY = By.xpath("//div[@class='form-inline']//select");
     public static final By PHOTOS_OF_WOMEN = By.xpath("//a[@class='g-pic-border g-rounded']");
     public static final By DROP_DOWN_BY_NAME = By.xpath("//div[@class='form-inline']//option[@value='name']");
+    public static final By GET_INFO_ABOUT_USER = By.xpath("//div[@class='text-overflow']");
 
     //Registration page
     public static final By LINK_SIGN_IN = By.cssSelector("a[href='https://romanceabroad.com/users/login_form']");

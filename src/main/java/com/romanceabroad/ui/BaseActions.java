@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -17,10 +19,11 @@ public class BaseActions {
         this.driver = driver;
         this.wait = wait;
     }
-    public void getDropDownListByText(WebElement element, String text) {
+    public static void getDropDownListByText(WebElement element, String text) {
         Select select = new Select(element);
         select.selectByVisibleText(text);
     }
+
     public static String generateNewNumbers (String name, int length) {
         return name + RandomStringUtils.random(length, "123456789");
     }
@@ -56,6 +59,7 @@ public class BaseActions {
     }
 
     public void javaWaitSec(int sec) {
+        System.out.println("Parent!");
         try {
             Thread.sleep(sec * 1000);
         } catch (InterruptedException e) {

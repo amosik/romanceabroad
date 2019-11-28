@@ -1,3 +1,6 @@
+package com.romanceabroad.ui;
+
+import com.romanceabroad.ui.Data;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.ArrayList;

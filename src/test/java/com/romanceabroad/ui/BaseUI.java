@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -8,6 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
+
 import java.lang.reflect.Method;
 
 public class BaseUI {
@@ -25,7 +28,7 @@ public class BaseUI {
     @BeforeMethod
     @Parameters("browser")
     public void setup
-            (@Optional("chrome") String browser, Method method){
+            (@Optional("chrome") String browser, Method method) {
 
         // Check if parameter passed from TestNG is 'firefox'
         if (browser.equalsIgnoreCase("firefox")) {
@@ -66,7 +69,7 @@ public class BaseUI {
     @AfterMethod
     public void afterActions() {
 
-        //driver.quit();
+        driver.quit();
     }
 }
 
