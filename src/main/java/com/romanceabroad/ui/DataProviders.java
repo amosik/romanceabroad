@@ -17,7 +17,7 @@ public class DataProviders {
         return out.toArray(new Object[out.size()][]);
     }
 
-    @DataProvider(name = "RegistrationButton1")
+    @DataProvider(name = "RegistrationButton2")
     public static Object[][] testRegistrationButton1() throws Exception {
         ArrayList<Object[]> out = new ArrayList<>();
         Files.readAllLines(Paths.get("RegistrationButton.csv")).stream().forEach(s -> {
@@ -27,7 +27,7 @@ public class DataProviders {
         return out.toArray(new Object[out.size()][]);
     }
 
-    @DataProvider(name = "RegistrationButton2")
+    @DataProvider(name = "RegistrationButton1")
     public static Object[][] testRegistrationButton2() {
         return new Object[][]{
 
@@ -45,7 +45,7 @@ public class DataProviders {
                 {"18","80","Name"},
                 {"18","25","Default"},
                 {"30","40","Views"},
-                {"50","80","Registration date"}
+                {"50","80","Registration date"},
 
         };
     }

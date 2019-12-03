@@ -14,7 +14,6 @@ public class MainPage extends BaseActions {
     }
 
     public void javaWaitSec(int sec) {
-        System.out.println("Child");
         try {
             Thread.sleep(sec * 1000);
         } catch (InterruptedException e) {
@@ -23,31 +22,42 @@ public class MainPage extends BaseActions {
     }
 
     public void clickHowWeWorkLink() {
+
         driver.findElement(Locators.LINK_VIEW).click();
     }
 
-    public void openPhotosPage() {
+    public void clickPhotosLink() {
+
         driver.findElement(Locators.LINK_PHOTOS).click();
     }
 
     public void clickGiftsLink() {
-        driver.findElement(Locators.LINK_GIFT).click();
 
+        driver.findElement(Locators.LINK_GIFT).click();
     }
 
     public void clickTourToUkraineLink() {
+
         driver.findElements(LINK_TOUR).get(Data.indexLinkTour).click();
     }
 
     public void clickBlogLink() {
+
         driver.findElement(Locators.LINK_BLOG).click();
     }
 
     public void clickSignInLink() {
+
         driver.findElement(Locators.LINK_SIGN_IN).click();
     }
 
+    public void clickPrettyWomenLink() {
+
+        driver.findElement(Locators.LINK_SEARCH).click();
+    }
+
     public void clickJoinForFreeNowButton() {
+
         driver.findElement(Locators.JOIN_FOR_FREE_NOW_BUTTON).click();
     }
 
@@ -79,12 +89,11 @@ public class MainPage extends BaseActions {
         driver.findElement(Locators.BIRTHDATE_YEAR).click();
         clickValueOfList(Locators.BIRTHDATE_YEAR_SELECT, year);
         driver.findElement(Locators.PHONE_INPUT_FIELD).sendKeys(phone_number);
+        driver.findElement(Locators.CONFIRMATION_CHECKBOX).click();
         driver.findElement(Locators.AUTOFILLING_FORM_LOCATION).clear();
         driver.findElement(Locators.AUTOFILLING_FORM_LOCATION).sendKeys(city);
         javaWaitSec(2);
         clickValueOfList(Locators.LIST_VALUE_LOCATION, location);
-        javaWaitSec(2);
-        driver.findElement(Locators.CONFIRMATION_CHECKBOX).click();
     }
 
     public WebElement emailInputField() {
@@ -113,18 +122,11 @@ public class MainPage extends BaseActions {
         driver.findElement(Locators.YOUTUBE_BUTTON).click();
     }
 
-    public void openPrettyWomenPage() {
-        driver.findElement(Locators.LINK_SEARCH).click();
-    }
 
     public List<WebElement> tabLinks() {
         List<WebElement> links = driver.findElements(Locators.TAB_LINKS);
         return links;
     }
 
-    public String getTitleH1() {
-        String text = driver.findElement(Locators.TITLE).getText();
-        return text;
-    }
 
 }

@@ -18,94 +18,70 @@ public class BlogTests extends BaseUI {
             Data.info = infoContentUnderTitleBlog.get(i).getText();
             System.out.println(Data.info);
             infoContentUnderTitleBlog.get(i).click();
+            Data.actualTitle = mainPage.getTitleH1();
+            Data.actualUrl = driver.getCurrentUrl();
 
-            if (Data.info.contains("Kharkov Dating & Marriage Agency")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Kharkov dating agency")) {
                 Assert.assertEquals(Data.expectedTitleKharkov, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlKharkov, Data.actualUrl);
             }
 
-            if (Data.info.contains("Kiev marriage agency")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Kiev dating agency")) {
                 Assert.assertEquals(Data.expectedTitleKiev, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlKiev, Data.actualUrl);
             }
 
-            if (Data.info.contains("Odessa Dating Agency")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Odessa dating agency")) {
                 Assert.assertEquals(Data.expectedTitleOdessa, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlOdessa, Data.actualUrl);
             }
 
-            if (Data.info.contains("Mail Order Girls Catalog")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Mail order girls")) {
                 Assert.assertEquals(Data.expectedTitleMail, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlMail, Data.actualUrl);
             }
 
-            if (Data.info.contains("Beautiful Ukrainian Girls Online")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Beautiful ukrainian girls")) {
                 Assert.assertEquals(Data.expectedTitleUkrainianGirl, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlUkrainianGirl, Data.actualUrl);
             }
 
-            if (Data.info.contains("Beautiful Brides in Ukraine")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Real Ukrainian brides")) {
                 Assert.assertEquals(Data.expectedTitleUkrainianBride, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlUkrainianBride, Data.actualUrl);
             }
 
-            if (Data.info.contains("Eastern European Girls")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Eastern European women")) {
                 Assert.assertEquals(Data.expectedTitleUEuropeanGirl, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlEuropeanGirl, Data.actualUrl);
             }
 
-            if (Data.info.contains("Marriage And Dating Agency")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Marriage agency in Ukraine")) {
                 Assert.assertEquals(Data.expectedTitleMarriageAgency, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlMarriageAgency, Data.actualUrl);
             }
 
-            if (Data.info.contains("Kiev Matchmaking Agency")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Kiev dating site")) {
                 Assert.assertEquals(Data.expectedTitleDatingSite, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlDatingSite, Data.actualUrl);
             }
 
-            if (Data.info.contains("Find Ukrainian Girlfriend Online")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Find Ukrainian girlfriend")) {
                 Assert.assertEquals(Data.expectedTitleUkraineGirlfriend, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlUkraineGirlfriend, Data.actualUrl);
             }
 
-            if (Data.info.contains("Slavic Lady for Marriage")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Slavic women for marriage")) {
                 Assert.assertEquals(Data.expectedTitleSlavicLady, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlSlavicLady, Data.actualUrl);
             }
 
-            if (Data.info.contains("How To Marry Ukraine Women")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("How to marry Ukraine lady")) {
                 Assert.assertEquals(Data.expectedTitleHowToMarry, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlHowToMarry, Data.actualUrl);
             }
 
-            if (Data.info.contains("Ukrainian dating website for singles")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("Free Ukrainian dating site")) {
                 Assert.assertEquals(Data.expectedTitleForSingle, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlForSingle, Data.actualUrl);
             }
@@ -136,45 +112,35 @@ public class BlogTests extends BaseUI {
             Data.info = infoMenuLeftSide.get(i).getText();
             System.out.println(Data.info);
             infoMenuLeftSide.get(i).click();
+            Data.actualTitle = mainPage.getTitleH1();
+            Data.actualUrl = driver.getCurrentUrl();
 
             if (Data.info.contains("Advertising")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleAdvertising, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlAdvertising, Data.actualUrl);
             }
 
             if (Data.info.contains("Terms of use")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleTermsOfUse, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlTermsOfUse, Data.actualUrl);
             }
 
             if (Data.info.contains("Privacy Policy")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitlePrivacyPolicy, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlPrivacyPolicy, Data.actualUrl);
             }
 
-            if (Data.info.contains("Ukrainian women for marriage")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
+            if (Data.info.contains("How it works")) {
                 Assert.assertEquals(Data.expectedTitleUkrainianWomenForMarriage, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlUkrainianWomenForMarriage, Data.actualUrl);
             }
 
             if (Data.info.contains("Shipping terms")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleShipping, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlShipping, Data.actualUrl);
             }
 
             if (Data.info.contains("Travel to Ukraine")) {
-                Data.actualTitle = mainPage.getTitleH1();
-                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleTravel, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlTravel, Data.actualUrl);
             }

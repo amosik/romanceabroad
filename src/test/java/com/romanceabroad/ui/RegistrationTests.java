@@ -20,7 +20,7 @@ public class RegistrationTests extends BaseUI {
     }
 
 
-    @Test(dataProvider = "RegistrationButton2", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "RegistrationButton1", dataProviderClass = DataProviders.class)
     public void joinForFreeNowButton1(String email, String name, boolean requirement) {
         System.out.println(email);
         mainPage.clickJoinForFreeNowButton();
@@ -33,7 +33,7 @@ public class RegistrationTests extends BaseUI {
         }
     }
 
-    @Test(dataProvider = "RegistrationButton1", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "RegistrationButton2", dataProviderClass = DataProviders.class)
     public void joinForFreeNowButton2(String email, String password, String day, String month, String year,
                                       String phone_number, String city, String location){
         mainPage.clickJoinForFreeNowButton();

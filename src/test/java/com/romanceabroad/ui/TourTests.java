@@ -10,6 +10,5 @@ public class TourTests extends BaseUI {
         mainPage.clickTourToUkraineLink();
 
     }
-
 }
 

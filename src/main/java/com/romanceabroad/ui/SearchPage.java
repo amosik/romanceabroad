@@ -21,16 +21,17 @@ public class SearchPage extends BaseActions {
         driver.findElement(Locators.BUTTON_SEARCH).click();
     }
 
-    public List<WebElement> infoAboutUser() {
+    public List<WebElement> getInfoAboutUser() {
         List<WebElement> links = driver.findElements(Locators.GET_INFO_ABOUT_USER);
         return links;
     }
 
-    public void setDropDownByMinAgeByMaxAgeBySort(String minAge, String maxAge, String sortBy) {
+   /* public void setDropDownByMinAgeByMaxAgeBySort(String minAge, String maxAge, String sortBy) {
         driver.findElement(Locators.LINK_SEARCH).click();
-        MainPage.getDropDownListByText(driver.findElement(Locators.DROP_DOWN_MIN_AGE), minAge);
-        MainPage.getDropDownListByText(driver.findElement(Locators.DROP_DOWN_MAX_AGE), maxAge);
-        MainPage.getDropDownListByText(driver.findElement(Locators.DROP_DOWN_SORT_BY), sortBy);
+        getDropDownListByText(Locators.DROP_DOWN_MIN_AGE, minAge);
+        getDropDownListByText(Locators.DROP_DOWN_MAX_AGE, maxAge);
+        getDropDownListByText(Locators.DROP_DOWN_SORT_BY, sortBy);
         driver.findElement(Locators.BUTTON_SEARCH).click();
-    }
+    }*/
+
 }

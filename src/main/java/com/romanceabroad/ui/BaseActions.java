@@ -19,13 +19,54 @@ public class BaseActions {
         this.driver = driver;
         this.wait = wait;
     }
-    public static void getDropDownListByText(WebElement element, String text) {
+
+    public String getTitleH1() {
+        String text = driver.findElement(Locators.TITLE).getText();
+        return text;
+    }
+
+    public void getDropDownListByText(WebElement element, String text) {
         Select select = new Select(element);
         select.selectByVisibleText(text);
     }
 
+    public void getDropDownListByText(By locator, String text) {
+        Select select = new Select(driver.findElement(locator));
+        select.selectByVisibleText(text);
+    }
+
+    //Method for random choice from drop down list
+    public void selectItemDropDownRandomOption(By locator, String dropDownName) {
+        try {
+            WebElement element = driver.findElement(locator);
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+            Select select = new Select(driver.findElement(locator));
+            select.selectByIndex((int) (Math.random() * (select.getOptions().size() - 1)) + 1);
+            System.out.println(dropDownName + ": " + select.getFirstSelectedOption().getText());
+        } catch (NoSuchElementException e) {
+        }
+    }
+
+    public int getSizeDropDownList(By locator) {
+        try {
+            WebElement element = driver.findElement(locator);
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+            Select select = new Select(driver.findElement(locator));
+            return select.getOptions().size();
+
+        } catch (java.util.NoSuchElementException e) {
+            System.out.println("getSizeDropDownList error");
+        }
+        return 0;
+
+    }
+
     public static String generateNewNumbers (String name, int length) {
         return name + RandomStringUtils.random(length, "123456789");
+    }
+
+    public void ajaxSendKeys(WebElement element, String text) {
+        ((JavascriptExecutor)driver).executeScript("arguments[0].setAttribute('value', '" + text + "')", element);
     }
 
     public void ajaxClick(WebElement element){
@@ -59,27 +100,10 @@ public class BaseActions {
     }
 
     public void javaWaitSec(int sec) {
-        System.out.println("Parent!");
         try {
             Thread.sleep(sec * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
-    }
-
-    public void ajaxSendKeys(WebElement element, String text) {
-        ((JavascriptExecutor)driver).executeScript("arguments[0].setAttribute('value', '" + text + "')", element);
-    }
-
-    //Method for random choice from drop down list
-    public void selectItemDropDownRandomOption(By locator, String dropDownName) {
-        try {
-            WebElement element = driver.findElement(locator);
-            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-            Select select = new Select(driver.findElement(locator));
-            select.selectByIndex((int) (Math.random() * (select.getOptions().size() - 1)) + 1);
-            System.out.println(dropDownName + ": " + select.getFirstSelectedOption().getText());
-        } catch (NoSuchElementException e) {
         }
     }
 
@@ -109,20 +133,6 @@ public class BaseActions {
             }catch (Exception e){
                 e.printStackTrace();
             }
-        }
-
-        public int getSizeDropDownList(By locator) {
-        try {
-            WebElement element = driver.findElement(locator);
-            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-            Select select = new Select(driver.findElement(locator));
-            return select.getOptions().size();
-
-        } catch (java.util.NoSuchElementException e) {
-            System.out.println("getSizeDropDownList error");
-        }
-        return 0;
-
         }
 
     public void clickValueOfList(By locator, String text) {

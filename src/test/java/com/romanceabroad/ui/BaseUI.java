@@ -18,7 +18,7 @@ public class BaseUI {
     WebDriverWait wait;
     MainPage mainPage;
     SearchPage searchPage;
-    MediaPage mediaPage;
+    PhotosPage photosPage;
     HowWeWorkPage howWeWorkPage;
     ContactUsPage contactUsPage;
     BlogPage blogPage;
@@ -58,7 +58,7 @@ public class BaseUI {
         wait = new WebDriverWait(driver, 20);
         mainPage = new MainPage(driver, wait);
         searchPage = new SearchPage(driver, wait);
-        mediaPage = new MediaPage(driver, wait);
+        photosPage = new PhotosPage(driver, wait);
         howWeWorkPage = new HowWeWorkPage(driver, wait);
         contactUsPage = new ContactUsPage(driver, wait);
         blogPage = new BlogPage(driver, wait);
@@ -69,7 +69,7 @@ public class BaseUI {
     @AfterMethod
     public void afterActions() {
 
-        driver.quit();
+        //driver.quit();
     }
 }
 

@@ -19,7 +19,7 @@ public class Data {
     public static final int lengthSecondPartOfName = 5;
     public static final String expectedTitleLogin = "Sign in";
     public static final String day = "15";
-    public static final String month = "July";
+    public static final String month = "Jul";
     public static final String year = "1992";
     public static final String city = "Sydney";
     public static final String location = "North Sydney, State of New South Wales, Australia";
@@ -48,9 +48,14 @@ public class Data {
     public static final String check2 = "Flight tickets";
     public static final String expectedUrlTourToUkraine = "https://romanceabroad.com/store/sweets/20-tour_to_ukraine";
 
-    //Media page
+    //Photos page
     public static final String expectedTitlePhotos = "Ukrainian women photos";
     public static final String expectedUrlPhotos = "https://romanceabroad.com/media/index";
+    public static final String expectedTitleGallery = "Ukrainian women photos";
+    public static final String expectedTitleAllPhotos = "Gallery";
+    public static final String expectedTitlePhoto = "Photo gallery";
+    public static final String expectedTitleVideo = "Video gallery";
+    public static final String expectedTitleAlbums = "Gallery albums";
 
     //Blog page
     //public static String actualUrlBlog;

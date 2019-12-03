@@ -3,6 +3,12 @@ package com.romanceabroad.ui;
 import org.openqa.selenium.By;
 
 public class Locators {
+
+    //Main page
+    public static final By TAB_LINKS = By.xpath("//ul[@class='navbar-nav']//li");
+    public static final By YOUTUBE_BUTTON = By.cssSelector(".ytp-large-play-button.ytp-button");
+    public static final By YOUTUBE_LINK = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
+
     //Search page
     public static final By LINK_SEARCH = By.cssSelector("a[href='https://romanceabroad.com/users/search']");
     public static final By DROP_DOWN_MAX_AGE = By.cssSelector("select#age_max");
@@ -37,13 +43,13 @@ public class Locators {
     public static final By AUTOFILLING_FORM_LOCATION = By.xpath("//div[@class='input-group countries-input__input-group']//input[@class='form-control']");
 
 
-    //Media page
+    //Photos page
     public static final By LINK_PHOTOS = By.xpath("//a[text()='PHOTOS']");
     public static final By DROP_DOWN_MEDIA = By.xpath("//span[@id='gallery_media_sorter']//select[@class='form-control']");
-    public static final By TAB_LINKS = By.xpath("//ul[@class='navbar-nav']//li");
     public static final By TAB_HOME = By.xpath("//a[text()='HOME']");
     public static final By PHOTO_VIDEO_ALBUMS = By.xpath("//li[@class='b-tabs__item ']");
     public static final By DROP_DOWN_MEDIA_BY_VIEWS_COUNT = By.xpath("//select[@class='form-control']//option[@value='views']");
+    public static final By LINKS_TAB_USER_PROFILE = By.xpath("//ul[@id='gallery_filters']//a");
 
 
     //Blog page
@@ -65,10 +71,6 @@ public class Locators {
     public static final By GIFT_TITLE = By.cssSelector(".title");
     public static final By BESTSELLERS = By.xpath("//div[@class='text-overflow']");
     public static final By BESTSELLERS_QUICK_VIEW = By.xpath("//div[@class='title-block pt5']");
-
-    //Main page youtube
-    public static final By YOUTUBE_BUTTON = By.cssSelector(".ytp-large-play-button.ytp-button");
-    public static final By YOUTUBE_LINK = By.xpath("//iframe[@src='https://www.youtube.com/embed/RRECuJzm3IY?start=85']");
 
     //Tour to Ukraine page
     public static final By PAY_WITH_PAYPAL_BUTTON = By.xpath("//a[@class='btn btn-primary btn-block'][@href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CNUP836ZN9G36']");

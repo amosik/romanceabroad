@@ -82,7 +82,7 @@ public class MainTests extends BaseUI {
     public void testLinksOnHowWeWorkPage() {
         mainPage.checkLinksOnWebPage("//a", "href");
         mainPage.checkLinksOnWebPage("//img", "src");
-        mainPage.openPrettyWomenPage();
+        mainPage.clickPrettyWomenLink();
         mainPage.checkLinksOnWebPage("//img", "src");
     }
 
