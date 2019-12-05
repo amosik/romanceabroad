@@ -22,6 +22,7 @@ public class BaseUI {
     HowWeWorkPage howWeWorkPage;
     ContactUsPage contactUsPage;
     BlogPage blogPage;
+    UserProfilePage userProfilePage;
     SoftAssert softAssert = new SoftAssert();
 
 
@@ -62,6 +63,7 @@ public class BaseUI {
         howWeWorkPage = new HowWeWorkPage(driver, wait);
         contactUsPage = new ContactUsPage(driver, wait);
         blogPage = new BlogPage(driver, wait);
+        userProfilePage = new UserProfilePage(driver,wait);
         driver.manage().window().maximize();
         driver.get(Data.mainUrl);
     }
@@ -69,7 +71,7 @@ public class BaseUI {
     @AfterMethod
     public void afterActions() {
 
-        //driver.quit();
+       driver.quit();
     }
 }
 

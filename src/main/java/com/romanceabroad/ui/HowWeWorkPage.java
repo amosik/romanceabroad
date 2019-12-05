@@ -18,6 +18,7 @@ public class HowWeWorkPage extends BaseActions {
     }
 
     public void clickContactUsFooterHelp() {
+
         driver.findElement(Locators.FOOTER_HELP).click();
     }
 

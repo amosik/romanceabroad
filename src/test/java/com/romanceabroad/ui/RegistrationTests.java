@@ -1,6 +1,5 @@
 package com.romanceabroad.ui;
 
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -10,11 +9,9 @@ public class RegistrationTests extends BaseUI {
     public void signInLink(String email) {
         mainPage.clickSignInLink();
         mainPage.completeRegistration(email, Data.password);
-        WebElement emailField = mainPage.emailInputField();
-        mainPage.ajaxSendKeys(emailField, email);
-        WebElement passwordField = mainPage.passwordInputField();
-        mainPage.ajaxSendKeys(passwordField, Data.password);
-        mainPage.ajaxClick(Locators.SIGN_IN_BUTTON_LOGIN_FORM_PAGE);
+        if (driver.findElement(Locators.EMAIL_AND_PASSWORD_FIELD).isDisplayed()) {
+            Assert.assertTrue(driver.findElement(Locators.ALLERT_ERROR_MESSAGE).isDisplayed());
+        }
         Data.actualUrl = driver.getCurrentUrl();
         Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrl);
     }

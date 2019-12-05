@@ -3,6 +3,7 @@ package com.romanceabroad.ui;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.util.List;
 
 public class MainTests extends BaseUI {
@@ -15,9 +16,9 @@ public class MainTests extends BaseUI {
     @Test
     public void home() {
         WebElement tabSearch = mainPage.tabHome();
-        if(tabSearch.isDisplayed()){
+        if (tabSearch.isDisplayed()) {
             tabSearch.click();
-        }else {
+        } else {
             Assert.fail("I can't find HOME tab");
         }
     }
@@ -26,7 +27,7 @@ public class MainTests extends BaseUI {
     public void tabLinks() {
         List<WebElement> links = mainPage.tabLinks();
         System.out.println(links.size());
-        for (int i = 0; i < links.size() ; i++) {
+        for (int i = 0; i < links.size(); i++) {
             Data.info = links.get(i).getText();
             System.out.println(Data.info);
             links.get(i).click();
@@ -46,29 +47,29 @@ public class MainTests extends BaseUI {
             }
 
             if (Data.info.contains("PHOTOS")) {
-             Data.actualTitle = driver.findElement(Locators.TITLE).getText();
-             Data.actualUrl = driver.getCurrentUrl();
+                Data.actualTitle = driver.findElement(Locators.TITLE).getText();
+                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitlePhotos, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlPhotos, Data.actualUrl);
             }
 
             if (Data.info.contains("GIFT")) {
-             Data.actualTitle = driver.findElement(Locators.GIFT_TITLE).getText();
-             Data.actualUrl = driver.getCurrentUrl();
+                Data.actualTitle = driver.findElement(Locators.GIFT_TITLE).getText();
+                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleGifts, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlGifts, Data.actualUrl);
             }
 
             if (Data.info.contains("TOUR TO UKRAINE")) {
-             Data.actualTitle = driver.findElement(Locators.TITLE).getText();
-             Data.actualUrl = driver.getCurrentUrl();
+                Data.actualTitle = driver.findElement(Locators.TITLE).getText();
+                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleTourToUkraine, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlTourToUkraine, Data.actualUrl);
             }
 
             if (Data.info.contains("BLOG")) {
-             Data.actualTitle = driver.findElement(Locators.TITLE).getText();
-             Data.actualUrl = driver.getCurrentUrl();
+                Data.actualTitle = driver.findElement(Locators.TITLE).getText();
+                Data.actualUrl = driver.getCurrentUrl();
                 Assert.assertEquals(Data.expectedTitleBlog, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrBlog, Data.actualUrl);
             }

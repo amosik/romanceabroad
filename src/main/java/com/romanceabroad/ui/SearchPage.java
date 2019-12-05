@@ -26,6 +26,11 @@ public class SearchPage extends BaseActions {
         return links;
     }
 
+    public List<WebElement> getInfoAboutUserByName() {
+        List<WebElement> name = driver.findElements(Locators.GET_INFO_ABOUT_USER_BY_NAME);
+        return name;
+    }
+
    /* public void setDropDownByMinAgeByMaxAgeBySort(String minAge, String maxAge, String sortBy) {
         driver.findElement(Locators.LINK_SEARCH).click();
         getDropDownListByText(Locators.DROP_DOWN_MIN_AGE, minAge);

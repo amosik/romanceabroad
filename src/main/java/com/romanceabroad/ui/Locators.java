@@ -15,9 +15,10 @@ public class Locators {
     public static final By DROP_DOWN_MIN_AGE = By.cssSelector("select#age_min");
     public static final By BUTTON_SEARCH = By.cssSelector("input#main_search_button_user_advanced");
     public static final By DROP_DOWN_SORT_BY = By.xpath("//div[@class='form-inline']//select");
-    public static final By PHOTOS_OF_WOMEN = By.xpath("//a[@class='g-pic-border g-rounded']");
+    public static final By GALLERY_PHOTOS_OF_WOMEN = By.xpath("//div[@class='g-users-gallery__content']");
     public static final By DROP_DOWN_BY_NAME = By.xpath("//div[@class='form-inline']//option[@value='name']");
     public static final By GET_INFO_ABOUT_USER = By.xpath("//div[@class='text-overflow']");
+    public static final By GET_INFO_ABOUT_USER_BY_NAME = By.xpath("//a[@class='g-users-gallery__name']");
 
     //Registration page
     public static final By LINK_SIGN_IN = By.cssSelector("a[href='https://romanceabroad.com/users/login_form']");
@@ -41,6 +42,8 @@ public class Locators {
     public static final By BIRTHDATE_YEAR_SELECT = By.xpath("//ul//li[@data-handler='selectYear']");
     public static final By LIST_VALUE_LOCATION = By.xpath("//div[@class='dropdown dropdown_location']//li");
     public static final By AUTOFILLING_FORM_LOCATION = By.xpath("//div[@class='input-group countries-input__input-group']//input[@class='form-control']");
+    public static final By EMAIL_AND_PASSWORD_FIELD = By.xpath("//input[@class='form-control']");
+    public static final By ALLERT_ERROR_MESSAGE = By.xpath("//div[@class='error alert-danger alert-warning_pop_']");
 
 
     //Photos page
@@ -50,6 +53,8 @@ public class Locators {
     public static final By PHOTO_VIDEO_ALBUMS = By.xpath("//li[@class='b-tabs__item ']");
     public static final By DROP_DOWN_MEDIA_BY_VIEWS_COUNT = By.xpath("//select[@class='form-control']//option[@value='views']");
     public static final By LINKS_TAB_USER_PROFILE = By.xpath("//ul[@id='gallery_filters']//a");
+    public static final By ALBUMS = By.xpath("//span[@data-click='album']");
+    public static final By TEXT_VIDEO_TAB = By.cssSelector("#gallery");
 
 
     //Blog page
@@ -82,6 +87,18 @@ public class Locators {
     public static final By MESSAGE = By.cssSelector("textarea[name='message']");
     public static final By REASON_DROP_DOWN_LIST_CONTACT_US_PAGE = By.xpath("//select[@name='id_reason']");
     public static final By LIST_OF_REASONS = By.xpath("//select[@name='id_reason']//option");
+
+    //User profile page
+    public static final By MAIN_PHOTO = By.cssSelector("#user_photo");
+    public static final By USER_PROFILE_DESCRIPTION = By.cssSelector(".description");
+    public static final By GET_NAME_ITEM = By.xpath("//a[@id='breadcrumb_']//span[@itemprop='title']");
+    public static final By PROFILE_MENU = By.xpath("//div[@class='description']//li");
+    public static final By SEND_MESSAGE_BUTTON = By.xpath("//button[@class='btn btn-primary ellipsis btn-block']");
+    public static final By USER_INFO = By.xpath("//div[@class='user-description mb10']");
+    public static final By THREE_DOTS_BUTTON = By.xpath("//button[@id='services-menu']");
+    public static final By USER_MENU_ACTION = By.xpath("//div[@class='popover-content']//dd");
+
+
 
     //Common
     public static final By TITLE = By.xpath("//h1");

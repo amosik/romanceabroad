@@ -24,6 +24,7 @@ public class Data {
     public static final String city = "Sydney";
     public static final String location = "North Sydney, State of New South Wales, Australia";
     public static final String expectedUrlLoginForm = "https://romanceabroad.com/users/login_form";
+    public static final String expectedUrlLoginFormSlash = "https://romanceabroad.com/users/login_form/";
     public static final String expectedUrlSignUp = "https://romanceabroad.com/users/registration/";
 
     //Search page
@@ -56,6 +57,7 @@ public class Data {
     public static final String expectedTitlePhoto = "Photo gallery";
     public static final String expectedTitleVideo = "Video gallery";
     public static final String expectedTitleAlbums = "Gallery albums";
+    public static final String expectedText = "No media";
 
     //Blog page
     //public static String actualUrlBlog;
@@ -116,6 +118,11 @@ public class Data {
     public static String title;
     public static String phrase;
     public static String element;
+
+    //User profile page
+    public static String nameTitle;
+    public static String nameItem;
+    public static String buttonName = "Send message";
 
     //Common
     public static String actualTitle;

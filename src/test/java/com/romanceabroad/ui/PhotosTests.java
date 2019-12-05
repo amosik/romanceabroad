@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class PhotosTests extends BaseUI{
+public class PhotosTests extends BaseUI {
 
     @Test
     public void media() {
@@ -25,19 +25,24 @@ public class PhotosTests extends BaseUI{
         for (int i = 0; i < userTabs.size(); i++) {
             userTabs.get(i).click();
             Data.actualTitle = mainPage.getTitleH1();
-            if (i == 0){
+            if (i == 0) {
                 Assert.assertEquals(Data.actualTitle, Data.expectedTitleAllPhotos);
-            }else if(i == 1){
+            } else if (i == 1) {
                 Assert.assertEquals(Data.actualTitle, Data.expectedTitlePhoto);
-            }else if(i == 2){
+            } else if (i == 2) {
                 Assert.assertEquals(Data.actualTitle, Data.expectedTitleVideo);
-            }else if(i == 3){
+                mainPage.javaWaitSec(3);
+                Assert.assertEquals(photosPage.getTextVideoTab(), Data.expectedText);
+                System.out.println(photosPage.getTextVideoTab() + " " + Data.expectedText);
+            } else if (i == 3) {
                 Assert.assertEquals(Data.actualTitle, Data.expectedTitleAlbums);
+                mainPage.javaWaitSec(3);
+                Assert.assertTrue(driver.findElement(Locators.ALBUMS).isDisplayed());
             }
 
             userTabs = photosPage.getUserProfileLinks();
 
-        }
 
+        }
     }
 }

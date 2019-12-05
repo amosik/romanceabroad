@@ -3,6 +3,7 @@ package com.romanceabroad.ui;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.util.List;
 
 public class SearchTests extends BaseUI {
@@ -59,15 +60,14 @@ public class SearchTests extends BaseUI {
                 int ageNum = Integer.parseInt(age);
 
                 if (min <= ageNum || ageNum <= max) {
-                    System.out.println("This age: " + ageNum + " is correct" );
-                }else {
+                    System.out.println("This age: " + ageNum + " is correct");
+                } else {
                     Assert.fail("Wrong age " + ageNum);
                 }
             }
         }
         mainPage.javaWaitSec(3);
         infoAboutUser = searchPage.getInfoAboutUser();
-
 
 
     }

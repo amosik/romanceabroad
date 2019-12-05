@@ -2,7 +2,7 @@ package com.romanceabroad.ui;
 
 import org.testng.annotations.Test;
 
-public class GiftsTests extends BaseUI{
+public class GiftsTests extends BaseUI {
 
     @Test
     public void gifts() {

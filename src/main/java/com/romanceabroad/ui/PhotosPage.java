@@ -22,4 +22,9 @@ public class PhotosPage extends BaseActions {
         return userProfileLinks;
     }
 
+    public String getTextVideoTab() {
+        String getText = driver.findElement(Locators.TEXT_VIDEO_TAB).getText();
+        return getText;
+    }
+
 }
