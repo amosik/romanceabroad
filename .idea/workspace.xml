@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8fe7450-f501-41a3-8e32-f4a97557cc3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/UserProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/UserProfileTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/HowWeWorkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/HowWeWorkPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/PhotosPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/PhotosPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BlogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BlogTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/ConditionsActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/ConditionsActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/ContactUsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/ContactUsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/GiftsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/GiftsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/HowWeWorkTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/HowWeWorkTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/MainTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/MainTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,17 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HowWeWorkTests.topLeftNavigationMenu">
-    <configuration name="C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="HowWeWorkTests.topLeftNavigationMenu" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
@@ -115,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.signInLink" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.joinForFreeButton3NegativeTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -125,7 +100,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
       <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
-      <option name="METHOD_NAME" value="signInLink" />
+      <option name="METHOD_NAME" value="joinForFreeButton3NegativeTests" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserProfileTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.joinForFreeButton3NegativeTestsEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +117,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.UserProfileTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
+      <option name="METHOD_NAME" value="joinForFreeButton3NegativeTestsEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTests.joinForFreeButton3NegativeTestsPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
+      <option name="METHOD_NAME" value="joinForFreeButton3NegativeTestsPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.UserProfileTests.test" />
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.RegistrationTests.signInLink" />
-      <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
       <item itemvalue="TestNG.HowWeWorkTests.topLeftNavigationMenu" />
+      <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTests" />
+      <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTestsPassword" />
+      <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTestsEmail" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HowWeWorkTests.topLeftNavigationMenu" />
         <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.RegistrationTests.signInLink" />
-        <item itemvalue="TestNG.UserProfileTests.test" />
-        <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
+        <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTestsPassword" />
+        <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTestsEmail" />
+        <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTests" />
+        <item itemvalue="TestNG.HowWeWorkTests.topLeftNavigationMenu" />
       </list>
     </recent_temporary>
   </component>

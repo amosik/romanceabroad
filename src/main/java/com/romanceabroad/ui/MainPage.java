@@ -78,6 +78,19 @@ public class MainPage extends BaseActions {
         driver.findElement(Locators.BUTTON_NEXT).click();
     }
 
+    public void completeFirstRegistrationPartNegativeEmail(String email) {
+        driver.findElement(Locators.EMAIL).sendKeys(email);
+        driver.findElement(Locators.PASSWORD).sendKeys(Data.password);
+        driver.findElement(Locators.BUTTON_NEXT).click();
+    }
+
+    public void completeFirstRegistrationPartNegativePassword(String password) {
+        driver.findElement(Locators.EMAIL).sendKeys(Data.email1);
+        driver.findElement(Locators.PASSWORD).sendKeys(password);
+        driver.findElement(Locators.EMAIL).click();
+        driver.findElement(Locators.BUTTON_NEXT).click();
+    }
+
     public void completeSecondRegistrationPart(String user_name, String day, String month, String year,
                                                String phone_number, String city, String location) {
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);

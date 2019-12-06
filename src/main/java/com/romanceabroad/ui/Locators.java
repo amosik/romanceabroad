@@ -42,7 +42,8 @@ public class Locators {
     public static final By BIRTHDATE_YEAR_SELECT = By.xpath("//ul//li[@data-handler='selectYear']");
     public static final By LIST_VALUE_LOCATION = By.xpath("//div[@class='dropdown dropdown_location']//li");
     public static final By AUTOFILLING_FORM_LOCATION = By.xpath("//div[@class='input-group countries-input__input-group']//input[@class='form-control']");
-    public static final By EMAIL_AND_PASSWORD_FIELD = By.xpath("//input[@class='form-control']");
+    public static final By EMAIL_AND_PASSWORD_FIELDS_LOGIN_FORM_PAGE = By.xpath("//input[@class='form-control']");
+    public static final By EMAIL_AND_PASSWORD_FIELDS_MODAL_WINDOW = By.xpath("//div[@class='form-group row']//input[@data-action='validation']");
     public static final By ALLERT_ERROR_MESSAGE = By.xpath("//div[@class='error alert-danger alert-warning_pop_']");
 
 

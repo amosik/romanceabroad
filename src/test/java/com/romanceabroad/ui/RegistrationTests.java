@@ -9,7 +9,7 @@ public class RegistrationTests extends BaseUI {
     public void signInLink(String email) {
         mainPage.clickSignInLink();
         mainPage.completeRegistration(email, Data.password);
-        if (driver.findElement(Locators.EMAIL_AND_PASSWORD_FIELD).isDisplayed()) {
+        if (driver.findElement(Locators.EMAIL_AND_PASSWORD_FIELDS_LOGIN_FORM_PAGE).isDisplayed()) {
             Assert.assertTrue(driver.findElement(Locators.ALLERT_ERROR_MESSAGE).isDisplayed());
         }
         Data.actualUrl = driver.getCurrentUrl();
@@ -32,12 +32,33 @@ public class RegistrationTests extends BaseUI {
 
     @Test(dataProvider = "RegistrationButton2", dataProviderClass = DataProviders.class)
     public void joinForFreeNowButton2(String email, String password, String day, String month, String year,
-                                      String phone_number, String city, String location){
+                                      String phone_number, String city, String location) {
         mainPage.clickJoinForFreeNowButton();
         mainPage.completeFirstRegistrationPart(email, password);
         mainPage.completeSecondRegistrationPart(mainPage.generateNewNumbers(Data.user_name, 5), day, month,
                 year, phone_number, city, location);
     }
-}
 
+    @Test(dataProvider = "RegistrationButton3FirstPartEmail", dataProviderClass = DataProviders.class)
+    public void joinForFreeButton3NegativeTestsEmail(String email, boolean requirement) {
+        mainPage.clickJoinForFreeNowButton();
+        mainPage.completeFirstRegistrationPartNegativeEmail(email);
+        if (!requirement) {
+            Assert.assertTrue(driver.findElement(Locators.TOOLTIP_ERROR_MESSAGE).isDisplayed());
+            Assert.assertTrue(driver.findElement(Locators.EMAIL_AND_PASSWORD_FIELDS_MODAL_WINDOW).isDisplayed());
+        }
+    }
+
+    @Test(dataProvider = "RegistrationButton3FirstPartPassword", dataProviderClass = DataProviders.class)
+    public void joinForFreeButton3NegativeTestsPassword(String password, boolean requirement){
+        mainPage.clickJoinForFreeNowButton();
+        mainPage.completeFirstRegistrationPartNegativePassword(password);
+        if (!requirement) {
+            Assert.assertTrue(driver.findElement(Locators.TOOLTIP_ERROR_MESSAGE).isDisplayed());
+            Assert.assertTrue(driver.findElement(Locators.EMAIL_AND_PASSWORD_FIELDS_MODAL_WINDOW).isDisplayed());
+            }
+
+        }
+
+}
 
