@@ -16,6 +16,28 @@ public class RegistrationTests extends BaseUI {
         Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrl);
     }
 
+    @Test(dataProvider = "RegistrationButton3FirstPartEmail", dataProviderClass = DataProviders.class)
+    public void signInLinkNegativeEmail(String email, boolean requirement) {
+        mainPage.clickSignInLink();
+        mainPage.signInNegativeEmail(email);
+        if (!requirement) {
+            Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrl);
+            Assert.assertTrue(driver.findElement(Locators.ALLERT_ERROR_MESSAGE).isDisplayed());
+        }
+    }
+
+    @Test(dataProvider = "RegistrationButton3FirstPartPassword", dataProviderClass = DataProviders.class)
+    public void signInLinkNegativePassword(String password, boolean requirement) {
+        mainPage.clickSignInLink();
+        mainPage.signInNegativePassword(password);
+        if (!requirement) {
+            Assert.assertEquals(Data.expectedUrlLoginForm, Data.actualUrl);
+            Assert.assertTrue(driver.findElement(Locators.ALLERT_ERROR_MESSAGE).isDisplayed());
+        }
+    }
+
+
+
 
     @Test(dataProvider = "RegistrationButton1", dataProviderClass = DataProviders.class)
     public void joinForFreeNowButton1(String email, String name, boolean requirement) {

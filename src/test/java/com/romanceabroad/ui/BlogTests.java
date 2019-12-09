@@ -127,7 +127,7 @@ public class BlogTests extends BaseUI {
             }
 
             if (Data.info.contains("Privacy Policy")) {
-                Assert.assertEquals(Data.expectedTitlePrivacyPolicy, Data.actualTitle);
+                Assert.assertEquals(Data.expectedTitlePrivacy, Data.actualTitle);
                 Assert.assertEquals(Data.expectedUrlPrivacyPolicy, Data.actualUrl);
             }
 

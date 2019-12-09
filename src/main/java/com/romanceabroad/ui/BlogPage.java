@@ -18,7 +18,7 @@ public class BlogPage extends BaseActions {
     }
 
     public List<WebElement>infoMenu(){
-        List<WebElement> infoMenuLeftSide = driver.findElements(Locators.INFO_MENU_LEFT_SIDE);
+        List<WebElement> infoMenuLeftSide = driver.findElements(Locators.INFO_MENU_22LINKS_LEFT_SIDE);
         return infoMenuLeftSide;
     }
 

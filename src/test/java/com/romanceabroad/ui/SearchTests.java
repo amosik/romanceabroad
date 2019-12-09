@@ -65,9 +65,8 @@ public class SearchTests extends BaseUI {
                     Assert.fail("Wrong age " + ageNum);
                 }
             }
+            infoAboutUser = searchPage.getInfoAboutUser();
         }
-        mainPage.javaWaitSec(3);
-        infoAboutUser = searchPage.getInfoAboutUser();
 
 
     }

@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8fe7450-f501-41a3-8e32-f4a97557cc3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/FooterTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BlogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BlogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/HowWeWorkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/HowWeWorkPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BlogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BlogTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,26 +79,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
-    <configuration name="HowWeWorkTests.topLeftNavigationMenu" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.romanceabroad.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.HowWeWorkTests" />
-      <option name="METHOD_NAME" value="topLeftNavigationMenu" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationTests.joinForFreeButton3NegativeTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RegistrationTests">
+    <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -100,15 +90,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
       <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
-      <option name="METHOD_NAME" value="joinForFreeButton3NegativeTests" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.joinForFreeButton3NegativeTestsEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.signInLink" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +107,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
       <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
-      <option name="METHOD_NAME" value="joinForFreeButton3NegativeTestsEmail" />
+      <option name="METHOD_NAME" value="signInLink" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.joinForFreeButton3NegativeTestsPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.signInLinkNegativeEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +125,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
       <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
-      <option name="METHOD_NAME" value="joinForFreeButton3NegativeTestsPassword" />
+      <option name="METHOD_NAME" value="signInLinkNegativeEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTests.signInLinkNegativePassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
+      <option name="METHOD_NAME" value="signInLinkNegativePassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,18 +163,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.HowWeWorkTests.topLeftNavigationMenu" />
-      <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTests" />
-      <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTestsPassword" />
-      <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTestsEmail" />
+      <item itemvalue="TestNG.RegistrationTests.signInLink" />
+      <item itemvalue="TestNG.RegistrationTests.signInLinkNegativeEmail" />
+      <item itemvalue="TestNG.RegistrationTests.signInLinkNegativePassword" />
+      <item itemvalue="TestNG.RegistrationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegistrationTests" />
+        <item itemvalue="TestNG.RegistrationTests.signInLinkNegativePassword" />
+        <item itemvalue="TestNG.RegistrationTests.signInLinkNegativeEmail" />
+        <item itemvalue="TestNG.RegistrationTests.signInLink" />
         <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTestsPassword" />
-        <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTestsEmail" />
-        <item itemvalue="TestNG.RegistrationTests.joinForFreeButton3NegativeTests" />
-        <item itemvalue="TestNG.HowWeWorkTests.topLeftNavigationMenu" />
       </list>
     </recent_temporary>
   </component>

@@ -84,6 +84,22 @@ public class MainPage extends BaseActions {
         driver.findElement(Locators.BUTTON_NEXT).click();
     }
 
+    public void signInNegativeEmail(String email) {
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.EMAIL_INPUT_FIELD));
+        driver.findElement(Locators.EMAIL_INPUT_FIELD).sendKeys(email);
+        driver.findElement(Locators.PASSWORD_INPUT_FIELD).sendKeys(Data.password);
+        driver.findElement(Locators.SIGN_IN_BUTTON_MODAL_WINDOW).click();
+        Data.actualUrl = driver.getCurrentUrl();
+    }
+
+    public void signInNegativePassword(String password) {
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.EMAIL_INPUT_FIELD));
+        driver.findElement(Locators.EMAIL_INPUT_FIELD).sendKeys(Data.email1);
+        driver.findElement(Locators.PASSWORD_INPUT_FIELD).sendKeys(password);
+        driver.findElement(Locators.SIGN_IN_BUTTON_MODAL_WINDOW).click();
+        Data.actualUrl = driver.getCurrentUrl();
+    }
+
     public void completeFirstRegistrationPartNegativePassword(String password) {
         driver.findElement(Locators.EMAIL).sendKeys(Data.email1);
         driver.findElement(Locators.PASSWORD).sendKeys(password);
@@ -139,6 +155,11 @@ public class MainPage extends BaseActions {
     public List<WebElement> tabLinks() {
         List<WebElement> links = driver.findElements(Locators.TAB_LINKS);
         return links;
+    }
+
+    public List<WebElement> getHeading() {
+        List<WebElement> heading = driver.findElements(Locators.HEADING);
+        return heading;
     }
 
 

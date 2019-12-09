@@ -25,6 +25,13 @@ public class BaseActions {
         return text;
     }
 
+    public String getHeadingStrong() {
+        String text = driver.findElement(Locators.HEADING).getText();
+        return text;
+    }
+
+
+
     public void getDropDownListByText(WebElement element, String text) {
         Select select = new Select(element);
         select.selectByVisibleText(text);
@@ -152,6 +159,18 @@ public class BaseActions {
             }
 
         }
+    }
+
+    public void scrollToBottomOfPage(){
+        ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight);");
+    }
+
+    public void ajaxScroll(String element){
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+    public void ajaxScroll(WebElement element){
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
 }

@@ -63,7 +63,7 @@ public class Locators {
     public static final By LEFT_MENU = By.xpath("//div[@class='clearfix']");
     public static final By INFO_CONTENT_BLOG = By.xpath("//div[@class='info-content-block wysiwyg']//a");
     public static final By BACK_BUTTON_BLOG_PAGE = By.xpath("//ul//li[@class='back']");
-    public static final By INFO_MENU_LEFT_SIDE = By.xpath("//div[@class='info-menu-inner']//a");
+    public static final By INFO_MENU_22LINKS_LEFT_SIDE = By.xpath("//div[@class='info-menu-inner']//a");
 
     //How we work
     public static final By LINK_VIEW = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
@@ -99,10 +99,16 @@ public class Locators {
     public static final By THREE_DOTS_BUTTON = By.xpath("//button[@id='services-menu']");
     public static final By USER_MENU_ACTION = By.xpath("//div[@class='popover-content']//dd");
 
+    //Footer links
+    public static final By LINKS_FOOTER = By.xpath("//div[@class='footer-menu-list-group-item-text']");
+    public static final By SITE_MAP_CONTENT = By.xpath("//div[@class='site-map-block row']//a");
+    public static final By CONTACT_US_FORM = By.xpath("//div[@class='row mb20']");
+
 
 
     //Common
     public static final By TITLE = By.xpath("//h1");
+    public static final By HEADING = By.xpath("//strong");
     public static final By FOOTER_HELP = By.xpath("//a[@href='https://romanceabroad.com/tickets/']//div[@class='footer-menu-list-group-item-text']");
 
     //10 xpath with 2 attributes

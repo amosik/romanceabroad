@@ -27,6 +27,11 @@ public class HowWeWorkPage extends BaseActions {
         return links;
     }
 
+    public List<WebElement>footerLinks() {
+        List<WebElement> getLinks = driver.findElements(Locators.LINKS_FOOTER);
+        return getLinks;
+    }
+
 
 
 }

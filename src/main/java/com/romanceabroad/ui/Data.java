@@ -96,7 +96,7 @@ public class Data {
     public static final String expectedUrlAdvertising = "https://romanceabroad.com/content/view/advertising";
     public static final String expectedTitleTermsOfUse = "Terms of use";
     public static final String expectedUrlTermsOfUse = "https://romanceabroad.com/content/view/legal-terms";
-    public static final String expectedTitlePrivacyPolicy = "Privacy Policy";
+    public static final String expectedTitlePrivacy = "Privacy Policy";
     public static final String expectedUrlPrivacyPolicy = "https://romanceabroad.com/content/view/privacy-and-security";
     public static final String expectedTitleUkrainianWomenForMarriage = "Ukrainian women for marriage";
     public static final String expectedUrlUkrainianWomenForMarriage = "https://romanceabroad.com/content/view/how-it-works";
@@ -124,10 +124,41 @@ public class Data {
     public static String nameItem;
     public static String buttonName = "Send message";
 
+    //Footer
+    public static final String expectedTitleContactUs = "Contact administrator";
+    public static final String expectedTitleSiteMap = "Site map";
+
+    public static String termsHeading1 = "1. DEFINITIONS";
+    public static String termsHeading2 = "2. ACCEPTANCE OF TERMS" ;
+    public static String termsHeading3 = "3. RIGHTS AND OBLIGATIONS OF THE COMPANY";
+    public static String termsHeading4 = "4. RIGHTS AND OBLIGATIONS OF USERS";
+    public static String termsHeading5 = "5. PAID MEMBERSHIPS AND PAID FEATURES";
+    public static String termsHeading6 = "6. CLAIMS OF COPYRIGHT INFRINGEMENT";
+    public static String termsHeading7 = "7. TERMINATION";
+    public static String termsHeading8 = "8. CONTACT INFORMATION";
+
+    public static String privacyHeading1 = "What information are you collecting and how are you collecting it?";
+    public static String privacyHeading2 = "DO YOU COLLECT IP ADDRESSES?";
+    public static String privacyHeading3 = "WHAT ARE COOKIES?";
+    public static String privacyHeading4 = "HOW DO YOU USE SINGLE-PIXEL GIFS?";
+    public static String privacyHeading5 = "WHAT PERSONAL INFORMATION DO YOU COLLECT?";
+    public static String privacyHeading6 = "WILL YOU DISCLOSE THE INFORMATION YOU COLLECT TO OUTSIDE THIRD PARTIES?";
+    public static String privacyHeading7 = "WHAT ELSE SHOULD I KNOW ABOUT MY PRIVACY WHEN ONLINE?";
+    public static String privacyHeading8 = "BUSINESS TRANSFERS";
+    public static String privacyHeading9 = "YOUR CONSENT TO THIS AGREEMENT";
+
+
+
     //Common
     public static String actualTitle;
+    public static String actualHeading;
     public static String actualUrl;
     public static String info;
+
+
+
+
+
 
 
 }
