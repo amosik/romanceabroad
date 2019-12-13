@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="45327" started-at="2019-12-12T18:00:13Z" finished-at="2019-12-12T18:00:58Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTestCases" duration-ms="25145" started-at="2019-12-12T18:00:13Z" finished-at="2019-12-12T18:00:38Z">
+      <class name="com.romanceabroad.ui.ContactUsTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.ContactUsTests@3567135c]" name="setup" is-config="true" duration-ms="12603" started-at="2019-12-12T18:00:13Z" finished-at="2019-12-12T18:00:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.ContactUsTests.contactAdministrator()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="contactAdministrator()[pri:0, instance:com.romanceabroad.ui.ContactUsTests@3567135c]" name="contactAdministrator" duration-ms="11004" started-at="2019-12-12T18:00:26Z" finished-at="2019-12-12T18:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactAdministrator -->
+        <test-method status="PASS" signature="afterActions()[pri:0, instance:com.romanceabroad.ui.ContactUsTests@3567135c]" name="afterActions" is-config="true" duration-ms="1516" started-at="2019-12-12T18:00:37Z" finished-at="2019-12-12T18:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.ContactUsTests -->
+      <class name="com.romanceabroad.ui.GiftsTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.GiftsTests@6be46e8f]" name="setup" is-config="true" duration-ms="12918" started-at="2019-12-12T18:00:13Z" finished-at="2019-12-12T18:00:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.GiftsTests.gifts()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="gifts()[pri:0, instance:com.romanceabroad.ui.GiftsTests@6be46e8f]" name="gifts" duration-ms="5015" started-at="2019-12-12T18:00:26Z" finished-at="2019-12-12T18:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gifts -->
+        <test-method status="PASS" signature="afterActions()[pri:0, instance:com.romanceabroad.ui.GiftsTests@6be46e8f]" name="afterActions" is-config="true" duration-ms="2189" started-at="2019-12-12T18:00:31Z" finished-at="2019-12-12T18:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.GiftsTests -->
+      <class name="com.romanceabroad.ui.TourTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.TourTests@68837a77]" name="setup" is-config="true" duration-ms="12691" started-at="2019-12-12T18:00:13Z" finished-at="2019-12-12T18:00:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.TourTests.tourToUkraine()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tourToUkraine()[pri:0, instance:com.romanceabroad.ui.TourTests@68837a77]" name="tourToUkraine" duration-ms="5799" started-at="2019-12-12T18:00:26Z" finished-at="2019-12-12T18:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tourToUkraine -->
+        <test-method status="PASS" signature="afterActions()[pri:0, instance:com.romanceabroad.ui.TourTests@68837a77]" name="afterActions" is-config="true" duration-ms="2425" started-at="2019-12-12T18:00:32Z" finished-at="2019-12-12T18:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.TourTests -->
+    </test> <!-- FirefoxTestCases -->
+    <test name="ChromeTestCases" duration-ms="20166" started-at="2019-12-12T18:00:38Z" finished-at="2019-12-12T18:00:58Z">
+      <class name="com.romanceabroad.ui.ContactUsTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.ContactUsTests@97e1986]" name="setup" is-config="true" duration-ms="12335" started-at="2019-12-12T18:00:38Z" finished-at="2019-12-12T18:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.ContactUsTests.contactAdministrator()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="contactAdministrator()[pri:0, instance:com.romanceabroad.ui.ContactUsTests@97e1986]" name="contactAdministrator" duration-ms="7153" started-at="2019-12-12T18:00:51Z" finished-at="2019-12-12T18:00:58Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="footer-menu-list-group-item-text">...</div> is not clickable at point (222, 695). Other element would receive the click: <li onclick="sendAnalytics('', 'f', 'footer-menu-map-item');" class="footer-menu-list-group-item">...</li>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-1LS4O0S', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Alexa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49464}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a65606aff9fbe9fb3bd9532635f239dd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="footer-menu-list-group-item-text">...</div> is not clickable at point (222, 695). Other element would receive the click: <li onclick="sendAnalytics('', 'f', 'footer-menu-map-item');" class="footer-menu-list-group-item">...</li>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-1LS4O0S', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Alexa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49464}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a65606aff9fbe9fb3bd9532635f239dd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at com.romanceabroad.ui.HowWeWorkPage.clickContactUsFooterHelp(HowWeWorkPage.java:22)
+at com.romanceabroad.ui.ContactUsTests.contactAdministrator(ContactUsTests.java:10)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactAdministrator -->
+        <test-method status="PASS" signature="afterActions()[pri:0, instance:com.romanceabroad.ui.ContactUsTests@97e1986]" name="afterActions" is-config="true" duration-ms="662" started-at="2019-12-12T18:00:58Z" finished-at="2019-12-12T18:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.ContactUsTests -->
+      <class name="com.romanceabroad.ui.GiftsTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.GiftsTests@3dd3bcd]" name="setup" is-config="true" duration-ms="12601" started-at="2019-12-12T18:00:38Z" finished-at="2019-12-12T18:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.GiftsTests.gifts()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="gifts()[pri:0, instance:com.romanceabroad.ui.GiftsTests@3dd3bcd]" name="gifts" duration-ms="6721" started-at="2019-12-12T18:00:51Z" finished-at="2019-12-12T18:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gifts -->
+        <test-method status="PASS" signature="afterActions()[pri:0, instance:com.romanceabroad.ui.GiftsTests@3dd3bcd]" name="afterActions" is-config="true" duration-ms="730" started-at="2019-12-12T18:00:58Z" finished-at="2019-12-12T18:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.GiftsTests -->
+      <class name="com.romanceabroad.ui.TourTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.TourTests@12843fce]" name="setup" is-config="true" duration-ms="11406" started-at="2019-12-12T18:00:38Z" finished-at="2019-12-12T18:00:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.TourTests.tourToUkraine()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tourToUkraine()[pri:0, instance:com.romanceabroad.ui.TourTests@12843fce]" name="tourToUkraine" duration-ms="3753" started-at="2019-12-12T18:00:50Z" finished-at="2019-12-12T18:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tourToUkraine -->
+        <test-method status="PASS" signature="afterActions()[pri:0, instance:com.romanceabroad.ui.TourTests@12843fce]" name="afterActions" is-config="true" duration-ms="697" started-at="2019-12-12T18:00:53Z" finished-at="2019-12-12T18:00:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.TourTests -->
+    </test> <!-- ChromeTestCases -->
+  </suite> <!-- TestSuite -->
+</testng-results>

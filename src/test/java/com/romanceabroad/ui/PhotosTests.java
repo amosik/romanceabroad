@@ -8,6 +8,7 @@ import java.util.List;
 
 public class PhotosTests extends BaseUI {
 
+
     @Test
     public void media() {
         mainPage.clickPhotosLink();
@@ -41,7 +42,6 @@ public class PhotosTests extends BaseUI {
             }
 
             userTabs = photosPage.getUserProfileLinks();
-
 
         }
     }

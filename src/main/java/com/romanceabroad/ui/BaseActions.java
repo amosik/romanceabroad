@@ -31,7 +31,6 @@ public class BaseActions {
     }
 
 
-
     public void getDropDownListByText(WebElement element, String text) {
         Select select = new Select(element);
         select.selectByVisibleText(text);

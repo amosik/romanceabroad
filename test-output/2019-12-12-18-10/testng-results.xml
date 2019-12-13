@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="18559" started-at="2019-12-12T18:10:47Z" finished-at="2019-12-12T18:11:06Z">
+    <groups>
+    </groups>
+    <test name="ChromeTestCases" duration-ms="16135" started-at="2019-12-12T18:10:47Z" finished-at="2019-12-12T18:11:03Z">
+      <class name="com.romanceabroad.ui.TourTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.TourTests@61dc03ce]" name="setup" is-config="true" duration-ms="10920" started-at="2019-12-12T18:10:47Z" finished-at="2019-12-12T18:10:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.TourTests.tourToUkraine()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tourToUkraine()[pri:0, instance:com.romanceabroad.ui.TourTests@61dc03ce]" name="tourToUkraine" duration-ms="4493" started-at="2019-12-12T18:10:58Z" finished-at="2019-12-12T18:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tourToUkraine -->
+        <test-method status="PASS" signature="afterActions()[pri:0, instance:com.romanceabroad.ui.TourTests@61dc03ce]" name="afterActions" is-config="true" duration-ms="693" started-at="2019-12-12T18:11:03Z" finished-at="2019-12-12T18:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.TourTests -->
+    </test> <!-- ChromeTestCases -->
+    <test name="FirefoxTestCases" duration-ms="18559" started-at="2019-12-12T18:10:47Z" finished-at="2019-12-12T18:11:06Z">
+      <class name="com.romanceabroad.ui.TourTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.TourTests@77b52d12]" name="setup" is-config="true" duration-ms="10719" started-at="2019-12-12T18:10:47Z" finished-at="2019-12-12T18:10:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.TourTests.tourToUkraine()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tourToUkraine()[pri:0, instance:com.romanceabroad.ui.TourTests@77b52d12]" name="tourToUkraine" duration-ms="6124" started-at="2019-12-12T18:10:58Z" finished-at="2019-12-12T18:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tourToUkraine -->
+        <test-method status="PASS" signature="afterActions()[pri:0, instance:com.romanceabroad.ui.TourTests@77b52d12]" name="afterActions" is-config="true" duration-ms="1689" started-at="2019-12-12T18:11:04Z" finished-at="2019-12-12T18:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.TourTests -->
+    </test> <!-- FirefoxTestCases -->
+  </suite> <!-- TestSuite -->
+</testng-results>
