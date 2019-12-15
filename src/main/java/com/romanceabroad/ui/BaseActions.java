@@ -149,11 +149,21 @@ public class BaseActions {
         }
 
     public void clickValueOfList(By locator, String text) {
+
+        Reports.log("Collect elements in list");
         List<WebElement> elements = driver.findElements(locator);
+
+        Reports.log("Start using loop with size of list");
         for (int i = 0; i < elements.size(); i++) {
+
+            Reports.log("Create new webelement of list");
             WebElement listElement = elements.get(i);
+
+            Reports.log("Create new string with text from element of list");
             String selectDate = listElement.getText();
             if (selectDate.contains(text)) {
+
+                Reports.log("Click list of elements");
                 listElement.click();
             }
 

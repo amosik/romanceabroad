@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestSuite">
+              <span class="suite-name border-passed">TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSuite">
+                    <span>C:\Users\Alexa\.IdeaIC2019.2\GidHub\romanceabroad\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeButton3NegativeTestsEmail( , false)">joinForFreeButton3NegativeTestsEmail( , false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeButton3NegativeTestsPassword(12345, false)">joinForFreeButton3NegativeTestsPassword(12345, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeButton3NegativeTestsPassword( 1 2 , false)">joinForFreeButton3NegativeTestsPassword( 1 2 , false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeButton3NegativeTestsPassword( , false)">joinForFreeButton3NegativeTestsPassword( , false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeButton3NegativeTestsPassword(pas45, false)">joinForFreeButton3NegativeTestsPassword(pas45, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeButton3NegativeTestsPassword(PaSwO, false)">joinForFreeButton3NegativeTestsPassword(PaSwO, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeButton3NegativeTestsPassword(@#$%^, false)">joinForFreeButton3NegativeTestsPassword(@#$%^, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeNowButton1(test42@mail.ru, Alexa67422, true)">joinForFreeNowButton1(test42@mail.ru, Alexa67422, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeNowButton1(test42tut.by, Alexa67422, false)">joinForFreeNowButton1(test42tut.by, Alexa67422, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeNowButton1(test42@gmail.com, Alexa67422, true)">joinForFreeNowButton1(test42@gmail.com, Alexa67422, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeNowButton2(prettyandsimple@example.com, Password123, 9, Jan, 1986, 4156546546, San Francisco, South San Francis...)">joinForFreeNowButton2(prettyandsimple@example.com, Password123, 9, Jan, 1986, 4156546546, San Francisco, South San Francis...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeNowButton2(very.common@example.org, pass54R, 20, Nov, 1967, 6765444, Sydney, North Sydney)">joinForFreeNowButton2(very.common@example.org, pass54R, 20, Nov, 1967, 6765444, Sydney, North Sydney)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeNowButton2(domain@mail.ru, FamilyPass2, 3, Dec, 1987, 4253435674, Palo Alto, East Palo Alto)">joinForFreeNowButton2(domain@mail.ru, FamilyPass2, 3, Dec, 1987, 4253435674, Palo Alto, East Palo Alto)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeNowButton2(style.email@tut.by, testPassWo4rd, 12, May, 1992, 7687654332, New York, West New York)">joinForFreeNowButton2(style.email@tut.by, testPassWo4rd, 12, May, 1992, 7687654332, New York, West New York)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="joinForFreeNowButton2(dash@gmail.com, 123wer, 1, Sep, 1989, 9897676754, Los Angeles, East Los Angeles)">joinForFreeNowButton2(dash@gmail.com, 123wer, 1, Sep, 1989, 9897676754, Los Angeles, East Los Angeles)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="signInLink(passtest@mail.ru)">signInLink(passtest@mail.ru)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="signInLink(testemail@gmail.com)">signInLink(testemail@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="signInLinkNegativeEmail( , false)">signInLinkNegativeEmail( , false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="signInLinkNegativePassword(pas45, false)">signInLinkNegativePassword(pas45, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="signInLinkNegativePassword(@#$%^, false)">signInLinkNegativePassword(@#$%^, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="signInLinkNegativePassword( 1 2 , false)">signInLinkNegativePassword( 1 2 , false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="signInLinkNegativePassword( , false)">signInLinkNegativePassword( , false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="signInLinkNegativePassword(12345, false)">signInLinkNegativePassword(12345, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="com.romanceabroad.ui.RegistrationTests" hash-for-method="signInLinkNegativePassword(PaSwO, false)">signInLinkNegativePassword(PaSwO, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.romanceabroad.ui.RegistrationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeButton3NegativeTestsEmail( , false)">
+                  </a> <!-- joinForFreeButton3NegativeTestsEmail( , false) -->
+                  <span class="method-name">joinForFreeButton3NegativeTestsEmail</span>
+                  <span class="parameters">( , false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeButton3NegativeTestsPassword(12345, false)">
+                  </a> <!-- joinForFreeButton3NegativeTestsPassword(12345, false) -->
+                  <span class="method-name">joinForFreeButton3NegativeTestsPassword</span>
+                  <span class="parameters">(12345, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeButton3NegativeTestsPassword( 1 2 , false)">
+                  </a> <!-- joinForFreeButton3NegativeTestsPassword( 1 2 , false) -->
+                  <span class="method-name">joinForFreeButton3NegativeTestsPassword</span>
+                  <span class="parameters">( 1 2 , false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeButton3NegativeTestsPassword( , false)">
+                  </a> <!-- joinForFreeButton3NegativeTestsPassword( , false) -->
+                  <span class="method-name">joinForFreeButton3NegativeTestsPassword</span>
+                  <span class="parameters">( , false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeButton3NegativeTestsPassword(pas45, false)">
+                  </a> <!-- joinForFreeButton3NegativeTestsPassword(pas45, false) -->
+                  <span class="method-name">joinForFreeButton3NegativeTestsPassword</span>
+                  <span class="parameters">(pas45, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeButton3NegativeTestsPassword(PaSwO, false)">
+                  </a> <!-- joinForFreeButton3NegativeTestsPassword(PaSwO, false) -->
+                  <span class="method-name">joinForFreeButton3NegativeTestsPassword</span>
+                  <span class="parameters">(PaSwO, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeButton3NegativeTestsPassword(@#$%^, false)">
+                  </a> <!-- joinForFreeButton3NegativeTestsPassword(@#$%^, false) -->
+                  <span class="method-name">joinForFreeButton3NegativeTestsPassword</span>
+                  <span class="parameters">(@#$%^, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeNowButton1(test42@mail.ru, Alexa67422, true)">
+                  </a> <!-- joinForFreeNowButton1(test42@mail.ru, Alexa67422, true) -->
+                  <span class="method-name">joinForFreeNowButton1</span>
+                  <span class="parameters">(test42@mail.ru, Alexa67422, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeNowButton1(test42tut.by, Alexa67422, false)">
+                  </a> <!-- joinForFreeNowButton1(test42tut.by, Alexa67422, false) -->
+                  <span class="method-name">joinForFreeNowButton1</span>
+                  <span class="parameters">(test42tut.by, Alexa67422, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeNowButton1(test42@gmail.com, Alexa67422, true)">
+                  </a> <!-- joinForFreeNowButton1(test42@gmail.com, Alexa67422, true) -->
+                  <span class="method-name">joinForFreeNowButton1</span>
+                  <span class="parameters">(test42@gmail.com, Alexa67422, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeNowButton2(prettyandsimple@example.com, Password123, 9, Jan, 1986, 4156546546, San Francisco, South San Francis...)">
+                  </a> <!-- joinForFreeNowButton2(prettyandsimple@example.com, Password123, 9, Jan, 1986, 4156546546, San Francisco, South San Francis...) -->
+                  <span class="method-name">joinForFreeNowButton2</span>
+                  <span class="parameters">(prettyandsimple@example.com, Password123, 9, Jan, 1986, 4156546546, San Francisco, South San Francisco)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeNowButton2(very.common@example.org, pass54R, 20, Nov, 1967, 6765444, Sydney, North Sydney)">
+                  </a> <!-- joinForFreeNowButton2(very.common@example.org, pass54R, 20, Nov, 1967, 6765444, Sydney, North Sydney) -->
+                  <span class="method-name">joinForFreeNowButton2</span>
+                  <span class="parameters">(very.common@example.org, pass54R, 20, Nov, 1967, 6765444, Sydney, North Sydney)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeNowButton2(domain@mail.ru, FamilyPass2, 3, Dec, 1987, 4253435674, Palo Alto, East Palo Alto)">
+                  </a> <!-- joinForFreeNowButton2(domain@mail.ru, FamilyPass2, 3, Dec, 1987, 4253435674, Palo Alto, East Palo Alto) -->
+                  <span class="method-name">joinForFreeNowButton2</span>
+                  <span class="parameters">(domain@mail.ru, FamilyPass2, 3, Dec, 1987, 4253435674, Palo Alto, East Palo Alto)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeNowButton2(style.email@tut.by, testPassWo4rd, 12, May, 1992, 7687654332, New York, West New York)">
+                  </a> <!-- joinForFreeNowButton2(style.email@tut.by, testPassWo4rd, 12, May, 1992, 7687654332, New York, West New York) -->
+                  <span class="method-name">joinForFreeNowButton2</span>
+                  <span class="parameters">(style.email@tut.by, testPassWo4rd, 12, May, 1992, 7687654332, New York, West New York)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="joinForFreeNowButton2(dash@gmail.com, 123wer, 1, Sep, 1989, 9897676754, Los Angeles, East Los Angeles)">
+                  </a> <!-- joinForFreeNowButton2(dash@gmail.com, 123wer, 1, Sep, 1989, 9897676754, Los Angeles, East Los Angeles) -->
+                  <span class="method-name">joinForFreeNowButton2</span>
+                  <span class="parameters">(dash@gmail.com, 123wer, 1, Sep, 1989, 9897676754, Los Angeles, East Los Angeles)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInLink(passtest@mail.ru)">
+                  </a> <!-- signInLink(passtest@mail.ru) -->
+                  <span class="method-name">signInLink</span>
+                  <span class="parameters">(passtest@mail.ru)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInLink(testemail@gmail.com)">
+                  </a> <!-- signInLink(testemail@gmail.com) -->
+                  <span class="method-name">signInLink</span>
+                  <span class="parameters">(testemail@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInLinkNegativeEmail( , false)">
+                  </a> <!-- signInLinkNegativeEmail( , false) -->
+                  <span class="method-name">signInLinkNegativeEmail</span>
+                  <span class="parameters">( , false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInLinkNegativePassword(pas45, false)">
+                  </a> <!-- signInLinkNegativePassword(pas45, false) -->
+                  <span class="method-name">signInLinkNegativePassword</span>
+                  <span class="parameters">(pas45, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInLinkNegativePassword(@#$%^, false)">
+                  </a> <!-- signInLinkNegativePassword(@#$%^, false) -->
+                  <span class="method-name">signInLinkNegativePassword</span>
+                  <span class="parameters">(@#$%^, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInLinkNegativePassword( 1 2 , false)">
+                  </a> <!-- signInLinkNegativePassword( 1 2 , false) -->
+                  <span class="method-name">signInLinkNegativePassword</span>
+                  <span class="parameters">( 1 2 , false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInLinkNegativePassword( , false)">
+                  </a> <!-- signInLinkNegativePassword( , false) -->
+                  <span class="method-name">signInLinkNegativePassword</span>
+                  <span class="parameters">( , false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInLinkNegativePassword(12345, false)">
+                  </a> <!-- signInLinkNegativePassword(12345, false) -->
+                  <span class="method-name">signInLinkNegativePassword</span>
+                  <span class="parameters">(12345, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInLinkNegativePassword(PaSwO, false)">
+                  </a> <!-- signInLinkNegativePassword(PaSwO, false) -->
+                  <span class="method-name">signInLinkNegativePassword</span>
+                  <span class="parameters">(PaSwO, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Alexa\.IdeaIC2019.2\GidHub\romanceabroad\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;TestSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ChromeTestCases&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.romanceabroad.ui.RegistrationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTestCases --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTestCases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'joinForFreeNowButton2')
+data.setCell(0, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(0, 3, 8335);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'joinForFreeNowButton1')
+data.setCell(1, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(1, 3, 8129);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'joinForFreeNowButton1')
+data.setCell(2, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(2, 3, 8046);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'joinForFreeNowButton2')
+data.setCell(3, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(3, 3, 7924);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'joinForFreeNowButton2')
+data.setCell(4, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(4, 3, 7853);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'joinForFreeNowButton2')
+data.setCell(5, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(5, 3, 7755);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'joinForFreeNowButton2')
+data.setCell(6, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(6, 3, 7666);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'signInLinkNegativeEmail')
+data.setCell(7, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(7, 3, 6261);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'signInLinkNegativePassword')
+data.setCell(8, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(8, 3, 6235);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'signInLinkNegativePassword')
+data.setCell(9, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(9, 3, 6212);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signInLink')
+data.setCell(10, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(10, 3, 6193);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'signInLink')
+data.setCell(11, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(11, 3, 5948);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'signInLinkNegativePassword')
+data.setCell(12, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(12, 3, 5728);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'signInLinkNegativePassword')
+data.setCell(13, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(13, 3, 5701);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'signInLinkNegativePassword')
+data.setCell(14, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(14, 3, 5456);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'signInLinkNegativePassword')
+data.setCell(15, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(15, 3, 5174);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'joinForFreeNowButton1')
+data.setCell(16, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(16, 3, 3332);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'joinForFreeButton3NegativeTestsPassword')
+data.setCell(17, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(17, 3, 576);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'joinForFreeButton3NegativeTestsPassword')
+data.setCell(18, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(18, 3, 521);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'joinForFreeButton3NegativeTestsPassword')
+data.setCell(19, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(19, 3, 505);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'joinForFreeButton3NegativeTestsPassword')
+data.setCell(20, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(20, 3, 474);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'joinForFreeButton3NegativeTestsPassword')
+data.setCell(21, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(21, 3, 462);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'joinForFreeButton3NegativeTestsPassword')
+data.setCell(22, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(22, 3, 461);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'joinForFreeButton3NegativeTestsEmail')
+data.setCell(23, 2, 'com.romanceabroad.ui.RegistrationTests')
+data.setCell(23, 3, 438);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.romanceabroad.ui.RegistrationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsEmail(java...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeButton3NegativeTestsEmail( , false)</span>
+                <span class="method-start">10886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeButton3NegativeTestsEmail status=SUCCESS method=RegistrationTests.joinFo...)</span>
+                <span class="method-start">11325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(j...)</span>
+                <span class="method-start">12634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeButton3NegativeTestsPassword( , false)</span>
+                <span class="method-start">21021 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joi...)</span>
+                <span class="method-start">21484 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(j...)</span>
+                <span class="method-start">22118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeButton3NegativeTestsPassword(PaSwO, false)</span>
+                <span class="method-start">55060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joi...)</span>
+                <span class="method-start">55637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(j...)</span>
+                <span class="method-start">56285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeButton3NegativeTestsPassword(12345, false)</span>
+                <span class="method-start">65090 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joi...)</span>
+                <span class="method-start">65551 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(j...)</span>
+                <span class="method-start">66174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeButton3NegativeTestsPassword(@#$%^, false)</span>
+                <span class="method-start">74911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joi...)</span>
+                <span class="method-start">75385 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(j...)</span>
+                <span class="method-start">76010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeButton3NegativeTestsPassword( 1 2 , false)</span>
+                <span class="method-start">84688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joi...)</span>
+                <span class="method-start">85193 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(j...)</span>
+                <span class="method-start">85851 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeButton3NegativeTestsPassword(pas45, false)</span>
+                <span class="method-start">94325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joi...)</span>
+                <span class="method-start">94847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1(java.lang.String,ja...)</span>
+                <span class="method-start">95484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeNowButton1(test42@gmail.com, Alexa67422, true)</span>
+                <span class="method-start">104677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeNowButton1 status=SUCCESS method=RegistrationTests.joinForFreeNowButton1...)</span>
+                <span class="method-start">112806 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1(java.lang.String,ja...)</span>
+                <span class="method-start">113571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeNowButton1(test42@mail.ru, Alexa67422, true)</span>
+                <span class="method-start">121929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeNowButton1 status=SUCCESS method=RegistrationTests.joinForFreeNowButton1...)</span>
+                <span class="method-start">129975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1(java.lang.String,ja...)</span>
+                <span class="method-start">130686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeNowButton1(test42tut.by, Alexa67422, false)</span>
+                <span class="method-start">139317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeNowButton1 status=SUCCESS method=RegistrationTests.joinForFreeNowButton1...)</span>
+                <span class="method-start">142649 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2(java.lang.String,ja...)</span>
+                <span class="method-start">143321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeNowButton2(prettyandsimple@example.com, Password123, 9, Jan, 1986, 4156546546, San Francisco, South San Francis...)</span>
+                <span class="method-start">151766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeNowButton2 status=SUCCESS method=RegistrationTests.joinForFreeNowButton2...)</span>
+                <span class="method-start">159619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2(java.lang.String,ja...)</span>
+                <span class="method-start">160268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeNowButton2(very.common@example.org, pass54R, 20, Nov, 1967, 6765444, Sydney, North Sydney)</span>
+                <span class="method-start">168677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeNowButton2 status=SUCCESS method=RegistrationTests.joinForFreeNowButton2...)</span>
+                <span class="method-start">176601 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2(java.lang.String,ja...)</span>
+                <span class="method-start">177257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeNowButton2(style.email@tut.by, testPassWo4rd, 12, May, 1992, 7687654332, New York, West New York)</span>
+                <span class="method-start">186661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeNowButton2 status=SUCCESS method=RegistrationTests.joinForFreeNowButton2...)</span>
+                <span class="method-start">194416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2(java.lang.String,ja...)</span>
+                <span class="method-start">195077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeNowButton2(dash@gmail.com, 123wer, 1, Sep, 1989, 9897676754, Los Angeles, East Los Angeles)</span>
+                <span class="method-start">204370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeNowButton2 status=SUCCESS method=RegistrationTests.joinForFreeNowButton2...)</span>
+                <span class="method-start">212036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2(java.lang.String,ja...)</span>
+                <span class="method-start">212667 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">joinForFreeNowButton2(domain@mail.ru, FamilyPass2, 3, Dec, 1987, 4253435674, Palo Alto, East Palo Alto)</span>
+                <span class="method-start">221551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=joinForFreeNowButton2 status=SUCCESS method=RegistrationTests.joinForFreeNowButton2...)</span>
+                <span class="method-start">229886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.signInLink(java.lang.String))</span>
+                <span class="method-start">230538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInLink(testemail@gmail.com)</span>
+                <span class="method-start">238982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=signInLink status=SUCCESS method=RegistrationTests.signInLink(java.lang.String)[pri...)</span>
+                <span class="method-start">245176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.signInLink(java.lang.String))</span>
+                <span class="method-start">245925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInLink(passtest@mail.ru)</span>
+                <span class="method-start">254498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=signInLink status=SUCCESS method=RegistrationTests.signInLink(java.lang.String)[pri...)</span>
+                <span class="method-start">260446 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativeEmail(java.lang.String,...)</span>
+                <span class="method-start">261081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInLinkNegativeEmail( , false)</span>
+                <span class="method-start">269724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=signInLinkNegativeEmail status=SUCCESS method=RegistrationTests.signInLinkNegativeE...)</span>
+                <span class="method-start">275985 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.Stri...)</span>
+                <span class="method-start">276618 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInLinkNegativePassword( , false)</span>
+                <span class="method-start">284599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=signInLinkNegativePassword status=SUCCESS method=RegistrationTests.signInLinkNegati...)</span>
+                <span class="method-start">289773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.Stri...)</span>
+                <span class="method-start">290404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInLinkNegativePassword(PaSwO, false)</span>
+                <span class="method-start">299346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=signInLinkNegativePassword status=SUCCESS method=RegistrationTests.signInLinkNegati...)</span>
+                <span class="method-start">305047 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.Stri...)</span>
+                <span class="method-start">305680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInLinkNegativePassword(12345, false)</span>
+                <span class="method-start">314869 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=signInLinkNegativePassword status=SUCCESS method=RegistrationTests.signInLinkNegati...)</span>
+                <span class="method-start">320598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.Stri...)</span>
+                <span class="method-start">321255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInLinkNegativePassword(@#$%^, false)</span>
+                <span class="method-start">329772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=signInLinkNegativePassword status=SUCCESS method=RegistrationTests.signInLinkNegati...)</span>
+                <span class="method-start">336007 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.Stri...)</span>
+                <span class="method-start">336640 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInLinkNegativePassword( 1 2 , false)</span>
+                <span class="method-start">344882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=signInLinkNegativePassword status=SUCCESS method=RegistrationTests.signInLinkNegati...)</span>
+                <span class="method-start">350338 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome, public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.Stri...)</span>
+                <span class="method-start">350978 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInLinkNegativePassword(pas45, false)</span>
+                <span class="method-start">413834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterActions([TestResult name=signInLinkNegativePassword status=SUCCESS method=RegistrationTests.signInLinkNegati...)</span>
+                <span class="method-start">420046 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  ChromeTestCases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTestCases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 14 07:41:36 PST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>420 seconds (420738 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsEmail()'><b>joinForFreeButton3NegativeTestsEmail</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters:  , false</td>
+<td></td>
+<td>0</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword()'><b>joinForFreeButton3NegativeTestsPassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters:  , false</td>
+<td></td>
+<td>0</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword()'><b>joinForFreeButton3NegativeTestsPassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: PaSwO, false</td>
+<td></td>
+<td>0</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword()'><b>joinForFreeButton3NegativeTestsPassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: 12345, false</td>
+<td></td>
+<td>0</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword()'><b>joinForFreeButton3NegativeTestsPassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: @#$%^, false</td>
+<td></td>
+<td>0</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword()'><b>joinForFreeButton3NegativeTestsPassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters:  1 2 , false</td>
+<td></td>
+<td>0</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword()'><b>joinForFreeButton3NegativeTestsPassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: pas45, false</td>
+<td></td>
+<td>0</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1()'><b>joinForFreeNowButton1</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: test42@gmail.com, Alexa67422, true</td>
+<td></td>
+<td>8</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1()'><b>joinForFreeNowButton1</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: test42@mail.ru, Alexa67422, true</td>
+<td></td>
+<td>8</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1()'><b>joinForFreeNowButton1</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: test42tut.by, Alexa67422, false</td>
+<td></td>
+<td>3</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2()'><b>joinForFreeNowButton2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: prettyandsimple@example.com, Password123, 9, Jan, 1986, 4156546546, San Francisco, South San Francisco</td>
+<td></td>
+<td>7</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2()'><b>joinForFreeNowButton2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: very.common@example.org, pass54R, 20, Nov, 1967, 6765444, Sydney, North Sydney</td>
+<td></td>
+<td>7</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2()'><b>joinForFreeNowButton2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: style.email@tut.by, testPassWo4rd, 12, May, 1992, 7687654332, New York, West New York</td>
+<td></td>
+<td>7</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2()'><b>joinForFreeNowButton2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: dash@gmail.com, 123wer, 1, Sep, 1989, 9897676754, Los Angeles, East Los Angeles</td>
+<td></td>
+<td>7</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2()'><b>joinForFreeNowButton2</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: domain@mail.ru, FamilyPass2, 3, Dec, 1987, 4253435674, Palo Alto, East Palo Alto</td>
+<td></td>
+<td>8</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.signInLink()'><b>signInLink</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: testemail@gmail.com</td>
+<td></td>
+<td>6</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.signInLink()'><b>signInLink</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: passtest@mail.ru</td>
+<td></td>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.signInLinkNegativeEmail()'><b>signInLinkNegativeEmail</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters:  , false</td>
+<td></td>
+<td>6</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword()'><b>signInLinkNegativePassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters:  , false</td>
+<td></td>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword()'><b>signInLinkNegativePassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: PaSwO, false</td>
+<td></td>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword()'><b>signInLinkNegativePassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: 12345, false</td>
+<td></td>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword()'><b>signInLinkNegativePassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: @#$%^, false</td>
+<td></td>
+<td>6</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword()'><b>signInLinkNegativePassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters:  1 2 , false</td>
+<td></td>
+<td>5</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+<tr>
+<td title='com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword()'><b>signInLinkNegativePassword</b><br>Test class: com.romanceabroad.ui.RegistrationTests<br>Parameters: pas45, false</td>
+<td></td>
+<td>6</td>
+<td>com.romanceabroad.ui.RegistrationTests@e45f292</td></tr>
+</table><p>
+</body>
+</html>

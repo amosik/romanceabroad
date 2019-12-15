@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8fe7450-f501-41a3-8e32-f4a97557cc3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test Results_12_12-19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Reports.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/TestSuite/ChromeTestCases.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/TestSuite/ChromeTestCases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/TestSuite/ChromeTestCases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/TestSuite/ChromeTestCases.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/TestSuite/ChromeTestCases.properties" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/TestSuite/ChromeTestCases.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/TestSuite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/TestSuite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/TestSuite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/TestSuite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/TestSuite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/TestSuite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/TestSuite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/TestSuite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/TestSuite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/TestSuite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/output/testng-reports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/ContactUsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/ContactUsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +58,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/output" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../romanceabroad2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -74,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.romance [test]">
+  <component name="RunManager" selected="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml">
     <configuration name="romance []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -163,23 +177,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhotosTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.romanceabroad.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.PhotosTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PhotosTests.testUserTabs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
@@ -191,6 +188,24 @@
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
       <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.PhotosTests" />
       <option name="METHOD_NAME" value="testUserTabs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTests.signInLink" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
+      <option name="METHOD_NAME" value="signInLink" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -220,18 +235,18 @@
       <item itemvalue="Maven.romance [test]" />
       <item itemvalue="Maven.romance []" />
       <item itemvalue="TestNG.PhotosTests.testUserTabs" />
-      <item itemvalue="TestNG.PhotosTests" />
       <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
       <item itemvalue="TestNG.ContactUsTests.contactAdministrator" />
       <item itemvalue="TestNG.TourTests.tourToUkraine" />
+      <item itemvalue="TestNG.RegistrationTests.signInLink" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactUsTests.contactAdministrator" />
-        <item itemvalue="TestNG.TourTests.tourToUkraine" />
         <item itemvalue="TestNG.C:/Users/Alexa/.IdeaIC2019.2/GidHub/romanceabroad/TestNG.xml" />
+        <item itemvalue="TestNG.RegistrationTests.signInLink" />
+        <item itemvalue="TestNG.TourTests.tourToUkraine" />
+        <item itemvalue="TestNG.ContactUsTests.contactAdministrator" />
         <item itemvalue="TestNG.PhotosTests.testUserTabs" />
-        <item itemvalue="TestNG.PhotosTests" />
       </list>
     </recent_temporary>
   </component>

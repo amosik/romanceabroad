@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="16290" started-at="2019-12-14T08:14:15 PST" finished-at="2019-12-14T08:14:32 PST">
+    <groups>
+    </groups>
+    <test name="ChromeTestCases" duration-ms="16290" started-at="2019-12-14T08:14:15 PST" finished-at="2019-12-14T08:14:32 PST">
+      <class name="com.romanceabroad.ui.TourTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.TourTests@6fd02e5]" name="setup" is-config="true" duration-ms="10628" started-at="2019-12-14T08:14:15 PST" finished-at="2019-12-14T08:14:26 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.TourTests.tourToUkraine()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tourToUkraine()[pri:0, instance:com.romanceabroad.ui.TourTests@6fd02e5]" name="tourToUkraine" duration-ms="4700" started-at="2019-12-14T08:14:26 PST" finished-at="2019-12-14T08:14:31 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tourToUkraine -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.TourTests@6fd02e5]" name="afterActions" is-config="true" duration-ms="929" started-at="2019-12-14T08:14:31 PST" finished-at="2019-12-14T08:14:32 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tourToUkraine status=SUCCESS method=TourTests.tourToUkraine()[pri:0, instance:com.romanceabroad.ui.TourTests@6fd02e5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.TourTests -->
+    </test> <!-- ChromeTestCases -->
+  </suite> <!-- TestSuite -->
+</testng-results>

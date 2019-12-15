@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="429561" started-at="2019-12-15T07:57:58 PST" finished-at="2019-12-15T08:05:08 PST">
+    <groups>
+    </groups>
+    <test name="ChromeTestCases" duration-ms="429561" started-at="2019-12-15T07:57:58 PST" finished-at="2019-12-15T08:05:08 PST">
+      <class name="com.romanceabroad.ui.HowWeWorkTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@73846619]" name="setup" is-config="true" duration-ms="9862" started-at="2019-12-15T08:04:02 PST" finished-at="2019-12-15T08:04:12 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.HowWeWorkTests.topLeftNavigationMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="topLeftNavigationMenu()[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@73846619]" name="topLeftNavigationMenu" duration-ms="40522" started-at="2019-12-15T08:04:12 PST" finished-at="2019-12-15T08:04:52 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topLeftNavigationMenu -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@73846619]" name="afterActions" is-config="true" duration-ms="660" started-at="2019-12-15T08:04:52 PST" finished-at="2019-12-15T08:04:53 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=topLeftNavigationMenu status=SUCCESS method=HowWeWorkTests.topLeftNavigationMenu()[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@73846619] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@73846619]" name="setup" is-config="true" duration-ms="9454" started-at="2019-12-15T08:04:53 PST" finished-at="2019-12-15T08:05:03 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.HowWeWorkTests.view()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="view()[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@73846619]" name="view" duration-ms="3671" started-at="2019-12-15T08:05:03 PST" finished-at="2019-12-15T08:05:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@73846619]" name="afterActions" is-config="true" duration-ms="1498" started-at="2019-12-15T08:05:06 PST" finished-at="2019-12-15T08:05:08 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=view status=SUCCESS method=HowWeWorkTests.view()[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@73846619] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.HowWeWorkTests -->
+      <class name="com.romanceabroad.ui.BlogTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1]" name="setup" is-config="true" duration-ms="12148" started-at="2019-12-15T07:57:58 PST" finished-at="2019-12-15T07:58:10 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.BlogTests.backButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="backButton()[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1]" name="backButton" duration-ms="13434" started-at="2019-12-15T07:58:10 PST" finished-at="2019-12-15T07:58:24 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backButton -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1]" name="afterActions" is-config="true" duration-ms="1164" started-at="2019-12-15T07:58:24 PST" finished-at="2019-12-15T07:58:25 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=backButton status=SUCCESS method=BlogTests.backButton()[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1]" name="setup" is-config="true" duration-ms="9957" started-at="2019-12-15T07:58:25 PST" finished-at="2019-12-15T07:58:35 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.BlogTests.blogInfoContent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="blogInfoContent()[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1]" name="blogInfoContent" duration-ms="184000" started-at="2019-12-15T07:58:35 PST" finished-at="2019-12-15T08:01:39 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogInfoContent -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1]" name="afterActions" is-config="true" duration-ms="699" started-at="2019-12-15T08:01:39 PST" finished-at="2019-12-15T08:01:40 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blogInfoContent status=SUCCESS method=BlogTests.blogInfoContent()[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1]" name="setup" is-config="true" duration-ms="9891" started-at="2019-12-15T08:01:40 PST" finished-at="2019-12-15T08:01:49 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.BlogTests.infoMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="infoMenu()[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1]" name="infoMenu" duration-ms="67724" started-at="2019-12-15T08:01:49 PST" finished-at="2019-12-15T08:02:57 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infoMenu -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1]" name="afterActions" is-config="true" duration-ms="660" started-at="2019-12-15T08:02:57 PST" finished-at="2019-12-15T08:02:58 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=infoMenu status=SUCCESS method=BlogTests.infoMenu()[pri:0, instance:com.romanceabroad.ui.BlogTests@5702b3b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.BlogTests -->
+      <class name="com.romanceabroad.ui.FooterTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.FooterTests@4b952a2d]" name="setup" is-config="true" duration-ms="9296" started-at="2019-12-15T08:03:19 PST" finished-at="2019-12-15T08:03:28 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.FooterTests.footerLinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="footerLinks()[pri:0, instance:com.romanceabroad.ui.FooterTests@4b952a2d]" name="footerLinks" duration-ms="17666" started-at="2019-12-15T08:03:28 PST" finished-at="2019-12-15T08:03:46 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerLinks -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.FooterTests@4b952a2d]" name="afterActions" is-config="true" duration-ms="682" started-at="2019-12-15T08:03:46 PST" finished-at="2019-12-15T08:03:46 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=footerLinks status=SUCCESS method=FooterTests.footerLinks()[pri:0, instance:com.romanceabroad.ui.FooterTests@4b952a2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.FooterTests -->
+      <class name="com.romanceabroad.ui.ContactUsTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.ContactUsTests@69ea3742]" name="setup" is-config="true" duration-ms="10331" started-at="2019-12-15T08:02:58 PST" finished-at="2019-12-15T08:03:08 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.ContactUsTests.contactAdministrator()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="contactAdministrator()[pri:0, instance:com.romanceabroad.ui.ContactUsTests@69ea3742]" name="contactAdministrator" duration-ms="9721" started-at="2019-12-15T08:03:08 PST" finished-at="2019-12-15T08:03:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactAdministrator -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.ContactUsTests@69ea3742]" name="afterActions" is-config="true" duration-ms="675" started-at="2019-12-15T08:03:18 PST" finished-at="2019-12-15T08:03:19 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactAdministrator status=SUCCESS method=ContactUsTests.contactAdministrator()[pri:0, instance:com.romanceabroad.ui.ContactUsTests@69ea3742] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.ContactUsTests -->
+      <class name="com.romanceabroad.ui.GiftsTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.GiftsTests@3159c4b8]" name="setup" is-config="true" duration-ms="10946" started-at="2019-12-15T08:03:46 PST" finished-at="2019-12-15T08:03:57 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.GiftsTests.gifts()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="gifts()[pri:0, instance:com.romanceabroad.ui.GiftsTests@3159c4b8]" name="gifts" duration-ms="4160" started-at="2019-12-15T08:03:57 PST" finished-at="2019-12-15T08:04:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gifts -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.GiftsTests@3159c4b8]" name="afterActions" is-config="true" duration-ms="641" started-at="2019-12-15T08:04:01 PST" finished-at="2019-12-15T08:04:02 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gifts status=SUCCESS method=GiftsTests.gifts()[pri:0, instance:com.romanceabroad.ui.GiftsTests@3159c4b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.GiftsTests -->
+    </test> <!-- ChromeTestCases -->
+  </suite> <!-- TestSuite -->
+</testng-results>

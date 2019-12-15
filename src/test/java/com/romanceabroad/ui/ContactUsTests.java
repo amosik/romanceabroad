@@ -14,6 +14,8 @@ public class ContactUsTests extends BaseUI {
 
     @Test
     public void contactAdministrator() {
+
+        Reports.log("Contact Administrator test");
         mainPage.clickHowWeWorkLink();
         howWeWorkPage.clickContactUsFooterHelp();
         mainPage.selectItemDropDownRandomOption(Locators.REASON_DROP_DOWN_LIST_CONTACT_US_PAGE, "Reason");

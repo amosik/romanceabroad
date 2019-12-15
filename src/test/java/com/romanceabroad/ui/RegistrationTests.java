@@ -7,6 +7,7 @@ public class RegistrationTests extends BaseUI {
 
     @Test(dataProvider = "RegistrationLink", dataProviderClass = DataProviders.class)
     public void signInLink(String email) {
+        Reports.log("Registration link test");
         mainPage.clickSignInLink();
         mainPage.completeRegistration(email, Data.password);
         if (driver.findElement(Locators.EMAIL_AND_PASSWORD_FIELDS_LOGIN_FORM_PAGE).isDisplayed()) {
@@ -45,6 +46,7 @@ public class RegistrationTests extends BaseUI {
         mainPage.clickJoinForFreeNowButton();
         mainPage.completeFirstRegistrationPart(email, Data.password);
         if (!requirement) {
+            Reports.log("Error message is not displayed");
             Assert.assertTrue(driver.findElement(Locators.TOOLTIP_ERROR_MESSAGE).isDisplayed());
         } else {
             mainPage.completeSecondRegistrationPart(name, Data.day, Data.month,

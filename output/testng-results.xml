@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="2" ignored="0" total="24" passed="22">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="20220" started-at="2019-12-12T18:25:02Z" finished-at="2019-12-12T18:25:23Z">
+  <suite name="TestSuite" duration-ms="710087" started-at="2019-12-13T16:03:16 PST" finished-at="2019-12-13T16:15:06 PST">
     <groups>
     </groups>
-    <test name="ChromeTestCases" duration-ms="19364" started-at="2019-12-12T18:25:02Z" finished-at="2019-12-12T18:25:22Z">
-      <class name="com.romanceabroad.ui.TourTests">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.TourTests@7f63425a]" name="setup" is-config="true" duration-ms="13640" started-at="2019-12-12T18:25:02Z" finished-at="2019-12-12T18:25:16Z">
+    <test name="ChromeTestCases" duration-ms="710087" started-at="2019-12-13T16:03:16 PST" finished-at="2019-12-13T16:15:06 PST">
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="12757" started-at="2019-12-13T16:03:16 PST" finished-at="2019-12-13T16:03:28 PST">
           <params>
             <param index="0">
               <value>
@@ -16,50 +16,1315 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.romanceabroad.ui.TourTests.tourToUkraine()]]>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsEmail(java.lang.String,boolean)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="tourToUkraine()[pri:0, instance:com.romanceabroad.ui.TourTests@7f63425a]" name="tourToUkraine" duration-ms="4944" started-at="2019-12-12T18:25:16Z" finished-at="2019-12-12T18:25:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tourToUkraine -->
-        <test-method status="PASS" signature="afterActions()[pri:0, instance:com.romanceabroad.ui.TourTests@7f63425a]" name="afterActions" is-config="true" duration-ms="755" started-at="2019-12-12T18:25:21Z" finished-at="2019-12-12T18:25:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterActions -->
-      </class> <!-- com.romanceabroad.ui.TourTests -->
-    </test> <!-- ChromeTestCases -->
-    <test name="FirefoxTestCases" duration-ms="20220" started-at="2019-12-12T18:25:02Z" finished-at="2019-12-12T18:25:23Z">
-      <class name="com.romanceabroad.ui.TourTests">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.TourTests@35bbe5e8]" name="setup" is-config="true" duration-ms="13930" started-at="2019-12-12T18:25:02Z" finished-at="2019-12-12T18:25:16Z">
+        <test-method status="PASS" signature="joinForFreeButton3NegativeTestsEmail(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeButton3NegativeTestsEmail" duration-ms="631" started-at="2019-12-13T16:03:28 PST" data-provider="RegistrationButton3FirstPartEmail" finished-at="2019-12-13T16:03:29 PST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[ ]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.romanceabroad.ui.TourTests.tourToUkraine()]]>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeButton3NegativeTestsEmail -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="1209" started-at="2019-12-13T16:03:29 PST" finished-at="2019-12-13T16:03:30 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeButton3NegativeTestsEmail status=SUCCESS method=RegistrationTests.joinForFreeButton3NegativeTestsEmail(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="12793" started-at="2019-12-13T16:03:30 PST" finished-at="2019-12-13T16:03:43 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String,boolean)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="tourToUkraine()[pri:0, instance:com.romanceabroad.ui.TourTests@35bbe5e8]" name="tourToUkraine" duration-ms="4579" started-at="2019-12-12T18:25:16Z" finished-at="2019-12-12T18:25:21Z">
+        <test-method status="PASS" signature="joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeButton3NegativeTestsPassword" duration-ms="1019" started-at="2019-12-13T16:03:43 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:03:44 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tourToUkraine -->
-        <test-method status="PASS" signature="afterActions()[pri:0, instance:com.romanceabroad.ui.TourTests@35bbe5e8]" name="afterActions" is-config="true" duration-ms="1688" started-at="2019-12-12T18:25:21Z" finished-at="2019-12-12T18:25:23Z">
+        </test-method> <!-- joinForFreeButton3NegativeTestsPassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="768" started-at="2019-12-13T16:03:44 PST" finished-at="2019-12-13T16:03:45 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterActions -->
-      </class> <!-- com.romanceabroad.ui.TourTests -->
-    </test> <!-- FirefoxTestCases -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="10358" started-at="2019-12-13T16:03:45 PST" finished-at="2019-12-13T16:03:55 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeButton3NegativeTestsPassword" duration-ms="1051" started-at="2019-12-13T16:03:55 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:03:56 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PaSwO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeButton3NegativeTestsPassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="1202" started-at="2019-12-13T16:03:56 PST" finished-at="2019-12-13T16:03:57 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="10174" started-at="2019-12-13T16:03:57 PST" finished-at="2019-12-13T16:04:08 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeButton3NegativeTestsPassword" duration-ms="737" started-at="2019-12-13T16:04:08 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:04:08 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeButton3NegativeTestsPassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="758" started-at="2019-12-13T16:04:08 PST" finished-at="2019-12-13T16:04:09 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9311" started-at="2019-12-13T16:04:09 PST" finished-at="2019-12-13T16:04:18 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeButton3NegativeTestsPassword" duration-ms="650" started-at="2019-12-13T16:04:18 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:04:19 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$%^]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeButton3NegativeTestsPassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="769" started-at="2019-12-13T16:04:19 PST" finished-at="2019-12-13T16:04:20 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="45721" started-at="2019-12-13T16:04:20 PST" finished-at="2019-12-13T16:05:06 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeButton3NegativeTestsPassword" duration-ms="722" started-at="2019-12-13T16:05:06 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:05:06 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ 1 2 ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeButton3NegativeTestsPassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="711" started-at="2019-12-13T16:05:06 PST" finished-at="2019-12-13T16:05:07 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9687" started-at="2019-12-13T16:05:07 PST" finished-at="2019-12-13T16:05:17 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeButton3NegativeTestsPassword" duration-ms="905" started-at="2019-12-13T16:05:17 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:05:18 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pas45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeButton3NegativeTestsPassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="778" started-at="2019-12-13T16:05:18 PST" finished-at="2019-12-13T16:05:18 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeButton3NegativeTestsPassword status=SUCCESS method=RegistrationTests.joinForFreeButton3NegativeTestsPassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="10731" started-at="2019-12-13T16:05:18 PST" finished-at="2019-12-13T16:05:29 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeNowButton1(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeNowButton1" duration-ms="11192" started-at="2019-12-13T16:05:29 PST" data-provider="RegistrationButton1" finished-at="2019-12-13T16:05:40 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test42@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alexa34777]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeNowButton1 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="846" started-at="2019-12-13T16:05:40 PST" finished-at="2019-12-13T16:05:41 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeNowButton1 status=SUCCESS method=RegistrationTests.joinForFreeNowButton1(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9463" started-at="2019-12-13T16:05:41 PST" finished-at="2019-12-13T16:05:51 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeNowButton1(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeNowButton1" duration-ms="10438" started-at="2019-12-13T16:05:51 PST" data-provider="RegistrationButton1" finished-at="2019-12-13T16:06:01 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test42@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alexa34777]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeNowButton1 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="910" started-at="2019-12-13T16:06:01 PST" finished-at="2019-12-13T16:06:02 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeNowButton1 status=SUCCESS method=RegistrationTests.joinForFreeNowButton1(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="228060" started-at="2019-12-13T16:06:02 PST" finished-at="2019-12-13T16:09:50 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="joinForFreeNowButton1(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeNowButton1" duration-ms="3271" started-at="2019-12-13T16:09:50 PST" data-provider="RegistrationButton1" finished-at="2019-12-13T16:09:53 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test42tut.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alexa34777]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1LS4O0S', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Alexa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4017eee8d3c78512fbb6e5fa9355d52a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1LS4O0S', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Alexa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4017eee8d3c78512fbb6e5fa9355d52a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at com.romanceabroad.ui.MainPage.completeFirstRegistrationPart(MainPage.java:84)
+at com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1(RegistrationTests.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeNowButton1 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="2018" started-at="2019-12-13T16:09:53 PST" finished-at="2019-12-13T16:09:55 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeNowButton1 status=FAILURE method=RegistrationTests.joinForFreeNowButton1(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9221" started-at="2019-12-13T16:09:55 PST" finished-at="2019-12-13T16:10:05 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeNowButton2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeNowButton2" duration-ms="11590" started-at="2019-12-13T16:10:05 PST" data-provider="RegistrationButton2" finished-at="2019-12-13T16:10:16 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prettyandsimple@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1986]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4156546546]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[San Francisco]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[South San Francisco]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeNowButton2 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="794" started-at="2019-12-13T16:10:16 PST" finished-at="2019-12-13T16:10:17 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeNowButton2 status=SUCCESS method=RegistrationTests.joinForFreeNowButton2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="11504" started-at="2019-12-13T16:10:17 PST" finished-at="2019-12-13T16:10:28 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeNowButton2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeNowButton2" duration-ms="11396" started-at="2019-12-13T16:10:28 PST" data-provider="RegistrationButton2" finished-at="2019-12-13T16:10:40 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[very.common@example.org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass54R]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nov]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1967]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6765444]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[North Sydney]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeNowButton2 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="774" started-at="2019-12-13T16:10:40 PST" finished-at="2019-12-13T16:10:41 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeNowButton2 status=SUCCESS method=RegistrationTests.joinForFreeNowButton2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="10537" started-at="2019-12-13T16:10:41 PST" finished-at="2019-12-13T16:10:51 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeNowButton2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeNowButton2" duration-ms="10683" started-at="2019-12-13T16:10:51 PST" data-provider="RegistrationButton2" finished-at="2019-12-13T16:11:02 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[style.email@tut.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testPassWo4rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1992]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7687654332]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[West New York]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeNowButton2 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="740" started-at="2019-12-13T16:11:02 PST" finished-at="2019-12-13T16:11:03 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeNowButton2 status=SUCCESS method=RegistrationTests.joinForFreeNowButton2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9440" started-at="2019-12-13T16:11:03 PST" finished-at="2019-12-13T16:11:12 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeNowButton2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeNowButton2" duration-ms="10732" started-at="2019-12-13T16:11:12 PST" data-provider="RegistrationButton2" finished-at="2019-12-13T16:11:23 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dash@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123wer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sep]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1989]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9897676754]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Los Angeles]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[East Los Angeles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeNowButton2 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="864" started-at="2019-12-13T16:11:23 PST" finished-at="2019-12-13T16:11:24 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeNowButton2 status=SUCCESS method=RegistrationTests.joinForFreeNowButton2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9591" started-at="2019-12-13T16:11:24 PST" finished-at="2019-12-13T16:11:33 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeNowButton2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="joinForFreeNowButton2" duration-ms="11149" started-at="2019-12-13T16:11:33 PST" data-provider="RegistrationButton2" finished-at="2019-12-13T16:11:44 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[domain@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FamilyPass2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dec]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1987]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4253435674]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Palo Alto]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[East Palo Alto]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeNowButton2 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="749" started-at="2019-12-13T16:11:44 PST" finished-at="2019-12-13T16:11:45 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeNowButton2 status=SUCCESS method=RegistrationTests.joinForFreeNowButton2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9658" started-at="2019-12-13T16:11:45 PST" finished-at="2019-12-13T16:11:55 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.signInLink(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signInLink(java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="signInLink" duration-ms="7544" started-at="2019-12-13T16:11:55 PST" data-provider="RegistrationLink" finished-at="2019-12-13T16:12:02 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testemail@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInLink -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="825" started-at="2019-12-13T16:12:02 PST" finished-at="2019-12-13T16:12:03 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInLink status=SUCCESS method=RegistrationTests.signInLink(java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9579" started-at="2019-12-13T16:12:03 PST" finished-at="2019-12-13T16:12:13 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.signInLink(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signInLink(java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="signInLink" duration-ms="6039" started-at="2019-12-13T16:12:13 PST" data-provider="RegistrationLink" finished-at="2019-12-13T16:12:19 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[passtest@mail.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInLink -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="749" started-at="2019-12-13T16:12:19 PST" finished-at="2019-12-13T16:12:20 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInLink status=SUCCESS method=RegistrationTests.signInLink(java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="10084" started-at="2019-12-13T16:12:20 PST" finished-at="2019-12-13T16:12:30 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativeEmail(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signInLinkNegativeEmail(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="signInLinkNegativeEmail" duration-ms="5758" started-at="2019-12-13T16:12:30 PST" data-provider="RegistrationButton3FirstPartEmail" finished-at="2019-12-13T16:12:35 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInLinkNegativeEmail -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="751" started-at="2019-12-13T16:12:35 PST" finished-at="2019-12-13T16:12:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInLinkNegativeEmail status=SUCCESS method=RegistrationTests.signInLinkNegativeEmail(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="10491" started-at="2019-12-13T16:12:36 PST" finished-at="2019-12-13T16:12:47 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="signInLinkNegativePassword" duration-ms="6651" started-at="2019-12-13T16:12:47 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:12:53 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInLinkNegativePassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="863" started-at="2019-12-13T16:12:53 PST" finished-at="2019-12-13T16:12:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInLinkNegativePassword status=SUCCESS method=RegistrationTests.signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9845" started-at="2019-12-13T16:12:54 PST" finished-at="2019-12-13T16:13:04 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="signInLinkNegativePassword" duration-ms="5643" started-at="2019-12-13T16:13:04 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:13:10 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PaSwO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInLinkNegativePassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="726" started-at="2019-12-13T16:13:10 PST" finished-at="2019-12-13T16:13:10 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInLinkNegativePassword status=SUCCESS method=RegistrationTests.signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9729" started-at="2019-12-13T16:13:10 PST" finished-at="2019-12-13T16:13:20 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="signInLinkNegativePassword" duration-ms="6012" started-at="2019-12-13T16:13:20 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:13:26 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInLinkNegativePassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="966" started-at="2019-12-13T16:13:26 PST" finished-at="2019-12-13T16:13:27 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInLinkNegativePassword status=SUCCESS method=RegistrationTests.signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9046" started-at="2019-12-13T16:13:27 PST" finished-at="2019-12-13T16:13:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="signInLinkNegativePassword" duration-ms="5852" started-at="2019-12-13T16:13:36 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:13:42 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$%^]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInLinkNegativePassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="751" started-at="2019-12-13T16:13:42 PST" finished-at="2019-12-13T16:13:43 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInLinkNegativePassword status=SUCCESS method=RegistrationTests.signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="42370" started-at="2019-12-13T16:13:43 PST" finished-at="2019-12-13T16:14:25 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="signInLinkNegativePassword" duration-ms="20250" started-at="2019-12-13T16:14:25 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:14:45 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ 1 2 ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //input[@name='email'] (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@name='email'] (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.romanceabroad.ui.MainPage.signInNegativePassword(MainPage.java:120)
+at com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(RegistrationTests.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='email']"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1LS4O0S', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Alexa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3ff95b9c956eed548cd6d37e13a6bce0
+*** Element info: {Using=xpath, value=//input[@name='email']}
+at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInLinkNegativePassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="2788" started-at="2019-12-13T16:14:45 PST" finished-at="2019-12-13T16:14:48 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInLinkNegativePassword status=FAILURE method=RegistrationTests.signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="setup" is-config="true" duration-ms="9954" started-at="2019-12-13T16:14:48 PST" finished-at="2019-12-13T16:14:58 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.signInLinkNegativePassword(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="signInLinkNegativePassword" duration-ms="6754" started-at="2019-12-13T16:14:58 PST" data-provider="RegistrationButton3FirstPartPassword" finished-at="2019-12-13T16:15:05 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pas45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInLinkNegativePassword -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe]" name="afterActions" is-config="true" duration-ms="775" started-at="2019-12-13T16:15:05 PST" finished-at="2019-12-13T16:15:06 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInLinkNegativePassword status=SUCCESS method=RegistrationTests.signInLinkNegativePassword(java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </test> <!-- ChromeTestCases -->
   </suite> <!-- TestSuite -->
 </testng-results>
