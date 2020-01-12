@@ -44,12 +44,12 @@ public class DataProviders {
     public static Object[] [] testRegistrationButton3Email() {
         return new Object[][] {
                 {" ",false},
-               /* {"testgmail.com",false},
+                {"testgmail.com",false},
                 {"test@gmailcom",false},
                 {"@gmail.com",false},
                 {"test@ gmail.com",false},
                 {"test@.com",false},
-                {"testg@mail.12",false}*/
+                {"testg@mail.12",false}
         };
     }
 

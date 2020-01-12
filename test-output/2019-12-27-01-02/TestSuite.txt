@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 133.618 s <<< FAILURE! - in TestSuite
+contactAdministrator(com.romanceabroad.ui.ContactUsTests)  Time elapsed: 11.198 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'itako23040.prod.miso', ip: 'fe80:0:0:0:23:531c:e4b8:2fb5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 0 milliseconds
+	at com.romanceabroad.ui.ContactUsTests.contactAdministrator(ContactUsTests.java:20)
+Caused by: org.openqa.selenium.WebDriverException: 
+
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'itako23040.prod.miso', ip: 'fe80:0:0:0:23:531c:e4b8:2fb5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1LS4O0S', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+
+contactAdministrator(com.romanceabroad.ui.ContactUsTests)  Time elapsed: 23.591 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+System info: host: 'WIN-SB3ER6JQ6ME', ip: '10.100.25.53', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{acceptSslCerts=true, browserVersion=25.10586.0.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX68A46BCC
+*** Element info: {Using=css selector, value=input[name='user_name']}
+Command duration or timeout: 0 milliseconds
+	at com.romanceabroad.ui.ContactUsTests.contactAdministrator(ContactUsTests.java:22)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+System info: host: 'WIN-SB3ER6JQ6ME', ip: '10.100.25.53', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{acceptSslCerts=true, browserVersion=25.10586.0.0, platformVersion=10, browserName=MicrosoftEdge, takesScreenshot=true, pageLoadStrategy=normal, takesElementScreenshot=true, platformName=windows, platform=ANY}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX68A46BCC
+*** Element info: {Using=css selector, value=input[name='user_name']}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1LS4O0S', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: EventFiringWebDriver
+

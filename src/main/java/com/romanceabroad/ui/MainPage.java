@@ -23,7 +23,8 @@ public class MainPage extends BaseActions {
 
     public void clickHowWeWorkLink() {
 
-        driver.findElement(Locators.LINK_VIEW).click();
+       // driver.findElement(Locators.LINK_VIEW).click();
+        ajaxClick(driver.findElement(Locators.LINK_VIEW));
     }
 
     public void clickPhotosLink() {

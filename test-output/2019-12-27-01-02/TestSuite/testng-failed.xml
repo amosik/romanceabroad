@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]" parallel="tests">
+  <test thread-count="2" verbose="0" name="SafariTestCases(failed)" parallel="tests">
+    <parameter name="textBox" value="sauce"/>
+    <parameter name="browser" value="Safari"/>
+    <parameter name="version" value="12.0"/>
+    <parameter name="platform" value="macOS 10.14"/>
+    <classes>
+      <class name="com.romanceabroad.ui.ContactUsTests">
+        <methods>
+          <include name="contactAdministrator"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.ContactUsTests -->
+    </classes>
+  </test> <!-- SafariTestCases(failed) -->
+  <test thread-count="2" verbose="0" name="EdgeTestCases(failed)" parallel="tests">
+    <parameter name="textBox" value="sauce"/>
+    <parameter name="browser" value="MicrosoftEdge"/>
+    <parameter name="version" value="13.10586"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="com.romanceabroad.ui.ContactUsTests">
+        <methods>
+          <include name="contactAdministrator"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.ContactUsTests -->
+    </classes>
+  </test> <!-- EdgeTestCases(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

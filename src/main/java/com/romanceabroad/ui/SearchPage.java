@@ -2,11 +2,16 @@ package com.romanceabroad.ui;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
 public class SearchPage extends BaseActions {
+
+    @FindBy(css = "input#main_search_button_user_advanced")
+    WebElement buttonSearch;
+
     public SearchPage(WebDriver driver, WebDriverWait wait) {
 
         super(driver, wait);
@@ -18,7 +23,7 @@ public class SearchPage extends BaseActions {
     }
 
     public void clickSearchButtonOnPrettyWomenPage() {
-        driver.findElement(Locators.BUTTON_SEARCH).click();
+        buttonSearch.click();
     }
 
     public List<WebElement> getInfoAboutUser() {

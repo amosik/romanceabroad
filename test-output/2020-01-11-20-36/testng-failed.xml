@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [WebTestSuite]">
+  <test thread-count="5" verbose="0" name="ChromeTestCases(failed)">
+    <parameter name="browser" value="remoteFirefox"/>
+    <parameter name="testEnv" value="prod"/>
+    <parameter name="version" value="76.0"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="com.romanceabroad.ui.GiftsTests">
+        <methods>
+          <include name="afterActions"/>
+          <include name="gifts"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.GiftsTests -->
+    </classes>
+  </test> <!-- ChromeTestCases(failed) -->
+</suite> <!-- Failed suite [WebTestSuite] -->

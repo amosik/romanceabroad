@@ -1,7 +1,6 @@
 package com.romanceabroad.ui;
 
 import com.automation.remarks.testng.VideoListener;
-import com.automation.remarks.video.annotations.Video;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -10,7 +9,7 @@ import org.testng.annotations.Test;
 public class ContactUsTests extends BaseUI {
 
 
-    @Video(name = "Contact Administrator test")
+   // @Video(name = "Contact Administrator test")
 
     @Test
     public void contactAdministrator() {

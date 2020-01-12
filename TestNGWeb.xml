@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebTestSuite" parallel= "tests" thread-count="2">
+    <!--<suite name="WebTestSuite" parallel= "none">-->
+
+    <test name="ChromeTestCases">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name ="com.romanceabroad.ui.BlogTests"/>
+            <class name ="com.romanceabroad.ui.ConditionsActions"/>
+            <class name ="com.romanceabroad.ui.ContactUsTests"/>
+            <class name ="com.romanceabroad.ui.FooterTests"/>
+            <class name ="com.romanceabroad.ui.GiftsTests"/>
+            <class name ="com.romanceabroad.ui.HowWeWorkTests"/>
+            <class name ="com.romanceabroad.ui.MainTests"/>
+            <class name ="com.romanceabroad.ui.PhotosTests"/>
+        </classes>
+    </test>
+
+
+    <!--<test name="ChromeTestCases">
+        <parameter name="testEnv" value="prod"/>
+        <parameter name="browser" value="remoteFirefox"/>
+        <parameter name="version" value="76.0"/>
+        <parameter name="platform" value="Windows 10"/>
+        <classes>
+            <class name ="com.romanceabroad.ui.GiftsTests"/>
+        </classes>
+    </test>-->
+
+   <!-- <test name="FireFoxTestCases">
+        <parameter name="testBox" value="web"/>
+        <parameter name="browser" value="FireFox"/>
+        <parameter name="version" value="71.0"/>
+        <parameter name="platform" value="macOS 10.14"/>
+        <classes>
+            <class name ="com.romanceabroad.ui.RegistrationTests"/>
+        </classes>
+    </test>
+
+    <test name="IETestCases">
+        <parameter name="testBox" value="web"/>
+        <parameter name="browser" value="ie"/>
+        <parameter name="version" value="11.285"/>
+        <parameter name="platform" value="Windows 10"/>
+        <classes>
+            <class name ="com.romanceabroad.ui.RegistrationTests"/>
+        </classes>
+    </test>
+-->
+    <!-- <test name="EdgeTestCases">
+         <parameter name="testBox" value="sauce"/>
+         <parameter name="browser" value="MicrosoftEdge"/>
+         <parameter name="version" value="13.10586"/>
+         <parameter name="platform" value="Windows 10"/>
+         <classes>
+             <class name ="com.romanceabroad.ui.ContactUsTests"/>
+         </classes>
+     </test>
+
+     <test name="SafariTestCases">
+         <parameter name="testBox" value="sauce"/>
+         <parameter name="browser" value="Safari"/>
+         <parameter name="version" value="12.0"/>
+         <parameter name="platform" value="macOS 10.14"/>
+         <classes>
+             <class name ="com.romanceabroad.ui.ContactUsTests"/>
+         </classes>
+     </test>-->
+</suite>

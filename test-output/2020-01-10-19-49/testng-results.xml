@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MobileTestSuite" duration-ms="68672" started-at="2020-01-10T11:51:15 PST" finished-at="2020-01-10T11:52:24 PST">
+    <groups>
+    </groups>
+    <test name="GalaxyS5TestCases" duration-ms="17361" started-at="2020-01-10T11:51:15 PST" finished-at="2020-01-10T11:51:32 PST">
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2286778]" name="setup" is-config="true" duration-ms="14902" started-at="2020-01-10T11:51:15 PST" finished-at="2020-01-10T11:51:30 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Galaxy S5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@40147317]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="joinForFreeNowButton1(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2286778]" name="joinForFreeNowButton1" duration-ms="45" started-at="2020-01-10T11:51:30 PST" data-provider="RegistrationButton1" finished-at="2020-01-10T11:51:30 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test42@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alexa75617]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='show-registration-block']"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1LS4O0S', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:57910}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a5e750c20ac1983784857149bc154e62
+*** Element info: {Using=xpath, value=//button[@id='show-registration-block']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='show-registration-block']"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1LS4O0S', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:57910}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a5e750c20ac1983784857149bc154e62
+*** Element info: {Using=xpath, value=//button[@id='show-registration-block']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.romanceabroad.ui.MainPage.clickJoinForFreeNowButton(MainPage.java:62)
+at com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1(RegistrationTests.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeNowButton1 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2286778]" name="afterActions" is-config="true" duration-ms="2394" started-at="2020-01-10T11:51:30 PST" finished-at="2020-01-10T11:51:32 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeNowButton1 status=FAILURE method=RegistrationTests.joinForFreeNowButton1(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@2286778] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </test> <!-- GalaxyS5TestCases -->
+    <test name="iPhoneXTestCases" duration-ms="51277" started-at="2020-01-10T11:51:32 PST" finished-at="2020-01-10T11:52:24 PST">
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5f9d02cb]" name="setup" is-config="true" duration-ms="42394" started-at="2020-01-10T11:51:32 PST" finished-at="2020-01-10T11:52:15 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[iPhone X]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.joinForFreeNowButton1(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@210f0cc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="joinForFreeNowButton1(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5f9d02cb]" name="joinForFreeNowButton1" duration-ms="8221" started-at="2020-01-10T11:52:15 PST" data-provider="RegistrationButton1" finished-at="2020-01-10T11:52:23 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test42@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alexa75617]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinForFreeNowButton1 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5f9d02cb]" name="afterActions" is-config="true" duration-ms="661" started-at="2020-01-10T11:52:23 PST" finished-at="2020-01-10T11:52:24 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=joinForFreeNowButton1 status=SUCCESS method=RegistrationTests.joinForFreeNowButton1(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5f9d02cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </test> <!-- iPhoneXTestCases -->
+  </suite> <!-- MobileTestSuite -->
+  <suite name="WebTestSuite" duration-ms="82128" started-at="2020-01-10T11:49:53 PST" finished-at="2020-01-10T11:51:15 PST">
+    <groups>
+    </groups>
+    <test name="FirefoxTestCases" duration-ms="82128" started-at="2020-01-10T11:49:53 PST" finished-at="2020-01-10T11:51:15 PST">
+      <class name="com.romanceabroad.ui.ContactUsTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.romanceabroad.ui.ContactUsTests@13805618]" name="setup" is-config="true" duration-ms="12753" started-at="2020-01-10T11:50:40 PST" finished-at="2020-01-10T11:50:52 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.ContactUsTests.contactAdministrator()]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@19542407]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="contactAdministrator()[pri:0, instance:com.romanceabroad.ui.ContactUsTests@13805618]" name="contactAdministrator" duration-ms="20059" started-at="2020-01-10T11:50:52 PST" finished-at="2020-01-10T11:51:12 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactAdministrator -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.ContactUsTests@13805618]" name="afterActions" is-config="true" duration-ms="2418" started-at="2020-01-10T11:51:12 PST" finished-at="2020-01-10T11:51:15 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactAdministrator status=SUCCESS method=ContactUsTests.contactAdministrator()[pri:0, instance:com.romanceabroad.ui.ContactUsTests@13805618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.ContactUsTests -->
+      <class name="com.romanceabroad.ui.GiftsTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.romanceabroad.ui.GiftsTests@cb644e]" name="setup" is-config="true" duration-ms="13156" started-at="2020-01-10T11:50:20 PST" finished-at="2020-01-10T11:50:33 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.GiftsTests.gifts()]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@19542407]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="gifts()[pri:0, instance:com.romanceabroad.ui.GiftsTests@cb644e]" name="gifts" duration-ms="4218" started-at="2020-01-10T11:50:33 PST" finished-at="2020-01-10T11:50:38 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gifts -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.GiftsTests@cb644e]" name="afterActions" is-config="true" duration-ms="2058" started-at="2020-01-10T11:50:38 PST" finished-at="2020-01-10T11:50:40 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gifts status=SUCCESS method=GiftsTests.gifts()[pri:0, instance:com.romanceabroad.ui.GiftsTests@cb644e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.GiftsTests -->
+      <class name="com.romanceabroad.ui.TourTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.romanceabroad.ui.TourTests@5cb9f472]" name="setup" is-config="true" duration-ms="18437" started-at="2020-01-10T11:49:53 PST" finished-at="2020-01-10T11:50:11 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.TourTests.tourToUkraine()]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[org.testng.TestRunner@19542407]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tourToUkraine()[pri:0, instance:com.romanceabroad.ui.TourTests@5cb9f472]" name="tourToUkraine" duration-ms="6487" started-at="2020-01-10T11:50:11 PST" finished-at="2020-01-10T11:50:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tourToUkraine -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.TourTests@5cb9f472]" name="afterActions" is-config="true" duration-ms="2491" started-at="2020-01-10T11:50:18 PST" finished-at="2020-01-10T11:50:20 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tourToUkraine status=SUCCESS method=TourTests.tourToUkraine()[pri:0, instance:com.romanceabroad.ui.TourTests@5cb9f472] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.TourTests -->
+    </test> <!-- FirefoxTestCases -->
+  </suite> <!-- WebTestSuite -->
+</testng-results>

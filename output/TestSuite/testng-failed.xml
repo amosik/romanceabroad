@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
-  <test thread-count="5" name="ChromeTestCases(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <test thread-count="2" name="ChromeTestCases(failed)" parallel="tests">
+    <parameter name="textBox" value="local"/>
+    <parameter name="browser" value="mobile"/>
+    <parameter name="version" value="76.0"/>
+    <parameter name="platform" value="Windows 10"/>
     <classes>
-      <class name="com.romanceabroad.ui.RegistrationTests">
+      <class name="com.romanceabroad.ui.ContactUsTests">
         <methods>
-          <include name="signInLinkNegativePassword" invocation-numbers="4"/>
           <include name="afterActions"/>
-          <include name="joinForFreeNowButton1" invocation-numbers="2"/>
+          <include name="contactAdministrator"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+      </class> <!-- com.romanceabroad.ui.ContactUsTests -->
     </classes>
   </test> <!-- ChromeTestCases(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->
